@@ -24,7 +24,6 @@ author: ""
 ## Tuesday 1/18
 
 * [Install Wwise](../posts/week-2/install-wise) 
-* [Create a new project](../posts/week-2/create-project)
 * [Installing the Wwise-101 Course Project Files](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=installing_wwise_101_course_project_files#read)
 * Play the cube game 
 * [Silence the cube](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=Set_Cube_to_Silence#read)
