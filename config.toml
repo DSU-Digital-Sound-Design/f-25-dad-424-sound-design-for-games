@@ -6,7 +6,7 @@ paginate = 5
 
 [params]
   
-  contentTypeName = "home"
+  contentTypeName = "lectures"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "green"
