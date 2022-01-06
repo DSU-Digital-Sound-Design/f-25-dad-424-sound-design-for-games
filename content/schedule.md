@@ -30,51 +30,48 @@ author: ""
 ## Thursday 1/20
 
 - Lesson 1: From silence to sound
+- Lesson 2: Designing a soundscape
 
 # Week 3
 
 ## Tuesday 1/25
 
-- Lesson 2: Designing a soundscape
+- Lesson 3: Understanding game syncs
+- Lesson 4: Creating space
 
 ## Thursday 1/27
 
-- Lesson 3: Understanding game syncs
+- Lesson 5: Understanding signal flow
+- Lesson 6: Finalizing the mix
 
 # Week 4
 
 ## Tuesday 2/1
 
-- Lesson 4: Creating space
-
-## Thursday 2/3
-
-- Lesson 5: Understanding signal flow
-
-# Week 5
-
-## Tuesday 2/8
-
-- Lesson 6: Finalizing the mix
 - Lesson 7: Optimizing your game
 
-## Thursday 2/10
+## Thursday 2/3
 
 - Wwise 201
   - Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach
   - Lesson 2: Re-orchestration – Using a Layered Approach
 
-# Week 6
+# Week 5
 
-## Tuesday 2/1
+## Tuesday 2/8
+
 
 - Lesson 3: Creating Mixed Method Playlists
 - Lesson 4: Working with MIDI
 
-## Thursday 2/17
+## Thursday 2/10
 
 - Lesson 5: Creating Interaction
 - Lesson 6: Implementing Transitions Part I
+
+# Week 6
+
+* Spring break - no classes 
 
 # Week 7
 
@@ -84,6 +81,7 @@ author: ""
 - Lesson 8: Mixing
 
 ## Thursday 2/24
+
 
 - Wwise-301 - Wwise Unity Integration
 - Lesson 1: Adding Sound
@@ -100,10 +98,12 @@ author: ""
 
 - Lesson 5: Controlling Game Syncs from Script
 - Lesson 6: Using Effects on Regions
+  
 
 # Week 9
 
 ## Tuesday 3/8
+
 
 - Lesson 7: Callbacks
 - Lesson 8: Advanced Music System
@@ -111,6 +111,7 @@ author: ""
 ## Thursday 3/10
 
 - Lesson 9: Making Your Own Adventure Game
+- catchup 
 
 # Week 10 - Midterm project
 
