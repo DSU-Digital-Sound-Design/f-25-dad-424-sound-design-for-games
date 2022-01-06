@@ -86,12 +86,12 @@ author: ""
 ## Tuesday 3/15, 
 ## Thursday 3/17
 
-# Week 11
+# Week 11 - Midterm 
 
 ## Tuesday 3/22, 
 ## Thursday 2/24
 
-# Week 12
+# Week 12 - Group work 
 
 ## Tuesday 3/29, 
 ## Thursday 3/31
