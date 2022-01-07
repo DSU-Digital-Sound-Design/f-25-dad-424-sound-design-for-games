@@ -34,58 +34,67 @@ author: ""
 ## Thursday 1/20
 
 - Lesson 1: From silence to sound
+- Lesson 2: Designing a soundscape
 
 # Week 3
 
 ## Tuesday 1/25
 
-- Lesson 2: Designing a soundscape
+- Lesson 3: Understanding game syncs
+- Lesson 4: Creating space
 
 ## Thursday 1/27
 
-- Lesson 3: Understanding game syncs
+- Lesson 5: Understanding signal flow
+- Lesson 6: Finalizing the mix
 
 # Week 4
 
 ## Tuesday 2/1
 
-- Lesson 4: Creating space
-
-## Thursday 2/3
-
-- Lesson 5: Understanding signal flow
-
-# Week 5
-
-## Tuesday 2/8
-
-- Lesson 6: Finalizing the mix
 - Lesson 7: Optimizing your game
 
-## Thursday 2/10
+## Thursday 2/3
 
 - Project 1 due
 - Wwise 201
   - Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach
   - Lesson 2: Re-orchestration – Using a Layered Approach
 
-# Week 6
+# Week 5
 
+## Tuesday 2/8
+
+<<<<<<< HEAD
 - Spring break - no classes
 
 # Week 7
 
 ## Tuesday 2/22
+=======
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 - Lesson 3: Creating Mixed Method Playlists
 - Lesson 4: Working with MIDI
 
+<<<<<<< HEAD
 ## Thursday 2/24
+=======
+## Thursday 2/10
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 - Lesson 5: Creating Interaction
 - Lesson 6: Implementing Transitions Part I
 
+<<<<<<< HEAD
 # Week 8
+=======
+# Week 6
+
+* Spring break - no classes 
+
+# Week 7
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 ## Tuesday 3/1
 
@@ -94,15 +103,36 @@ author: ""
 
 ## Thursday 3/3
 
+<<<<<<< HEAD
 - Project 2 due
+=======
+
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 - Wwise-301 - Wwise Unity Integration
 - Lesson 1: Adding Sound
 - Lesson 2: Ambiences
 
+<<<<<<< HEAD
+=======
+# Week 8
+
+## Tuesday 3/1
+
+- Lesson 3: SoundBank Management
+- Lesson 4: Posting Events from Script
+
+## Thursday 3/3
+
+- Lesson 5: Controlling Game Syncs from Script
+- Lesson 6: Using Effects on Regions
+  
+
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 # Week 9
 
 ## Tuesday 3/8
 
+<<<<<<< HEAD
 - Lesson 3: SoundBank Management
 - Lesson 4: Posting Events from Script
 
@@ -110,6 +140,16 @@ author: ""
 
 - Lesson 3: SoundBank Management
 - Lesson 4: Posting Events from Script
+=======
+
+- Lesson 7: Callbacks
+- Lesson 8: Advanced Music System
+
+## Thursday 3/10
+
+- Lesson 9: Making Your Own Adventure Game
+- catchup 
+>>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 # Week 10
 
