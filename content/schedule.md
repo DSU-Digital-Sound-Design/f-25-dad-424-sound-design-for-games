@@ -65,36 +65,21 @@ author: ""
 
 ## Tuesday 2/8
 
-<<<<<<< HEAD
 - Spring break - no classes
 
 # Week 7
 
 ## Tuesday 2/22
-=======
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 - Lesson 3: Creating Mixed Method Playlists
 - Lesson 4: Working with MIDI
 
-<<<<<<< HEAD
 ## Thursday 2/24
-=======
-## Thursday 2/10
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 - Lesson 5: Creating Interaction
 - Lesson 6: Implementing Transitions Part I
 
-<<<<<<< HEAD
 # Week 8
-=======
-# Week 6
-
-* Spring break - no classes 
-
-# Week 7
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 ## Tuesday 3/1
 
@@ -103,36 +88,15 @@ author: ""
 
 ## Thursday 3/3
 
-<<<<<<< HEAD
 - Project 2 due
-=======
-
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 - Wwise-301 - Wwise Unity Integration
 - Lesson 1: Adding Sound
 - Lesson 2: Ambiences
 
-<<<<<<< HEAD
-=======
-# Week 8
-
-## Tuesday 3/1
-
-- Lesson 3: SoundBank Management
-- Lesson 4: Posting Events from Script
-
-## Thursday 3/3
-
-- Lesson 5: Controlling Game Syncs from Script
-- Lesson 6: Using Effects on Regions
-  
-
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 # Week 9
 
 ## Tuesday 3/8
 
-<<<<<<< HEAD
 - Lesson 3: SoundBank Management
 - Lesson 4: Posting Events from Script
 
@@ -140,16 +104,6 @@ author: ""
 
 - Lesson 3: SoundBank Management
 - Lesson 4: Posting Events from Script
-=======
-
-- Lesson 7: Callbacks
-- Lesson 8: Advanced Music System
-
-## Thursday 3/10
-
-- Lesson 9: Making Your Own Adventure Game
-- catchup 
->>>>>>> 99366d9d20a29d384091880ae6ac68715229c08c
 
 # Week 10
 
