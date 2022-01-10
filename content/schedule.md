@@ -6,10 +6,6 @@ author: ""
 
 {{< toc >}}
 
-<!-- TODO: add projects
-     TODO: add schedule to syllabus
- -->
-
 # Week 1
 
 ## Tuesday 1/11
@@ -17,49 +13,53 @@ author: ""
 - Syllabus overview
 - Install Unity
 - Unity Overview
+- What is middleware and why do we need it?
+  - Wwise overview
+  - not only what sound plays, but how it plays. What order do they sounds playback in, are they modified in real time?
+- [Install Wwise](../posts/week-2/install-wise)
 
 ## Thursday 1/13
 
-- Audio in Unity
+- [Installing the Wwise-101 Course Project Files](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=installing_wwise_101_course_project_files#read)
+- Play the cube game
+- [Silence the cube](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=Set_Cube_to_Silence#read)
 
 # Week 2
 
 ## Tuesday 1/18
 
-- [Install Wwise](../posts/week-2/install-wise)
-- [Installing the Wwise-101 Course Project Files](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=installing_wwise_101_course_project_files#read)
-- Play the cube game
-- [Silence the cube](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=Set_Cube_to_Silence#read)
+- Lesson 1: From silence to sound
+- Lesson 2: Designing a soundscape
 
 ## Thursday 1/20
 
-- Lesson 1: From silence to sound
-- Lesson 2: Designing a soundscape
+- Lesson 3: Understanding game syncs
+- Lesson 4: Creating space
 
 # Week 3
 
 ## Tuesday 1/25
 
-- Lesson 3: Understanding game syncs
-- Lesson 4: Creating space
+- Lesson 5: Understanding signal flow
+- Lesson 6: Finalizing the mix
 
 ## Thursday 1/27
 
-- Lesson 5: Understanding signal flow
-- Lesson 6: Finalizing the mix
+- Lesson 7: Optimizing your game
 
 # Week 4
 
 ## Tuesday 2/1
 
-- Lesson 7: Optimizing your game
-
-## Thursday 2/3
-
 - Project 1 due
 - Wwise 201
   - Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach
   - Lesson 2: Re-orchestration – Using a Layered Approach
+
+## Thursday 2/3
+
+- Lesson 3: Creating Mixed Method Playlists
+- Lesson 4: Working with MIDI
 
 # Week 5
 
@@ -71,26 +71,24 @@ author: ""
 
 ## Tuesday 2/22
 
-- Lesson 3: Creating Mixed Method Playlists
-- Lesson 4: Working with MIDI
+- Lesson 5: Creating Interaction
+- Lesson 6: Implementing Transitions Part I
 
 ## Thursday 2/24
 
-- Lesson 5: Creating Interaction
-- Lesson 6: Implementing Transitions Part I
+- Lesson 7: Transitions Part II
+- Lesson 8: Mixing
 
 # Week 8
 
 ## Tuesday 3/1
 
-- Lesson 7: Transitions Part II
-- Lesson 8: Mixing
-
-## Thursday 3/3
-
 - Project 2 due
 - Wwise-301 - Wwise Unity Integration
 - Lesson 1: Adding Sound
+
+## Thursday 3/3
+
 - Lesson 2: Ambiences
 
 # Week 9
