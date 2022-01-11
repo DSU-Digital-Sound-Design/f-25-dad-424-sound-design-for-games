@@ -16,7 +16,9 @@ author: ""
 - What is middleware and why do we need it?
   - Wwise overview
   - not only what sound plays, but how it plays. What order do they sounds playback in, are they modified in real time?
+- [Other uses](https://www.audiokinetic.com/discover/) for Wwise besides games
 - [Install Wwise](../posts/week-2/install-wise)
+- Wwise adventure game
 
 ## Thursday 1/13
 
