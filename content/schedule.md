@@ -25,12 +25,12 @@ author: ""
 - [Installing the Wwise-101 Course Project Files](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=installing_wwise_101_course_project_files#read)
 - Play the cube game
 - [Silence the cube](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=Set_Cube_to_Silence#read)
+- Lesson 1: From silence to sound
 
 # Week 2
 
 ## Tuesday 1/18
 
-- Lesson 1: From silence to sound
 - Lesson 2: Designing a soundscape
 
 ## Thursday 1/20
