@@ -31,7 +31,7 @@ author: ""
 
 ## Tuesday 1/18
 
-- Lesson 2: Designing a soundscape
+- [Lesson 2: Designing a soundscape](../posts/week-2/lesson-2/)
 
 ## Thursday 1/20
 
