@@ -35,7 +35,7 @@ author: ""
 
 ## Thursday 1/20
 
-- Lesson 3: Understanding game syncs
+- [Lesson 3: Understanding game syncs](../posts/week-2/lesson-3/)
 - Lesson 4: Creating space
 
 # Week 3
