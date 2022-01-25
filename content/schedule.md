@@ -36,17 +36,17 @@ author: ""
 ## Thursday 1/20
 
 - [Lesson 3: Understanding game syncs](../posts/week-2/lesson-3/)
-- Lesson 4: Creating space
 
 # Week 3
 
 ## Tuesday 1/25
 
-- Lesson 5: Understanding signal flow
-- Lesson 6: Finalizing the mix
+- Lesson 4: [Creating space](../posts/week-3/lesson-5-creating-space/)
 
 ## Thursday 1/27
 
+- Lesson 5: Understanding signal flow
+- Lesson 6: Finalizing the mix
 - Lesson 7: Optimizing your game
 
 # Week 4
