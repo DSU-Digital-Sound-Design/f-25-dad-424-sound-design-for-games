@@ -46,7 +46,7 @@ author: ""
 ## Thursday 1/27
 
 - Lesson 5: [Understanding signal flow](../posts/week-3/understanding-audio-signal-flow/)
-- Lesson 6: Finalizing the mix
+- Lesson 6: [Finalizing the mix](../posts/week-3/lesson-6-finalizing-the-mix/)
 - Lesson 7: Optimizing your game
 
 # Week 4
