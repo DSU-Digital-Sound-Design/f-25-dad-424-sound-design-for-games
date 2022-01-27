@@ -4,7 +4,7 @@ title: "Finalizing the mix"
 
 ## Using Soundcaster
 
-This will let us play multiple objects at the same time. We need to do this to finalize out mix. Open the soundcaster view and create a new session called Player. Add the Defeated_Player and Foot_Player events to the session. See how you can change the switches and RTPCs for the imported events. Experiment with playing events at the same time.
+This will let us play multiple objects at the same time. We need to do this to finalize our mix. Open the soundcaster view and create a new session called Player. Add the Defeated_Player and Foot_Player events to the session. See how you can change the switches and RTPCs for the imported events. Experiment with playing events at the same time.
 
 Create a new session called "Fire Gem" and Add the Fire_FireGem_Player, End_FireGem_Player and Hit_FireGem_Player Events to the Fire Gem Soundcaster Session. We will need to add the actual Actor-Mixers that make up the events to be able to change their properties in real time. Move the FireGem Magic Actor-Mixer object to the end of the first row, and move the FireGem Blast, FireGem Explode, and FireGem_Flight objects to the left one space on the grid so that the sounds associated with each Event appear closer to the Event object that triggers it. Now you can experiment with playing multiple events at the same time and changing their properties.
 
