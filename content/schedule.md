@@ -48,12 +48,12 @@ author: ""
 - Lesson 5: [Understanding signal flow](../posts/week-3/understanding-audio-signal-flow/)
 - Lesson 6: [Finalizing the mix](../posts/week-3/lesson-6-finalizing-the-mix/)
 - Lesson 7: Optimizing your game
+  - Do for homework - Due 2/1
 
 # Week 4
 
 ## Tuesday 2/1
 
-- Project 1 due
 - Wwise 201
   - Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach
   - Lesson 2: Re-orchestration – Using a Layered Approach
