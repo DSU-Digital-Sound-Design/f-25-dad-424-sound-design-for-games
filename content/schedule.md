@@ -58,7 +58,7 @@ author: ""
 
 - Look at project in Reaper with regions
 - [Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach](../posts/week-4/lesson-1-re-sequencing/)
-- Lesson 2: Re-orchestration – Using a Layered Approach
+- [Lesson 2: Re-orchestration – Using a Layered Approach](../posts/week-4/lesson-2-re-orchestration/)
 
 ## Thursday 2/3
 
