@@ -4,15 +4,17 @@ title: "Re-orchestration"
 
 ## Building a Layered Structure
 
-Import the CombatA folder to the Music work unit. As a music segment. Each of the wav files will be a music track of this CombatA music segment. Make sure you're in the interactive music view. See how now our music has multiple tracks, much like a typical daw. This allows us to re-orchestrate the music, not just re-sequence it. This music was intentionally over orchestrated. If everything plays at once, it sounds like too much sound. It was done this way so we can have variations on orchestration that all work.
+Import the CombatA folder to the Music work unit as a music segment. Each of the wav files will be a music track of this CombatA music segment.
+
+Make sure you're in the interactive music view. See how now our music has multiple tracks, much like a typical DAW. This allows us to re-orchestrate the music, not just re-sequence it. This music was intentionally over orchestrated. If everything plays at once, it sounds like too much sound. It was done this way so we can have variations on orchestration that all work.
 
 Again, set the tempo to 138 bpm so that the timeline matches the music's tempo. Fix the exit point so that its at the end of bar 9, giving us 8 bars of music.
 
-Add the Combat-A music segment to a music playlist container and call it combat. Remember the the playlist allows us to arrange and loop segments. Again, set the tempo of the music playlist to 138p bpm. Add the combat-a music segment to the playlist and set the looping to infinite on the group. Play it and hear how the music loops seamlessly because we set our exit point correctly.
+Add the Combat-A music segment to a music playlist container and call it combat. Remember the the playlist allows us to arrange and loop segments. Again, set the tempo of the music playlist to 138 bpm. Add the combat-a music segment to the playlist and set the looping to infinite on the group. Play it and hear how the music loops seamlessly because we set our exit point correctly.
 
 ## Experimentation with the Layered Approach
 
-It's a little busy when every layer plays at the same time. With the combat playlist selected pin the transport control. This will mean that we can solo and mute the layers without taking focus from the playlist. Listen to each track to hear how it sounds by soloing it. To solo one track at a time command + click on the track. To reset the mutes or solos alt + click on the mute or solo. You can also click on the icon in the menu bar or music track property editor.
+It's a little busy when every layer plays at the same time. With the combat playlist selected, pin the transport control. This allows us to solo and mute the layers without taking focus from the playlist. Listen to each track to hear how it sounds by soloing it. To solo one track at a time "command + click" on the track. To reset the mutes or solos "alt + click" on the mute or solo. You can also click on the icon in the menu bar or music track property editor.
 
 These tracks were premixed in the DAW, so we shouldn't have to do any balancing in Wwise. Because of this we can leave our voice volume at 0.
 

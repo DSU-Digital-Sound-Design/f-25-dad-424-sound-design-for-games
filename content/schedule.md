@@ -63,24 +63,33 @@ author: ""
 ## Thursday 2/3
 
 - Lesson 3: Creating Mixed Method Playlists
-- Lesson 4: Working with MIDI
 
 # Week 5
 
 ## Tuesday 2/8
 
-- Spring break - no classes
+## Thursday 2/10
+
+- Lesson 4: Working with MIDI
+
+# Week 6
+
+## Tuesday 2/15
+
+- Lesson 5: Creating Interaction
+
+## Thursday 2/17
+
+- Lesson 6: Implementing Transitions Part I
 
 # Week 7
 
 ## Tuesday 2/22
 
-- Lesson 5: Creating Interaction
-- Lesson 6: Implementing Transitions Part I
+- Lesson 7: Transitions Part II
 
 ## Thursday 2/24
 
-- Lesson 7: Transitions Part II
 - Lesson 8: Mixing
 
 # Week 8
@@ -108,6 +117,8 @@ author: ""
 - Lesson 4: Posting Events from Script
 
 # Week 10
+
+- Spring break - no classes
 
 ## Tuesday 3/15
 
