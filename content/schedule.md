@@ -62,15 +62,15 @@ author: ""
 
 ## Thursday 2/3
 
-- Lesson 3: Creating Mixed Method Playlists
+- [Music Production Internship @ Sony](https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4241060004)
+- Lesson 3: [Creating Mixed Method Playlists](../posts/week-4/lesson-3-mixed-method-playlists/)
+- Lesson 4: [Working with MIDI](../posts/week-4/lesson-4-working-with-midi)
 
 # Week 5
 
 ## Tuesday 2/8
 
 ## Thursday 2/10
-
-- Lesson 4: Working with MIDI
 
 # Week 6
 
