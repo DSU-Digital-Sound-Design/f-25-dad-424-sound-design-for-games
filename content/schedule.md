@@ -70,17 +70,16 @@ author: ""
 
 ## Tuesday 2/8
 
+- Lesson 5: [Creating Interaction](../posts/week-5/lesson-5-creating-interaction/)
+- Lesson 6: [Implementing Transitions Part I](../posts/week-5/lesson-6-implementing-transitions-part-i/)
+
 ## Thursday 2/10
 
 # Week 6
 
 ## Tuesday 2/15
 
-- Lesson 5: Creating Interaction
-
 ## Thursday 2/17
-
-- Lesson 6: Implementing Transitions Part I
 
 # Week 7
 
@@ -160,7 +159,7 @@ author: ""
 
 ## Tuesday 4/12
 
-Group project checkin due
+Group project check-in due
 
 ## Thursday 4/14
 
