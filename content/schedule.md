@@ -75,9 +75,15 @@ author: ""
 
 ## Thursday 2/10
 
+- Lesson 7: [Transitions Part II](../posts/week-5/lesson-7-transitions-part-ii/)
+
 # Week 6
 
 ## Tuesday 2/15
+
+- Lesson 8: Mixing
+- Wwise-301 - Wwise Unity Integration
+  - Lesson 1: Adding Sound
 
 ## Thursday 2/17
 
@@ -85,19 +91,11 @@ author: ""
 
 ## Tuesday 2/22
 
-- Lesson 7: Transitions Part II
-
 ## Thursday 2/24
-
-- Lesson 8: Mixing
 
 # Week 8
 
 ## Tuesday 3/1
-
-- Project 2 due
-- Wwise-301 - Wwise Unity Integration
-- Lesson 1: Adding Sound
 
 ## Thursday 3/3
 
