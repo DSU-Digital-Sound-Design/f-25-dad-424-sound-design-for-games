@@ -81,11 +81,13 @@ author: ""
 
 ## Tuesday 2/15
 
-- Lesson 8: Mixing
-- Wwise-301 - Wwise Unity Integration
-  - Lesson 1: Adding Sound
+- Review - Lesson 7: [Transitions Part II](../posts/week-5/lesson-7-transitions-part-ii/)
+- Lesson 8: [Mixing](../posts/week-6/lesson-8-mixing)
 
 ## Thursday 2/17
+
+- Wwise-301 - Wwise Unity Integration
+  - Lesson 1: Adding Sound
 
 # Week 7
 
