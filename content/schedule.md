@@ -87,6 +87,8 @@ author: ""
 ## Thursday 2/17
 
 - Wwise-301 - Wwise Unity Integration
+- [Intro](https://www.audiokinetic.com/courses/wwise301/?source=wwise301&id=Installing_the_Wwise301_Course_Project_Files)
+  - Install Unity, Wwise Adventure Game + Course project files
   - Lesson 1: Adding Sound
 
 # Week 7
