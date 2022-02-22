@@ -42,7 +42,7 @@ Generate the sound banks and view your new attenuation sphere.
 
 With the AkAmbient script we can disperse our sound from one Event to multiple positions. Large mode will allow for multi position playback. Large mode can not be used on objects that move.
 
-![](positions.png)
+<img src="positions.png" style="background:#78e2a0">
 
 ## Using Large Mode
 
@@ -70,7 +70,7 @@ Play the game again then view the profiler. Notice how there is only one torch f
 
 Having ambiences come from many areas can make mixing a challenge. The EventPositionConfiner will help with this issue.
 
-![](EventPositionConfiner.png)
+<img src="EventPositionConfiner.png"  style="background:#78e2a0">
 
 Select the EventPositionConfiner lesson.
 
