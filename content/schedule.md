@@ -95,6 +95,10 @@ author: ""
 
 ## Tuesday 2/22
 
+- Sign up for the 301 License Agreement
+- Lesson 1: [Adding Sound](../posts/week-7/lesson-1-adding-sound/)
+- Lesson 2: [Ambiences](../posts/week-7/lesson-2-ambiences/)
+
 ## Thursday 2/24
 
 # Week 8
@@ -102,8 +106,6 @@ author: ""
 ## Tuesday 3/1
 
 ## Thursday 3/3
-
-- Lesson 2: Ambiences
 
 # Week 9
 
