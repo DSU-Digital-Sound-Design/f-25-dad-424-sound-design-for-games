@@ -97,9 +97,11 @@ author: ""
 
 - Sign up for the 301 License Agreement
 - Lesson 1: [Adding Sound](../posts/week-7/lesson-1-adding-sound/)
-- Lesson 2: [Ambiences](../posts/week-7/lesson-2-ambiences/)
 
 ## Thursday 2/24
+
+- Lesson 2: [Ambiences](../posts/week-7/lesson-2-ambiences/)
+- Lesson 3: [SoundBank Management](../posts/week-7/lesson-3-soundbank-management/)
 
 # Week 8
 
@@ -111,7 +113,6 @@ author: ""
 
 ## Tuesday 3/8
 
-- Lesson 3: SoundBank Management
 - Lesson 4: Posting Events from Script
 
 ## Thursday 3/10
