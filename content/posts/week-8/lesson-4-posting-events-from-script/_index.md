@@ -53,7 +53,25 @@ Add this inside the class but above the start function. Save the script and retu
 
 ## Assigning and Posting a Wwise-Type Event
 
+We'll now actually post the event in the script. Add this to the Start function:
+
+```c#
+MyEvent.Post(gameObject);
+```
+
+This will select the current game object and post the event on it.
+
+Back in Unity select the Destruction_Rock_Destroy Event event.
+
+Play the game to hear the rock event. We don't really need this event, but it's good to test that we can post events from scripts.
+
 # Posting Events from Animations
+
+We have to post events from animations when we need the sounds to match closely with the animations such as when the player jumps or walks.
+
+Select the "Posting Events from Animations" lesson in the Wwise project.
+
+Add a PostWwiseEvent script to the Player game object.
 
 # Posting Audio Input
 
