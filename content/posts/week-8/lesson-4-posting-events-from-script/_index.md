@@ -71,12 +71,32 @@ We have to post events from animations when we need the sounds to match closely 
 
 Select the "Posting Events from Animations" lesson in the Wwise project.
 
-Add a PostWwiseEvent script to the Player game object.
+Add the PostWwiseEvent script to the Player game object. Add the "Player_Footstep" event.
+
+Open the script. We want to move the event posting to a function so it doesn't run at the start of the script. Replace the Start() function with the following:
+
+```c#
+public void PlayFootstepSound() {
+    MyEvent.Post(gameObject);
+}
+```
+
+Save the script and return to Unity.
+
+Select the Player game object and open the Animation window from Window > Animation. Drag the window to dock it to the bottom of the screen. This window has the following parts:
+
+![](animation.png)
+
+Open the menu list to see all of the animations in the game. Select "Player_Sprint".
+
+Move your cursor along the timeline and view the player moving.
+
+Make it easier to see what's happening by removing "3D Icons" in the Gizmos tab. Locate the exact position in the animation where the footstep sound should be played. Start with the right foot. Right click at this point and add an animation event. Assign this event to the "PlayFootstepSound" function. Do the same thing with the left foot.
+
+Save all the changes to the prefab.
+
+Play the game and sprint to hear the footsteps.
 
 # Posting Audio Input
 
-# Reference Scripts
-
-## Assigning and Posting a Wwise-Type Event: PostWwiseEvent
-
-## Posting Events from Animations: PostWwiseEvent
+Let's skip this section.

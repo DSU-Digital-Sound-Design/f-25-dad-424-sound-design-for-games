@@ -111,12 +111,12 @@ author: ""
 ## Thursday 3/3
 
 - Lesson 4: [Posting Events from Script](../posts/week-8/lesson-4-posting-events-from-script/)
+- Lesson 5: [Controlling Game Syncs from Script](../posts/week-8/lesson-5-controlling-game-syncs-from-script/)
 
 # Week 9
 
 ## Tuesday 3/8
 
-- Lesson 5: Controlling Game Syncs from Script
 - Lesson 6: Using Effects on Regions
 
 ## Thursday 3/10
@@ -139,7 +139,7 @@ author: ""
 - Lesson 9: Making Your Own Adventure Game
 - work on midterm project
 
-## Thursday 2/24
+## Thursday 3/24
 
 - work on midterm project
 - Project 3 (midterm) due
