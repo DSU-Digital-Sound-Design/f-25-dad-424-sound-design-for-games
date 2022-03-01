@@ -107,27 +107,25 @@ author: ""
 ## Tuesday 3/1
 
 - Lesson 3: [SoundBank Management](../posts/week-7/lesson-3-soundbank-management/)
-- Lesson 4: Posting Events from Script
 
 ## Thursday 3/3
+
+- Lesson 4: [Posting Events from Script](../posts/week-8/lesson-4-posting-events-from-script/)
 
 # Week 9
 
 ## Tuesday 3/8
 
-## Thursday 3/10
+- Lesson 5: Controlling Game Syncs from Script
+- Lesson 6: Using Effects on Regions
 
-- Lesson 3: SoundBank Management
-- Lesson 4: Posting Events from Script
+## Thursday 3/10
 
 # Week 10
 
 - Spring break - no classes
 
 ## Tuesday 3/15
-
-- Lesson 5: Controlling Game Syncs from Script
-- Lesson 6: Using Effects on Regions
 
 ## Thursday 3/17
 
