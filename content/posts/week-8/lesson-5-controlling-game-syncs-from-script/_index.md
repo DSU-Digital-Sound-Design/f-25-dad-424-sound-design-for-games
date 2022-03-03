@@ -12,7 +12,7 @@ While you can set state with scripts, we'll first set it using a component, the 
 
 Open the "Setting States using the AkState Component" lesson in the Wwise project.
 
-Select the " MusicRegion_WwizardMagicHouse" game object. You shoudl see a green outline that represents the Mesh Collider. Add an AkState component and select the Mz2_InsideHouse State. Set it to trigger on enter. Then add the AkTriggerEnter script and add the player as the trigger object.
+Select the " MusicRegion_WwizardMagicHouse" game object. You should see a green outline that represents the Mesh Collider. Add an AkState component and select the Mz2_InsideHouse State. Set it to trigger on enter. Then add the AkTriggerEnter script and add the player as the trigger object.
 
 Do the same process but set the state to trigger on exit. Add the MZ_Outside house state. Add an AkTriggerExit script and add the player as the trigger object.
 
@@ -95,5 +95,3 @@ private void SetMovementSpeed(float speed) {
 ```
 
 `SetValue` is for local setting of the RTPC.
-
-# Component or Script
