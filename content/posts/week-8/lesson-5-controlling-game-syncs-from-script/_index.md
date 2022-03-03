@@ -12,7 +12,7 @@ While you can set state with scripts, we'll first set it using a component, the 
 
 Open the "Setting States using the AkState Component" lesson in the Wwise project.
 
-Select the " MusicRegion_WwizardMagicHouse" game object. You should see a green outline that represents the Mesh Collider. Add an AkState component and select the Mz2_InsideHouse State. Set it to trigger on enter. Then add the AkTriggerEnter script and add the player as the trigger object.
+Select the "MusicRegion_WwizardMagicHouse" game object. You should see a green outline that represents the Mesh Collider. Add an AkState component and select the Mz2_InsideHouse State. Set it to trigger on enter. Then add the AkTriggerEnter script and add the player as the trigger object.
 
 Do the same process but set the state to trigger on exit. Add the MZ_Outside house state. Add an AkTriggerExit script and add the player as the trigger object.
 
@@ -48,7 +48,7 @@ Connect to Unity and play the game. Switch to Wwise and view the game sync monit
 
 # Setting a Switch using a Wwise-Type
 
-We've added footstep sounds that match the animation int he previous lesson, but the sounds are not responding to the surface material. To do this we'll have to set a switch.
+We've added footstep sounds that match the animation in the previous lesson, but the sounds are not responding to the surface material. To do this we'll have to set a switch.
 
 Let's look at how the footsteps are organized in the Wwise project.
 
@@ -56,7 +56,7 @@ Open the "Setting a Switch using a Wwise-Type" lesson in the Wwise project.
 
 Go to Wwise and select the Profiler then connect to Unity. Play the game and run a little then stop. Filter the events for just the Switches. Notice that the "Surface_Type" switch is not in the list. It should be changing the surface type.
 
-Select the Road Space in Unity so you can see it's outline. Open it's SoundMaterial script. We won't be editing this script directly, but controlling it from out PostWwiseEvent script.
+Select the Road Space in Unity so you can see it's outline. Open it's SoundMaterial script. We won't be editing this script directly, but controlling it from our PostWwiseEvent script.
 
 Open the PostWwiseEvent script and add this line to the PlayFootstepSound() function:
 
