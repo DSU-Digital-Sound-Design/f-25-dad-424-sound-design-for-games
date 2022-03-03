@@ -117,7 +117,10 @@ author: ""
 
 ## Tuesday 3/8
 
-- Lesson 6: Using Effects on Regions
+- Start working on "Midterm" project - Adding Wwise to the FPS Game
+  - This game already has sounds, but you will replace all of the stock Unity audio objects and create the same sound fx in Wwise. We won't add any new functionality, but learn from recreating what's already here.
+  - Get FPS setup with Wwise, this requires a specific version of Unity and Wwise.
+  - Look for all the sounds used in the game and how their are triggered.
 
 ## Thursday 3/10
 
@@ -129,6 +132,7 @@ author: ""
 
 ## Thursday 3/17
 
+- Lesson 6: Using Effects on Regions
 - Lesson 7: Callbacks
 - Lesson 8: Advanced Music System
 
