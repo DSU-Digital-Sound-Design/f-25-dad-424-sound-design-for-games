@@ -117,10 +117,7 @@ author: ""
 
 ## Tuesday 3/8
 
-- Start working on "Midterm" project - Adding Wwise to the FPS Game
-  - This game already has sounds, but you will replace all of the stock Unity audio objects and create the same sound fx in Wwise. We won't add any new functionality, but learn from recreating what's already here.
-  - Get FPS setup with Wwise, this requires a specific version of Unity and Wwise.
-  - Look for all the sounds used in the game and how their are triggered.
+- Start working on "Midterm" project - [Adding Wwise to the FPS Game]()
 
 ## Thursday 3/10
 
