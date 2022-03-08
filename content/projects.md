@@ -14,9 +14,9 @@ Once installed go to the Wwise Launcher and click on the Unity tab. Here you can
 
 Your job will be to implement the sound effects and music in Wwise the same way they are currently with Unity's default audio system. You'll first need to go through each game object and note the components that are responsible for playing sound. You might want to keep at list of these so you don't forget any. You can find all of the sound files in the Assets > Audio folder.
 
-In addition to addingg he sounds and music, recreate how they are spatialized. Note the max distance and anything else that aids spatialization in the game.
+In addition to adding he sounds and music, recreate how they are spatialized. Note the max distance and anything else that aids spatialization in the game.
 
-When Wwise is added to the project the Unity sounds will no longer work. Because of this it may be helpful to have another version of the project that isn't altered as a guide.Z
+When Wwise is added to the project the Unity sounds will no longer work. Because of this it may be helpful to have another version of the project that isn't altered as a guide.
 
 - This game already has sounds, but you will replace all of the stock Unity audio objects and create the same sound fx in Wwise. We won't add any new functionality, but learn from recreating what's already here.
 - Get FPS setup with Wwise, this requires a specific version of Unity and Wwise.

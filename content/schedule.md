@@ -117,7 +117,9 @@ author: ""
 
 ## Tuesday 3/8
 
-- Start working on "Midterm" project - [Adding Wwise to the FPS Game]()
+- chance to catch up on lessons 1 - 5
+- Start working on "Midterm" project - [Adding Wwise to the FPS game](projects/#midterm-project---add-wwise-to-the-fps-game)
+- Get the ambient sound to work in the game. Follow all of the steps in the "Adding Sound" lesson.
 
 ## Thursday 3/10
 
