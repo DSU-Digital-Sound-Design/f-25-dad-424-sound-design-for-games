@@ -123,6 +123,9 @@ author: ""
 
 ## Thursday 3/10
 
+- [Setting up the Wwise Project](../posts/week-9/wwise-setup)
+- [Posting events from scripts](../posts/week-9/posting-events-from-wwise)
+
 # Week 10
 
 - Spring break - no classes

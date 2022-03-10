@@ -21,3 +21,18 @@ When Wwise is added to the project the Unity sounds will no longer work. Because
 - This game already has sounds, but you will replace all of the stock Unity audio objects and create the same sound fx in Wwise. We won't add any new functionality, but learn from recreating what's already here.
 - Get FPS setup with Wwise, this requires a specific version of Unity and Wwise.
 - Look for all the sounds used in the game and how their are triggered.
+
+We will go through how to work with the main scene together as a class. You will be responsible for implementing the extra sounds in the secondary scene.
+
+## Elements to add
+
+- Improve the footstep implementation with more footsteps
+- Interactive music when the player enters the boss room
+- Use an RTPC to add something interactive when your health starts to get low
+  - As you start to die the music gets more distorted?
+-
+
+## References
+
+- [Wwise Unity Integration](https://www.audiokinetic.com/library/edge/?source=Unity&id=index.html)
+- [Wwise 301 Certification](https://www.audiokinetic.com/courses/wwise301/)
