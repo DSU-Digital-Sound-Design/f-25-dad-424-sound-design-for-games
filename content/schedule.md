@@ -132,16 +132,19 @@ author: ""
 
 ## Tuesday 3/15
 
-## Thursday 3/17
+- More work on Midterm project
+  - [Fix the Unity project](../posts/week-10/fix-unity-project)
+  - [Player sounds](../posts/week-10/player-sounds)
 
-- Lesson 6: Using Effects on Regions
-- Lesson 7: Callbacks
-- Lesson 8: Advanced Music System
+## Thursday 3/17
 
 # Week 11 - Midterm project
 
 ## Tuesday 3/22
 
+- Lesson 6: Using Effects on Regions
+- Lesson 7: Callbacks
+- Lesson 8: Advanced Music System
 - Lesson 9: Making Your Own Adventure Game
 - work on midterm project
 
