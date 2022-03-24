@@ -132,38 +132,45 @@ author: ""
 
 ## Tuesday 3/15
 
-- More work on Midterm project
-  - [Fix the Unity project](../posts/week-10/fix-unity-project)
-  - [Player sounds](../posts/week-10/player-sounds)
-
 ## Thursday 3/17
 
 # Week 11 - Midterm project
 
 ## Tuesday 3/22
 
-- Lesson 6: Using Effects on Regions
-- Lesson 7: Callbacks
-- Lesson 8: Advanced Music System
-- Lesson 9: Making Your Own Adventure Game
-- work on midterm project
+- More work on Midterm project
+  - [Fix the Unity project](../posts/week-10/fix-unity-project)
+  - [Player sounds](../posts/week-10/player-sounds)
 
 ## Thursday 3/24
 
 - work on midterm project
-- Project 3 (midterm) due
+  - Finish player sound work from Tuesday
+  - More [Player sounds](../posts/week-10/player-sounds-2)
+  - [Enemy Sounds](../posts/week-10/enemy-sounds)
+  - Extra credit: add sounds to the other weapons you can pick up and use.
 
 # Week 12 - Group work
 
+<!-- - Lesson 6: Using Effects on Regions
+- Lesson 7: Callbacks
+- Lesson 8: Advanced Music System
+- Lesson 9: Making Your Own Adventure Game
+ -->
+
 ## Tuesday 3/29
 
-- start the work with game design class
+- Add music
 
 ## Thursday 3/31
+
+- Project 3 (midterm) due
 
 # Week 13
 
 ## Tuesday 4/5
+
+- start the work with game design class
 
 ## Thursday 4/7
 

@@ -38,10 +38,10 @@ Pew Pew! In the secondary scene we'll implement more complex weapon sounds, but 
 
 Now add the cool down sound for when the blaster has shot too much in a span of time. This is implemented on a different script in Unity. You'll need to find the script and implement the sound in the Unity script. This script in Unity is implemented so that if it stops charging, the sound stops. Recreate this by stopping the event in Wwise.
 
+> This script has a conditional statement that relies on a Unity Audio Source existing. This means that it won't work correctly for our needs. Just write a slightly simpler version of the if statement that doesn't include a reference to the Audio Source and it will work.
+
 # Health
 
-A sound for loosing health?
+Have some sound relate to the player loosing health. I chose a sound of heavy breathing, but you could choose something else. Follow the [tutorial here](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=modifying_object_properties_with_game_parameters#read) for a refresher on how to work with game parameters. See [this tutorial](https://www.audiokinetic.com/courses/wwise301/?source=wwise301&id=Setting_Game_Parameters_using_WwiseTypes#read) for more information on how to use this game parameter in Unity.
 
-# Jet pack
-
-Some sound for the jet pack?
+I triggered the breath sound to play at the start of the game. But you only hear it once you start taking on damage. This is controlled by the RTPC. Also, once my player dies, there is a sound that plays. These are both related to the `currentHealth` variable in the Unity script provided by the game designers.
