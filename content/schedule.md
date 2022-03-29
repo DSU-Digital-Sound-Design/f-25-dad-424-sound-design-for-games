@@ -150,7 +150,7 @@ author: ""
   - [Enemy Sounds](../posts/week-10/enemy-sounds)
   - Extra credit: add sounds to the other weapons you can pick up and use.
 
-# Week 12 - Group work
+# Week 12
 
 <!-- - Lesson 6: Using Effects on Regions
 - Lesson 7: Callbacks
@@ -160,11 +160,11 @@ author: ""
 
 ## Tuesday 3/29
 
-- Add music
+- Add [music](../posts/week-12/) to the midterm project
 
 ## Thursday 3/31
 
-- Project 3 (midterm) due
+- Project 3 (midterm) due 4/5
 
 # Week 13
 
