@@ -14,6 +14,6 @@ Finally, two events will trigger each of the music tracks. The first event could
 
 See [this lesson](https://www.audiokinetic.com/courses/wwise201/?source=wwise201&id=lesson_6_implementing_transitions_part_i#read) for more information on how to do this.
 
-In Unity set the state of `PlayerLife` to `Alive` using the State Wwise type. Select the appropriate type in Unity then in the code place `StateName.setState()` in the `Start` function.
+In Unity set the state of `PlayerLife` to `Alive` using the State Wwise type. Select the appropriate type in Unity then in the code place `StateName.setValue()` in the `Start` function.
 
 You shouldn't have to set any other states manually in Unity because you have them attached to events in the Wwise editor.
