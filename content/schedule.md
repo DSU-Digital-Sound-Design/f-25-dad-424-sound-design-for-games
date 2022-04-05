@@ -173,11 +173,13 @@ author: ""
 - Answer any questions that might have caused you not to finish the midterm project
 - Play through each of our projects in class
 - [PaulXStretch](../posts/week-13#PaulXStretch)
+
+## Thursday 4/7
+
+- Show the games you can work on
 - Sound Particles
 - Introduction to game sound design - Reaper specific workflow things?
 - start the work with game design class
-
-## Thursday 4/7
 
 # Week 14
 
