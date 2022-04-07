@@ -172,20 +172,26 @@ author: ""
 
 - Answer any questions that might have caused you not to finish the midterm project
 - Play through each of our projects in class
-- [PaulXStretch](../posts/week-13#PaulXStretch)
 
 ## Thursday 4/7
 
 - Show the games you can work on
-- Sound Particles
-- Introduction to game sound design - Reaper specific workflow things?
-- start the work with game design class
+  - [Iron Chef 3D](https://github.com/Zrak55/IronChef3D), [Corrupted Mythos](https://github.com/Nilis23/Corrupted-Mythos)
+- Introduction to [collaboration](../posts/week-13/github) on [GitHub](https://github.com/) with [GitHub Desktop](https://desktop.github.com/).
+- pick which game you want to work on and your groups
+  - groups can be made out of composers and audio implementers. Iron chef can have a group of 3, and Corrupted Mythos can have a group of 2.
+  - Start by making a spread sheet of all the required sounds and events.
 
 # Week 14
 
 ## Tuesday 4/12
 
-Group project check-in due
+- [PaulXStretch](../posts/week-13#PaulXStretch)
+- Reaper workflow lessons
+- Group project check-in due
+- Sound Particles
+- Introduction to game sound design - Reaper specific workflow things?
+- start the work with game design class
 
 ## Thursday 4/14
 
