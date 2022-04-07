@@ -180,7 +180,9 @@ author: ""
 - Introduction to [collaboration](../posts/week-13/github) on [GitHub](https://github.com/) with [GitHub Desktop](https://desktop.github.com/).
 - pick which game you want to work on and your groups
   - groups can be made out of composers and audio implementers. Iron chef can have a group of 3, and Corrupted Mythos can have a group of 2.
-  - Start by making a spread sheet of all the required sounds and events.
+  - Start by making a spread sheet of all the required sounds and events. Mark who made what in this spreadsheet.
+  - Sound Design students will create all sound effects and music. Exceptions can be made if there is a sound that is not practical to record.
+  - Keep a journal of the process noting who did what. If one person did most of the implementation then write that. I want to see that the responsibilities were divided as equally as possible.
 
 # Week 14
 
