@@ -30,7 +30,6 @@ We will go through how to work with the main scene together as a class. You will
 - Interactive music when the player enters the boss room
 - Use an RTPC to add something interactive when your health starts to get low
   - As you start to die the music gets more distorted?
--
 
 ## References
 

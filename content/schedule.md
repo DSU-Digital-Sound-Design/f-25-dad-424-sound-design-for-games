@@ -13,9 +13,9 @@ author: ""
 - Syllabus overview
 - Install Unity
 - Unity Overview
-- What is middleware and why do we need it?
+- What is middleware, and why do we need it?
   - Wwise overview
-  - not only what sound plays, but how it plays. What order do they sounds playback in, are they modified in real time?
+  - not only what sound plays, but how it plays. What order do sounds playback in, are they modified in real-time?
 - [Other uses](https://www.audiokinetic.com/discover/) for Wwise besides games
 - [Install Wwise](../posts/week-2/install-wise)
 - Wwise adventure game
@@ -144,7 +144,7 @@ author: ""
 
 ## Thursday 3/24
 
-- work on midterm project
+- work on the midterm project
   - Finish player sound work from Tuesday
   - More [Player sounds](../posts/week-10/player-sounds-2)
   - [Enemy Sounds](../posts/week-10/enemy-sounds)
@@ -178,24 +178,29 @@ author: ""
 - Show the games you can work on
   - [Iron Chef 3D](https://github.com/Zrak55/IronChef3D), [Corrupted Mythos](https://github.com/Nilis23/Corrupted-Mythos)
 - Introduction to [collaboration](../posts/week-13/github) on [GitHub](https://github.com/) with [GitHub Desktop](https://desktop.github.com/).
-- pick which game you want to work on and your groups
-  - groups can be made out of composers and audio implementers. Iron chef can have a group of 3, and Corrupted Mythos can have a group of 2.
-  - Start by making a spread sheet of all the required sounds and events. Mark who made what in this spreadsheet.
-  - Sound Design students will create all sound effects and music. Exceptions can be made if there is a sound that is not practical to record.
-  - Keep a journal of the process noting who did what. If one person did most of the implementation then write that. I want to see that the responsibilities were divided as equally as possible.
+- pick which game you want to work on, and your groups
+  - groups can be made out of composers and audio implementers. For example, Iron Chef can have a group of 3, and Corrupted Mythos can have a group of 2.
+  - Start by making a spreadsheet of all the required sounds and events. Note who made what sounds in the spreadsheet.
+  - Sound Design students will create all sound effects and music. I'll make exceptions if there is a sound that is not practical to record.
+  - Keep a journal of the process, noting who did what. I want to see that the responsibilities get divided as equally as possible.
 
 # Week 14
 
 ## Tuesday 4/12
 
+- Groups
+  - Who is in your group, and which game is the group doing?
+  - Introduce the assets list. Create an assets list for your project. I will grade your project based on how much of your assets list you complete. The number of assets I expect will depend on your group size. Treat this assets list as a project proposal.
 - [PaulXStretch](../posts/week-13#PaulXStretch)
+
+## Thursday 4/14
+
+- Assets list due.
 - Reaper workflow lessons
 - Group project check-in due
 - Sound Particles
-- Introduction to game sound design - Reaper specific workflow things?
-- start the work with game design class
-
-## Thursday 4/14
+- Introduction to game sound design - Reaper-specific workflow things?
+- start the work with the game design class
 
 # Week 15
 
@@ -208,3 +213,9 @@ author: ""
 ## Tuesday 4/26
 
 ## Thursday 4/28
+
+# Week 17
+
+# Thursday 5/5
+
+Final project due by 1:00 pm then presented in class.
