@@ -192,7 +192,7 @@ author: ""
   - Who is in your group, and which game is the group doing?
   - Create an assets list for your project. Write your team members' names and the game you're working on on the assets list.
   - I will grade your project based on how much of your assets list you complete. The number of assets I expect will depend on your group size. Treat this assets list as a project proposal.
-- Creating captures of the game to compose or sound design to with [Unity Capture](https://learn.unity.com/tutorial/working-with-the-unity-recorder-2019-3#). After you make captures of the important game elements, you can bring them into a DAW and start adding markers to those important elements.
+- Creating captures of the game to help compose or sound design with [Unity Capture](https://learn.unity.com/tutorial/working-with-the-unity-recorder-2019-3#). After you capture the game elements, you can bring them into a DAW and start adding markers to those elements.
 - [PaulXStretch](../posts/week-13#PaulXStretch)
 
 ## Thursday 4/14
