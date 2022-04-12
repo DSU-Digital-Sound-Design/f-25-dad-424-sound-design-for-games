@@ -190,7 +190,8 @@ author: ""
 
 - Groups
   - Who is in your group, and which game is the group doing?
-  - Introduce the assets list. Create an assets list for your project. I will grade your project based on how much of your assets list you complete. The number of assets I expect will depend on your group size. Treat this assets list as a project proposal.
+  - Create an assets list for your project. Write your team members' names and the game you're working on on the assets list.
+  - I will grade your project based on how much of your assets list you complete. The number of assets I expect will depend on your group size. Treat this assets list as a project proposal.
 - [PaulXStretch](../posts/week-13#PaulXStretch)
 
 ## Thursday 4/14
