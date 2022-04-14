@@ -203,19 +203,22 @@ author: ""
 - Assets list due.
 - Reaper workflow lessons
 - Group project check-in due
-- Sound Particles
-- Introduction to game sound design - Reaper-specific workflow things?
-- start the work with the game design class
 
 # Week 15
 
 ## Tuesday 4/19
+
+- Sound Particles
+- Introduction to game sound design - Reaper-specific workflow things?
+- start the work with the game design class
 
 ## Thursday 4/21
 
 # Week 16
 
 ## Tuesday 4/26
+
+![](../what.png)
 
 ## Thursday 4/28
 
