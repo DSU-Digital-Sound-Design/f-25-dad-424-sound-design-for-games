@@ -208,24 +208,28 @@ author: ""
 
 ## Tuesday 4/19
 
-- Sound Particles
-- Introduction to game sound design - Reaper-specific workflow things?
-- start the work with the game design class
+- Please show me your FPS project..the internet is too slow.
+- Fix the Wwise integration issue:
+
+![](../what.png)
 
 ## Thursday 4/21
+
+- Group work on the final project
 
 # Week 16
 
 ## Tuesday 4/26
 
-![](../what.png)
+- Group work on the final project
 
 ## Thursday 4/28
 
+- Group work on the final project
 - [IDEA Survey](https://sdbor.campuslabs.com/eval-home/direct/5967143)
 
-# Week 17
+# Week 17 - Exam Week
 
-# Thursday 5/5
+## Thursday 5/5
 
 Final project due by 1:00 pm then presented in class.
