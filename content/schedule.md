@@ -222,6 +222,8 @@ author: ""
 
 ## Thursday 4/28
 
+- [IDEA Survey](https://sdbor.campuslabs.com/eval-home/direct/5967143)
+
 # Week 17
 
 # Thursday 5/5
