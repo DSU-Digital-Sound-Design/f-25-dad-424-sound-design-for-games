@@ -1,235 +1,220 @@
 ---
 title: "Schedule"
-date: "2021-01-02"
 author: ""
 ---
 
 {{< toc >}}
 
-# Week 1
+# Week 1 (1/9) - Game Audio History
 
-## Tuesday 1/11
+## Tuesday
 
-- Syllabus overview
-- Install Unity
-- Unity Overview
-- What is middleware, and why do we need it?
-  - Wwise overview
-  - not only what sound plays, but how it plays. What order do sounds playback in, are they modified in real-time?
-- [Other uses](https://www.audiokinetic.com/discover/) for Wwise besides games
-- [Install Wwise](../posts/week-2/install-wise)
-- Wwise adventure game
+- Syllabus introduction
+- [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=25)
+- [Immersive and Spatial Audio](https://dsu-digital-sound-design.github.io/DAD-422-Audio-Production-III/pages/lectures/week-1/monday-8-23/immersive-spatial/)
 
-## Thursday 1/13
+> Read: [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
 
-- [Installing the Wwise-101 Course Project Files](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=installing_wwise_101_course_project_files#read)
-- Play the cube game
-- [Silence the cube](https://www.audiokinetic.com/courses/wwise101/?source=wwise101&id=Set_Cube_to_Silence#read)
-- Lesson 1: From silence to sound
+## Thursday
 
-# Week 2
+- [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
 
-## Tuesday 1/18
+> Read: [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=53)
 
-- [Lesson 2: Designing a soundscape](../posts/week-2/lesson-2/)
+<!--
+# Week 2 (1/16)
 
-## Thursday 1/20
+## Tuesday
 
-- [Lesson 3: Understanding game syncs](../posts/week-2/lesson-3/)
+- [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://018726C1-7E3F-4A32-B551-DCD1780C9040)
 
-# Week 3
+> Read: [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=71)
 
-## Tuesday 1/25
+## Thursday
 
-- Lesson 4: [Creating space](../posts/week-3/lesson-5-creating-space/)
+- [Chapter 3 Quiz](x-devonthink-item://7E723DF0-C725-40F8-93D4-EE87E5CA1361)
+- [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://2D22F132-372E-4D7B-9486-A2E38114F454)
 
-## Thursday 1/27
+> Read: [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=91)
 
-- Lesson 5: [Understanding signal flow](../posts/week-3/understanding-audio-signal-flow/)
-- Lesson 6: [Finalizing the mix](../posts/week-3/lesson-6-finalizing-the-mix/)
-- Lesson 7: Optimizing your game
-  - Do for homework - Due 2/1
+# Week 3 (1/23) - Sound Design
 
-# Week 4
+## Tuesday
 
-## Wwise 201
+- [Chapter 4 Quiz](x-devonthink-item://F0825194-21FA-4171-A6DF-726F83A9E48C)
+- [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](x-devonthink-item://47B7000B-B77C-4329-A992-E3518463F022)
 
-## Tuesday 2/1
+> [Exercise 1: Source or create sounds given an asset list](x-devonthink-item://0111F33B-60F2-469D-9EC0-AA3831DDC4F6) - find or record these sounds
+> DUE by the next class
 
-- Look at project in Reaper with regions
-- [Lesson 1: Re-sequencing – Creating Variation Using a Sequential Approach](../posts/week-4/lesson-1-re-sequencing/)
-- [Lesson 2: Re-orchestration – Using a Layered Approach](../posts/week-4/lesson-2-re-orchestration/)
+## Thursday
 
-## Thursday 2/3
+- [Chapter 5 Quiz](x-devonthink-item://69D3B798-EA05-49DC-91AD-CA8919387C47)
+- [How to make Haunting Horror Sound Effects for UI / interfaces (includes free sounds!)](https://www.youtube.com/watch?v=XqadaqdKBEQ) - with samples
+- [UI with Vital](https://www.youtube.com/watch?v=2h5iOE7Txys) - synthesized
 
-- [Music Production Internship @ Sony](https://boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/4241060004)
-- Lesson 3: [Creating Mixed Method Playlists](../posts/week-4/lesson-3-mixed-method-playlists/)
-- Lesson 4: [Working with MIDI](../posts/week-4/lesson-4-working-with-midi)
+> [Exercise 2: UI Sound Library](x-devonthink-item://5426ACC1-5C17-4036-8924-98C11E0682AE) - DUE next Tuesday
 
-# Week 5
+> Read: [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=125)
 
-## Tuesday 2/8
+# Week 4 (1/30)
 
-- Lesson 5: [Creating Interaction](../posts/week-5/lesson-5-creating-interaction/)
-- Lesson 6: [Implementing Transitions Part I](../posts/week-5/lesson-6-implementing-transitions-part-i/)
+## Tuesday
 
-## Thursday 2/10
+- Studio introduction/review
+  - Demo recording voice
+- [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](x-devonthink-item://DCA688F7-7B56-412B-8B0A-783E4CFEE92D)
 
-- Lesson 7: [Transitions Part II](../posts/week-5/lesson-7-transitions-part-ii/)
+> [Exercise 3: Voice Over](x-devonthink-item://06F112C5-23F1-4DE0-A3AE-5754AE2021FD) - DUE next Tuesday 2/7
 
-# Week 6
+## Thursday
 
-## Tuesday 2/15
+- [Chapter 7 Quiz](x-devonthink-item://BA2EC564-3D79-42C6-99DB-BEB4462403E8)
+- Example game scene redesign with sound effects, dialogue, if any, and music
+- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
+- Also, look over the suggestions from Akash about setting up Reaper for game sound design
 
-- Review - Lesson 7: [Transitions Part II](../posts/week-5/lesson-7-transitions-part-ii/)
-- Lesson 8: [Mixing](../posts/week-6/lesson-8-mixing)
+> [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14
 
-## Thursday 2/17
+# Week 5 (2/6)
 
-- Wwise-301 - Wwise Unity Integration
-- [Intro](https://www.audiokinetic.com/courses/wwise301/?source=wwise301&id=Installing_the_Wwise301_Course_Project_Files)
-  - Install Unity, Wwise Adventure Game + Course project files
-  - Lesson 1: Adding Sound
+## Tuesday
 
-# Week 7
+- Creature sound design
+  - [How to Make Monster Sounds with your Voice](https://youtu.be/7b6D3QQIpX8)
+  - [Designing A Monster Roar With Balloons???](https://www.youtube.com/watch?v=SJsQLw1FuRI&t=40s)
 
-## Tuesday 2/22
+> Sound design requests for the next class?
 
-- Sign up for the 301 License Agreement
-- Lesson 1: [Adding Sound](../posts/week-7/lesson-1-adding-sound/)
+## Thursday
 
-## Thursday 2/24
+- [How to create Fire and Ice Magic Sound Effects - Sound Design Workshop with Chase Steele](https://www.youtube.com/watch?v=aedUJ_0o-go&t=654s)
 
-- Lesson 2: [Ambiences](../posts/week-7/lesson-2-ambiences/)
+> Read: [Level 6: Compose Yourself! The Art of Composing for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=113)
 
-# Week 8
+# Week 6 (2/13) - Composing Music
 
-## Tuesday 3/1
+## Tuesday
 
-- Lesson 3: [SoundBank Management](../posts/week-7/lesson-3-soundbank-management/)
+- [Level 6: Compose Yourself! The Art of Composing for Games](x-devonthink-item://F5F2DDD5-791D-4E27-9639-9DF470BEA300)
+- More details: https://www.youtube.com/c/8bitMusicTheory
 
-## Thursday 3/3
+> Read: [Level 9: The Early Bird Gets the Worm: Preparing Your Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=159)
 
-- Lesson 4: [Posting Events from Script](../posts/week-8/lesson-4-posting-events-from-script/)
-- Lesson 5: [Controlling Game Syncs from Script](../posts/week-8/lesson-5-controlling-game-syncs-from-script/)
+## Thursday
 
-# Week 9
+- [Chapter 6](x-devonthink-item://1CE9096C-AF5A-4CCC-B134-A5D6A3325C43)
+- [Interactive Game Music Basics in Reaper & Wwise - Demo by Carlos Eiene ](https://www.youtube.com/watch?v=wnJH022Z6Mg)
+- [Level 9: The Early Bird Gets the Worm: Preparing Your Audio](x-devonthink-item://5EB49E4F-8487-4458-8382-15C35B140260)
 
-## Tuesday 3/8
+> Read: [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=167)
 
-- chance to catch up on lessons 1 - 5
-- Start working on "Midterm" project - [Adding Wwise to the FPS game](../../projects/#midterm-project---add-wwise-to-the-fps-game)
-- Get the ambient sound to work in the game. Follow all of the steps in the "Adding Sound" lesson.
+# Week 7 (2/20) - Audio Implementation
 
-## Thursday 3/10
+## Tuesday
 
-- [Setting up the Wwise Project](../posts/week-9/wwise-setup)
-- [Posting events from scripts](../posts/week-9/posting-events-from-wwise)
+- [Chapter 9 Quiz](x-devonthink-item://E74F318E-F691-401B-985F-0BA54A71FF52)
+- Project 1 due - watch game clips in class
+- [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://4767377B-0F49-4E80-9448-FE08484FBBB5)
 
-# Week 10
+> Read: [Level 8: Meet the Middleman: Understanding Audio Middleware](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=141)
 
-- Spring break - no classes
+## Thursday
 
-## Tuesday 3/15
+- [Chapter 10 Quiz](x-devonthink-item://FAA6494E-0D1C-4803-AAF4-53E6418F29E2)
+- [Level 8: Meet the Middleman: Understanding Audio Middleware](x-devonthink-item://23E390E6-A37E-41DF-AF8F-E0CF272E6491)
 
-## Thursday 3/17
+> Homework: Download and Install the Unity Hub and Wwise Launcher. Instructions here: [Game Audio with Unity and Wwise Part 1: Intro and Installation](x-devonthink-item://E8912CA4-3E85-4798-B77C-A1EC61126FCC?section=installation). It is VERY important to do this ahead of time. If we all try to download these simultaneously, the network will cry!
 
-# Week 11 - Midterm project
+# Week 8 (2/27)
 
-## Tuesday 3/22
+## Tuesday
 
-- More work on Midterm project
-  - [Fix the Unity project](../posts/week-10/fix-unity-project)
-  - [Player sounds](../posts/week-10/player-sounds)
+- [Chapter 8 Quiz](x-devonthink-item://8C5472FE-52F8-4855-9A31-A0504FAAA223)
+- [Game Audio with Unity and Wwise Part 1: Intro and Installation](x-devonthink-item://E8912CA4-3E85-4798-B77C-A1EC61126FCC)
+- [Level 11: Unify My World: Audio in Unity 3D](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=179)
 
-## Thursday 3/24
+// TODO: take some notes on these videos to better understand what to do for projects
 
-- work on the midterm project
-  - Finish player sound work from Tuesday
-  - More [Player sounds](../posts/week-10/player-sounds-2)
-  - [Enemy Sounds](../posts/week-10/enemy-sounds)
-  - Extra credit: add sounds to the other weapons you can pick up and use.
+> Go [here](x-devonthink-item://203BCE38-5570-4868-BF4F-ED46C709689F?section=thesoundswewilluse) for instructions to download the sounds we'll use for our project. This collection si quite large, so you must download it before class.
+> [Project 2: First Person actions in Wwise](x-devonthink-item://BF92422A-DDC8-462B-8668-4692381000EE) - DUE 3/21, after spring break
 
-# Week 12
+## Thursday
 
-<!-- - Lesson 6: Using Effects on Regions
-- Lesson 7: Callbacks
-- Lesson 8: Advanced Music System
-- Lesson 9: Making Your Own Adventure Game
- -->
+- [Part 2: Let there be Sound!](x-devonthink-item://203BCE38-5570-4868-BF4F-ED46C709689F)
 
-## Tuesday 3/29
+# Week 9 (3/6)
 
-- Add [music](../posts/week-12/) to the midterm project
+## Tuesday
 
-## Thursday 3/31
+- [Part 3: Position, Attenuation, and Profiling](x-devonthink-item://8D30D068-B166-43D6-9FE6-E3ED19EC86BD)
 
-- Project 3 (midterm) due 4/5
+## Thursday
 
-# Week 13
+[(116) Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting - YouTube](https://www.youtube.com/watch?v=UH7OEm_g9Mg&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=4)
 
-## Tuesday 4/5
+> Another implementation project will be due at the end of week 12, one game scene including first-person actions, ambiance, etc. Make sure it covers all the elements we learned from the Wagner videos: random containers, switches, states, game states, blend containers, audio buses, mixing, and reverb zones. Use a scene from one of the example games you found.
 
-- Answer any questions that might have caused you not to finish the midterm project
-- Play through each of our projects in class
+# Week 10 (3/13)
 
-## Thursday 4/7
+- Spring Break - No Classes
 
-- Show the games you can work on
-  - [Iron Chef 3D](https://github.com/Zrak55/IronChef3D), [Corrupted Mythos](https://github.com/Nilis23/Corrupted-Mythos)
-- Introduction to [collaboration](../posts/week-13/github) on [GitHub](https://github.com/) with [GitHub Desktop](https://desktop.github.com/).
-- pick which game you want to work on, and your groups
-  - groups can be made out of composers and audio implementers. For example, Iron Chef can have a group of 3, and Corrupted Mythos can have a group of 2.
-  - Start by making a spreadsheet of all the required sounds and events. Note who made what sounds in the spreadsheet.
-  - Sound Design students will create all sound effects and music. I'll make exceptions if there is a sound that is not practical to record.
-  - Keep a journal of the process, noting who did what. I want to see that the responsibilities get divided as equally as possible.
+# Week 11 (3/20)
 
-# Week 14
+## Tuesday
 
-## Tuesday 4/12
+- Project 2 DUE
 
-- Groups
-  - Who is in your group, and which game is the group doing?
-    - Imagine Dragons - Thet, Morgan, Emma, Xander
-    - PFSA - Caleb, Jake, Jacob?
-    - Team Abby - Martin, Angela, Hanna
-  - Create an assets list for your project. Write your team members' names and the game you're working on on the assets list.
-  - I will grade your project based on how much of your assets list you complete. The number of assets I expect will depend on your group size. Treat this assets list as a project proposal.
-- Creating captures of the game to help compose or sound design with [Unity Capture](https://learn.unity.com/tutorial/working-with-the-unity-recorder-2019-3#). After you capture the game elements, you can bring them into a DAW and start adding markers to those elements.
+[(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5)
 
-## Thursday 4/14
+## Thursday
 
-- [PaulXStretch](../posts/week-13#PaulXStretch)
-- Assets list due.
-- Reaper workflow lessons
-- Group project check-in due
+[(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
 
-# Week 15
+# Week 12 (3/27)
 
-## Tuesday 4/19
+## Tuesday
 
-- Please show me your FPS project..the internet is too slow.
-- Fix the Wwise integration issue:
+[(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7)
 
-![](../what.png)
+## Thursday
 
-## Thursday 4/21
+- Project 3 DUE - present projects and play through a build of each project as a class.
 
-- Group work on the final project
+# Week 13 (4/3) - Start final
 
-# Week 16
+## Tuesday
 
-## Tuesday 4/26
+- Playtest games from the game design student's final projects.
+- Give a few options from the more complex example games from other schools if the DSU ones are not finished enough.
+- Pick a group of 3-4 and a game you would like to work on.
+- Propose a section of the game that includes an appropriate difficulty level.
 
-- Group work on the final project
+## Thursday
 
-## Thursday 4/28
+- Meet to work on projects
+- Integrate Wwise and ReaWwise if we haven't already.
 
-- Group work on the final project
-- [IDEA Survey](https://sdbor.campuslabs.com/eval-home/direct/5967143)
+# Week 14 (4/10)
 
-# Week 17 - Exam Week
+## Tuesday
 
-## Thursday 5/5
+- Meet to work on projects
 
-Final project due by 1:00 pm then presented in class.
+## Thursday
+
+- Meet to work on projects
+
+# Week 15 (4/17)
+
+## Tuesday
+
+- Meet to work on projects
+
+## Thursday
+
+- Meet to work on projects
+
+# Week 16 (4/24)
+
+> Exam - Thursday, May 4th 1:00 - 3:00 pm -->
