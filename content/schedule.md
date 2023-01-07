@@ -10,16 +10,17 @@ author: ""
 ## Tuesday
 
 - Syllabus introduction
-- [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=25)
+- [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
 - [Immersive and Spatial Audio](https://dsu-digital-sound-design.github.io/DAD-422-Audio-Production-III/pages/lectures/week-1/monday-8-23/immersive-spatial/)
 
 > Read: [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
 
+<!--
 ## Thursday
 
 - [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
 
-> Read: [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=53)
+> Read: [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=53) -->
 
 <!--
 # Week 2 (1/16)
