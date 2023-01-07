@@ -11,7 +11,6 @@ author: ""
 
 - Syllabus introduction
 - [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
-- [Immersive and Spatial Audio](https://dsu-digital-sound-design.github.io/DAD-422-Audio-Production-III/pages/lectures/week-1/monday-8-23/immersive-spatial/)
 
 > Read: [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
 
@@ -27,6 +26,7 @@ author: ""
 
 ## Tuesday
 
+- [Immersive and Spatial Audio](https://dsu-digital-sound-design.github.io/DAD-422-Audio-Production-III/pages/lectures/week-1/monday-8-23/immersive-spatial/)
 - [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://018726C1-7E3F-4A32-B551-DCD1780C9040)
 
 > Read: [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=71)
