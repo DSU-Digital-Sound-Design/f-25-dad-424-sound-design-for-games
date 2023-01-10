@@ -12,7 +12,7 @@ author: ""
 - Syllabus introduction
 - [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
 
-> Read: [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=37)
+> Read: [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](https://learning.oreilly.com/library/view/the-essential-guide/9780415706704/xhtml/Ch02.xhtml)
 
 <!--
 ## Thursday
