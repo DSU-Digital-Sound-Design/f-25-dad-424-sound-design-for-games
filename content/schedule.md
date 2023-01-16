@@ -20,17 +20,15 @@ author: ""
 
 > Read: [Level 3: My Non-Linear Life: Audio for Interactive Environments](https://learning.oreilly.com/library/view/the-essential-guide/9780415706704/xhtml/Ch03.xhtml)
 
-<!--
 # Week 2 (1/16)
 
 ## Tuesday
 
-- [Immersive and Spatial Audio](https://dsu-digital-sound-design.github.io/DAD-422-Audio-Production-III/pages/lectures/week-1/monday-8-23/immersive-spatial/)
-- [Level 3: My Non-Linear Life: Audio for Interactive Environments](x-devonthink-item://018726C1-7E3F-4A32-B551-DCD1780C9040)
-- See the
+- [Level 3: My Non-Linear Life: Audio for Interactive Environments](../lectures/week-2/level-3/)
 
 > Read: [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=71)
 
+<!--
 ## Thursday
 
 - [Chapter 3 Quiz](x-devonthink-item://7E723DF0-C725-40F8-93D4-EE87E5CA1361)
@@ -106,6 +104,7 @@ author: ""
 
 - [Chapter 6](x-devonthink-item://1CE9096C-AF5A-4CCC-B134-A5D6A3325C43)
 - [Interactive Game Music Basics in Reaper & Wwise - Demo by Carlos Eiene ](https://www.youtube.com/watch?v=wnJH022Z6Mg)
+- [(10) Wwise Music Tutorial - Branching and Layering with Transitions - YouTube](https://www.youtube.com/watch?v=9g3H3WaxUM8)
 - [Level 9: The Early Bird Gets the Worm: Preparing Your Audio](x-devonthink-item://5EB49E4F-8487-4458-8382-15C35B140260)
 
 > Read: [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=167)
