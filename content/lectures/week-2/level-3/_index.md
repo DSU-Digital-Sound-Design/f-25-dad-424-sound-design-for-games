@@ -67,6 +67,8 @@ Famous video game composer that spans different eras of game sound.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B7Ix5XDPcNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+[YM2612 Chip](https://en.wikipedia.org/wiki/Yamaha_YM2612#cite_ref-YM3438_1-0)
+
 {{% note %}}
 Joe Montana II Sports Talk Football for the Sega Genesis was an early game with sampled sound. It made heavy use of voice over, so needed special attention paid to sound quality and file size. AT a time when compression such as MP3 hadn't been invented yet, game companies had to develop their own compression algorithms.
 
