@@ -24,18 +24,18 @@ author: ""
 
 ## Tuesday
 
+- https://www.youtube.com/watch?v=yLd5wmBNCBM
 - [Level 3: My Non-Linear Life: Audio for Interactive Environments](../lectures/week-2/level-3/)
 
-> Read: [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=71)
+> Read: Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell
 
-<!--
 ## Thursday
 
-- [Chapter 3 Quiz](x-devonthink-item://7E723DF0-C725-40F8-93D4-EE87E5CA1361)
-- [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](x-devonthink-item://2D22F132-372E-4D7B-9486-A2E38114F454)
+- [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
 > Read: [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=91)
 
+<!--
 # Week 3 (1/23) - Sound Design
 
 ## Tuesday
