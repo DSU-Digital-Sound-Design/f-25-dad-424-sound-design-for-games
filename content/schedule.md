@@ -35,17 +35,19 @@ author: ""
 
 > Read: [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=91)
 
-<!--
 # Week 3 (1/23) - Sound Design
 
 ## Tuesday
 
-- [Chapter 4 Quiz](x-devonthink-item://F0825194-21FA-4171-A6DF-726F83A9E48C)
-- [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](x-devonthink-item://47B7000B-B77C-4329-A992-E3518463F022)
+- [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](../lectures/week-3/level-5/)
+- Install Reaper if you don't already have it.
+  - Short Reaper introduction for non-sound design students.
+  - See: [Reaper DAW 101:- The Basics - PART 1 - YouTube](https://www.youtube.com/watch?v=JwDcTPn2dvc) for an introduction
 
-> [Exercise 1: Source or create sounds given an asset list](x-devonthink-item://0111F33B-60F2-469D-9EC0-AA3831DDC4F6) - find or record these sounds
+> [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
 > DUE by the next class
 
+<!--
 ## Thursday
 
 - [Chapter 5 Quiz](x-devonthink-item://69D3B798-EA05-49DC-91AD-CA8919387C47)
