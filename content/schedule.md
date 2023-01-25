@@ -51,10 +51,10 @@ author: ""
 
 - Change in grading:
   - No quizzes, the quiz category (20%) will now be used three sound design exercises.
-- [How to make Haunting Horror Sound Effects for UI / interfaces (includes free sounds!)](https://www.youtube.com/watch?v=XqadaqdKBEQ) - with samples
+- [Haunted Horror Sound Effects for UI](../lectures/week-3/ui-effects-horror/)
 - [UI with Vital](https://www.youtube.com/watch?v=2h5iOE7Txys) - synthesized
 
-> [Exercise 2: UI Sound Library](../assignments/exercises/exercise-2/) - DUE next Tuesday
+> [Exercise 2: UI Sound Library](../assignments/exercises/exercise-2/) - DUE next Tuesday by the start of class
 
 <!--
 # Week 4 (1/30)
