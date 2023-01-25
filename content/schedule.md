@@ -47,17 +47,16 @@ author: ""
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
 > DUE by the next class
 
-<!--
 ## Thursday
 
-- [Chapter 5 Quiz](x-devonthink-item://69D3B798-EA05-49DC-91AD-CA8919387C47)
+- Change in grading:
+  - No quizzes, the quiz category (20%) will now be used three sound design exercises.
 - [How to make Haunting Horror Sound Effects for UI / interfaces (includes free sounds!)](https://www.youtube.com/watch?v=XqadaqdKBEQ) - with samples
 - [UI with Vital](https://www.youtube.com/watch?v=2h5iOE7Txys) - synthesized
 
-> [Exercise 2: UI Sound Library](x-devonthink-item://5426ACC1-5C17-4036-8924-98C11E0682AE) - DUE next Tuesday
+> [Exercise 2: UI Sound Library](../assignments/exercises/exercise-2/) - DUE next Tuesday
 
-> Read: [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=125)
-
+<!--
 # Week 4 (1/30)
 
 ## Tuesday
