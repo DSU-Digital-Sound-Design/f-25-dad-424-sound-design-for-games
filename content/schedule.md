@@ -53,6 +53,7 @@ author: ""
   - No quizzes, the quiz category (20%) will now be used three sound design exercises.
 - [Haunted Horror Sound Effects for UI](../lectures/week-3/ui-effects-horror/)
 - [UI with Vital](https://www.youtube.com/watch?v=2h5iOE7Txys) - synthesized
+  - We won't cover this in class, but it's fund to learn about Vital.
 
 > [Exercise 2: UI Sound Library](../assignments/exercises/exercise-2/) - DUE next Tuesday by the start of class
 
