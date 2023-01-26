@@ -21,7 +21,7 @@ Some `Designer Notes` are included for a couple sounds. Please read these.
 
 If needed, please leave any notes on the sounds provided in the `Sound Designer Notes` field.
 
-An [asset list](assets-list.xlsx) is provided with a list of requested sounds. **Update `asset-list.xlsx` with the filename, and any notes you have for the game designer.** Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
+An [asset list](asset-list.xlsx) is provided with a list of requested sounds. **Update `asset-list.xlsx` with the filename, and any notes you have for the game designer.** Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
 
 For example, given this asset list row:
 
