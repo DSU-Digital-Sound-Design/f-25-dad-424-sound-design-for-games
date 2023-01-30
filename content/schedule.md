@@ -57,20 +57,28 @@ author: ""
 
 > [Exercise 2: UI Sound Library](../assignments/exercises/exercise-2/) - DUE next Tuesday by the start of class
 
-<!--
 # Week 4 (1/30)
 
 ## Tuesday
 
+<!--
+TODO: studio session;
+- level 7 notes
+- explain exercise 3 VO
+
+-->
+
+- [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](../lectures/week-4/level-7/)
 - Studio introduction/review
   - Demo recording voice
-- [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](x-devonthink-item://DCA688F7-7B56-412B-8B0A-783E4CFEE92D)
 
 > [Exercise 3: Voice Over](x-devonthink-item://06F112C5-23F1-4DE0-A3AE-5754AE2021FD) - DUE next Tuesday 2/7
 
+<!--
 ## Thursday
 
-- [Chapter 7 Quiz](x-devonthink-item://BA2EC564-3D79-42C6-99DB-BEB4462403E8)
+- recording VO with takes etc.
+- Editing VO?
 - Example game scene redesign with sound effects, dialogue, if any, and music
 - Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
 - Also, look over the suggestions from Akash about setting up Reaper for game sound design
