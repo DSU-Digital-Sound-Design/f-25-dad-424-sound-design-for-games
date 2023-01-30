@@ -61,24 +61,20 @@ author: ""
 
 ## Tuesday
 
-<!--
-TODO: studio session;
-- level 7 notes
-- explain exercise 3 VO
-
--->
-
 - [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](../lectures/week-4/level-7/)
 - Studio introduction/review
   - Demo recording voice
+  - [Adventure Video Game Voice Over Scripts | Voices](https://www.voices.com/blog/adventure-video-game-voice-over-scripts/)
 
-> [Exercise 3: Voice Over](x-devonthink-item://06F112C5-23F1-4DE0-A3AE-5754AE2021FD) - DUE next Tuesday 2/7
+> [Exercise 3: Voice Over](../assignments/exercises/exercise-3/) - DUE next Tuesday 2/7
+
+<!-- TODO: create a place to turn in VO recordings -->
 
 <!--
 ## Thursday
 
-- recording VO with takes etc.
 - Editing VO?
+  - show tips for editing what we recording in class on Tuesday
 - Example game scene redesign with sound effects, dialogue, if any, and music
 - Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
 - Also, look over the suggestions from Akash about setting up Reaper for game sound design
