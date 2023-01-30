@@ -61,6 +61,7 @@ author: ""
 
 ## Tuesday
 
+- Review rendering SFX with little silence.
 - [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](../lectures/week-4/level-7/)
 - Studio introduction/review
   - Demo recording voice
