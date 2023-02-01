@@ -69,27 +69,24 @@ author: ""
 
 > [Exercise 3: Voice Over](../assignments/exercises/exercise-3/) - DUE next Tuesday 2/7
 
-<!-- TODO: create a place to turn in VO recordings -->
-
-<!--
 ## Thursday
 
-- Editing VO?
-  - show tips for editing what we recording in class on Tuesday
-- Example game scene redesign with sound effects, dialogue, if any, and music
-- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
-- Also, look over the suggestions from Akash about setting up Reaper for game sound design
+- [VO Editing](../lectures/week-4/vo-editing/)
+- more studio time/instruction for those who need it
 
-> [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14
-
+<!--
 # Week 5 (2/6)
 
 ## Tuesday
 
+- Example game scene redesign with sound effects, dialogue, if any, and music
+- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
+- Also, look over the suggestions from Akash about setting up Reaper for game sound design
 - Creature sound design
   - [How to Make Monster Sounds with your Voice](https://youtu.be/7b6D3QQIpX8)
   - [Designing A Monster Roar With Balloons???](https://www.youtube.com/watch?v=SJsQLw1FuRI&t=40s)
 
+> [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14
 > Sound design requests for the next class?
 
 ## Thursday
