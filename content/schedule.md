@@ -74,23 +74,34 @@ author: ""
 - [VO Editing](../lectures/week-4/vo-editing/)
 - more studio time/instruction for those who need it
 
-<!--
 # Week 5 (2/6)
 
 ## Tuesday
 
+- Look at some student UI sounds
+- More help with VO if people need it
+- More sound design
+  - We're getting ready to do a cut scene from a video game
+  - Tron scene demo
+- Pick a cut scene or trailer from your favorite game and bring it in
+  - This will be our next project; we'll discuss some examples in class and what kind of sounds we can use to recreate them.
+
+<!-- - free item positioning for sound effects
+- Using Reaper to create multiple variations of layered sound effects for games
 - Example game scene redesign with sound effects, dialogue, if any, and music
-- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3)
+- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3) -->
+
+<!-- > [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14 -->
+
+> Sound design requests for the next class?
+
+<!--
+## Thursday
+
 - Also, look over the suggestions from Akash about setting up Reaper for game sound design
 - Creature sound design
   - [How to Make Monster Sounds with your Voice](https://youtu.be/7b6D3QQIpX8)
   - [Designing A Monster Roar With Balloons???](https://www.youtube.com/watch?v=SJsQLw1FuRI&t=40s)
-
-> [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14
-> Sound design requests for the next class?
-
-## Thursday
-
 - [How to create Fire and Ice Magic Sound Effects - Sound Design Workshop with Chase Steele](https://www.youtube.com/watch?v=aedUJ_0o-go&t=654s)
 
 > Read: [Level 6: Compose Yourself! The Art of Composing for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=113)
