@@ -86,26 +86,25 @@ author: ""
 - Pick a cut scene or trailer from your favorite game and bring it in
   - This will be our next project; we'll discuss some examples in class and what kind of sounds we can use to recreate them.
 
-<!-- - free item positioning for sound effects
-- Using Reaper to create multiple variations of layered sound effects for games
-- Example game scene redesign with sound effects, dialogue, if any, and music
-- Using Hyper Light Drifter as an example - [ The Sound of Hyper Light Drifter: Part 1 ](https://www.youtube.com/watch?v=zgM2g2PXRLE&list=PL1v3sC61W4445DvI6GGrPAnzHnK-c9CGH&index=3) -->
-
-<!-- > [Project 1: Game Scene Remix](x-devonthink-item://58A0791F-9B45-48B6-9630-ED8C48A69F35) - resound design a short cut scene; DUE Tuesday 2/14 -->
-
 > Sound design requests for the next class?
 
-<!--
 ## Thursday
 
-- Also, look over the suggestions from Akash about setting up Reaper for game sound design
-- Creature sound design
-  - [How to Make Monster Sounds with your Voice](https://youtu.be/7b6D3QQIpX8)
-  - [Designing A Monster Roar With Balloons???](https://www.youtube.com/watch?v=SJsQLw1FuRI&t=40s)
-- [How to create Fire and Ice Magic Sound Effects - Sound Design Workshop with Chase Steele](https://www.youtube.com/watch?v=aedUJ_0o-go&t=654s)
+- electricity mic demo
+- Region render matrix
+  - Layer some sounds and show exporting regions using master mix
+- explosion sound design
+  - show project
+  - create subprojects - "Track: Move tracks to subproject"
+    - [(16) Reaper for Game Audio | Part 11 - Sub-Projects - YouTube](https://www.youtube.com/watch?v=UOodjB31a3g)
+  - Duplicate region multiple times for variations
+  - Edit variations in the sub project
+    - [LKC Variator](https://www.lkctools.com/variator)
+  - Clean up main project using: Item: Split at media cues
 
-> Read: [Level 6: Compose Yourself! The Art of Composing for Games](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=113)
+> Project 1: Game Scene sound design
 
+<!--
 # Week 6 (2/13) - Composing Music
 
 ## Tuesday
