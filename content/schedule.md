@@ -104,22 +104,45 @@ author: ""
 
 > Project 1: Game Scene sound design
 
-<!--
 # Week 6 (2/13) - Composing Music
 
 ## Tuesday
 
-- [Level 6: Compose Yourself! The Art of Composing for Games](x-devonthink-item://F5F2DDD5-791D-4E27-9639-9DF470BEA300)
-- More details: https://www.youtube.com/c/8bitMusicTheory
+- editing trick:
+  - make time selection
+  - command + drag to copy time selection of item to another place
+- Alternate Freesound searching
+  - [Timbral Searching](https://andyp103.github.io/FreesoundTimbralSearch/)
+- [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
+- Some game music analysis from https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4
 
-> Read: [Level 9: The Early Bird Gets the Worm: Preparing Your Audio](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=159)
+<!--
 
 ## Thursday
 
-- [Chapter 6](x-devonthink-item://1CE9096C-AF5A-4CCC-B134-A5D6A3325C43)
+- Project 1 due - watch game clips in class- 30 x 8 = 4 minutes?
+- Show musical example from the Wwwise tutorial
+- make a short looping composition?
+  - or take a piece of linear music and convert it to make certain sections loopable
 - [Interactive Game Music Basics in Reaper & Wwise - Demo by Carlos Eiene ](https://www.youtube.com/watch?v=wnJH022Z6Mg)
-- [(10) Wwise Music Tutorial - Branching and Layering with Transitions - YouTube](https://www.youtube.com/watch?v=9g3H3WaxUM8)
-- [Level 9: The Early Bird Gets the Worm: Preparing Your Audio](x-devonthink-item://5EB49E4F-8487-4458-8382-15C35B140260)
+- Producing perfect looping audio in Reaper - show examples of each of these
+  - - Sound effects
+  * A good example of a looping sound effect is a weapon effect in an FPS game\, such as machine gun
+  * Holding down the appropriate button or firing key triggers the loop to play indefinitely \(or until you run out of bullets\)
+  * Or\, more interestingly\, trigger an ending sound \(like a single shot or with shell casings clattering on the ground\)
+
+* Ambient backgrounds
+
+  - Location loops are extremely common in games of all shapes and sizes
+  - Outdoor locations or tailored indoor acoustic environments in general use longer audio clips in order to avoid a sense of repetition
+  - One technique for developing a well\-crafted loop might be to have the same audio material at the beginning and end
+  - Another technique is to use a few ambient loops of slightly differing length playing together
+
+* Music soundtracks
+  - In many games\, producers want a lot of music\, but just don’t have the audio budget available
+  - In such cases\, looping is a necessary evil
+  - We have all at one time or another become aware of a repetitive music score in a game
+  - Today\, there are a ton of very clever techniques that are used to give the player a feeling that there is more music around than there really is
 
 > Read: [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=167)
 
@@ -127,8 +150,7 @@ author: ""
 
 ## Tuesday
 
-- [Chapter 9 Quiz](x-devonthink-item://E74F318E-F691-401B-985F-0BA54A71FF52)
-- Project 1 due - watch game clips in class
+
 - [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://4767377B-0F49-4E80-9448-FE08484FBBB5)
 
 > Read: [Level 8: Meet the Middleman: Understanding Audio Middleware](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=141)
