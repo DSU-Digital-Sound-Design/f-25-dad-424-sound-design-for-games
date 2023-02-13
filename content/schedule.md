@@ -125,6 +125,8 @@ author: ""
 - make a short looping composition?
   - or take a piece of linear music and convert it to make certain sections loopable
 - [Interactive Game Music Basics in Reaper & Wwise - Demo by Carlos Eiene ](https://www.youtube.com/watch?v=wnJH022Z6Mg)
+- * [Blog | Audiokinetic](https://blog.audiokinetic.com/en/how-to-use-interactive-music-to-score-gameplay/)
+* [Blog | Audiokinetic](https://blog.audiokinetic.com/en/time-travel-to-1993-on-composing-interactive-music/)
 - Producing perfect looping audio in Reaper - show examples of each of these
   - - Sound effects
   * A good example of a looping sound effect is a weapon effect in an FPS game\, such as machine gun
