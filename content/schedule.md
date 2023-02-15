@@ -116,38 +116,13 @@ author: ""
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
 - Some game music analysis from https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4
 
-<!--
-
 ## Thursday
 
 - Project 1 due - watch game clips in class- 30 x 8 = 4 minutes?
-- Show musical example from the Wwwise tutorial
-- make a short looping composition?
-  - or take a piece of linear music and convert it to make certain sections loopable
-- [Interactive Game Music Basics in Reaper & Wwise - Demo by Carlos Eiene ](https://www.youtube.com/watch?v=wnJH022Z6Mg)
-- * [Blog | Audiokinetic](https://blog.audiokinetic.com/en/how-to-use-interactive-music-to-score-gameplay/)
-* [Blog | Audiokinetic](https://blog.audiokinetic.com/en/time-travel-to-1993-on-composing-interactive-music/)
-- Producing perfect looping audio in Reaper - show examples of each of these
-  - - Sound effects
-  * A good example of a looping sound effect is a weapon effect in an FPS game\, such as machine gun
-  * Holding down the appropriate button or firing key triggers the loop to play indefinitely \(or until you run out of bullets\)
-  * Or\, more interestingly\, trigger an ending sound \(like a single shot or with shell casings clattering on the ground\)
 
-* Ambient backgrounds
+> Exercise: Export the given asset list from the Reaper project
 
-  - Location loops are extremely common in games of all shapes and sizes
-  - Outdoor locations or tailored indoor acoustic environments in general use longer audio clips in order to avoid a sense of repetition
-  - One technique for developing a well\-crafted loop might be to have the same audio material at the beginning and end
-  - Another technique is to use a few ambient loops of slightly differing length playing together
-
-* Music soundtracks
-  - In many games\, producers want a lot of music\, but just don’t have the audio budget available
-  - In such cases\, looping is a necessary evil
-  - We have all at one time or another become aware of a repetitive music score in a game
-  - Today\, there are a ton of very clever techniques that are used to give the player a feeling that there is more music around than there really is
-
-> Read: [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=167)
-
+<!--
 # Week 7 (2/20) - Audio Implementation
 
 ## Tuesday
