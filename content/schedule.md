@@ -118,7 +118,8 @@ author: ""
 
 ## Thursday
 
-- Project 1 due - watch game clips in class- 30 x 8 = 4 minutes?
+- Project 1 due - watch game clips in class
+  - who wants to explain some of their session?
 
 > Exercise: Export the given asset list from the Reaper project
 
