@@ -43,6 +43,7 @@ author: ""
 - Install Reaper if you don't already have it.
   - Short Reaper introduction for non-sound design students.
   - See: [Reaper DAW 101:- The Basics - PART 1 - YouTube](https://www.youtube.com/watch?v=JwDcTPn2dvc) for an introduction
+  - For next year: review the Rick Viers LISTEN mantra!
 
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
 > DUE by the next class
@@ -123,45 +124,33 @@ author: ""
 
 > Exercise: Export the given asset list from the Reaper project
 
-<!--
 # Week 7 (2/20) - Audio Implementation
 
 ## Tuesday
 
+- [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
 
-- [Level 10: ‘Silly Human…’: How Game Engines Think](x-devonthink-item://4767377B-0F49-4E80-9448-FE08484FBBB5)
-
-> Read: [Level 8: Meet the Middleman: Understanding Audio Middleware](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=141)
+> [Project 2: First Person actions in Wwise](x-devonthink-item://BF92422A-DDC8-462B-8668-4692381000EE) - DUE 3/21, after spring break
 
 ## Thursday
 
-- [Chapter 10 Quiz](x-devonthink-item://FAA6494E-0D1C-4803-AAF4-53E6418F29E2)
-- [Level 8: Meet the Middleman: Understanding Audio Middleware](x-devonthink-item://23E390E6-A37E-41DF-AF8F-E0CF272E6491)
+- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
-> Homework: Download and Install the Unity Hub and Wwise Launcher. Instructions here: [Game Audio with Unity and Wwise Part 1: Intro and Installation](x-devonthink-item://E8912CA4-3E85-4798-B77C-A1EC61126FCC?section=installation). It is VERY important to do this ahead of time. If we all try to download these simultaneously, the network will cry!
+<!--
 
 # Week 8 (2/27)
 
 ## Tuesday
 
-- [Chapter 8 Quiz](x-devonthink-item://8C5472FE-52F8-4855-9A31-A0504FAAA223)
-- [Game Audio with Unity and Wwise Part 1: Intro and Installation](x-devonthink-item://E8912CA4-3E85-4798-B77C-A1EC61126FCC)
-- [Level 11: Unify My World: Audio in Unity 3D](x-devonthink-item://23D22D35-AF1E-4EE1-ABAE-1BD00AA2D0A6?page=179)
-
-// TODO: take some notes on these videos to better understand what to do for projects
-
-> Go [here](x-devonthink-item://203BCE38-5570-4868-BF4F-ED46C709689F?section=thesoundswewilluse) for instructions to download the sounds we'll use for our project. This collection si quite large, so you must download it before class.
-> [Project 2: First Person actions in Wwise](x-devonthink-item://BF92422A-DDC8-462B-8668-4692381000EE) - DUE 3/21, after spring break
+- [Part 3: Position, Attenuation, and Profiling](x-devonthink-item://8D30D068-B166-43D6-9FE6-E3ED19EC86BD)
 
 ## Thursday
 
-- [Part 2: Let there be Sound!](x-devonthink-item://203BCE38-5570-4868-BF4F-ED46C709689F)
 
 # Week 9 (3/6)
 
 ## Tuesday
 
-- [Part 3: Position, Attenuation, and Profiling](x-devonthink-item://8D30D068-B166-43D6-9FE6-E3ED19EC86BD)
 
 ## Thursday
 
