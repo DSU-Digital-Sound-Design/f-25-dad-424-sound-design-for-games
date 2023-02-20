@@ -128,6 +128,7 @@ author: ""
 
 ## Tuesday
 
+- When exporting from Reaper make sure not to clip. You can set a limiter on render, but this may result in bad sounding SFX because of compression.
 - [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
 
 > [Project 2: First Person actions in Wwise](x-devonthink-item://BF92422A-DDC8-462B-8668-4692381000EE) - DUE 3/21, after spring break
