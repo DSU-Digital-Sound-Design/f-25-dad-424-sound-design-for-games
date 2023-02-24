@@ -137,17 +137,14 @@ author: ""
 
 - [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
-<!--
-
 # Week 8 (2/27)
 
 ## Tuesday
 
 - Answer questions
-
 - Finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
-
+<!--
 ## Thursday
 
 - [Part 3: Position, Attenuation, and Profiling](x-devonthink-item://8D30D068-B166-43D6-9FE6-E3ED19EC86BD)

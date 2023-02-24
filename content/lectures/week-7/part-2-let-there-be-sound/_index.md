@@ -39,13 +39,13 @@ To get these sounds into Unity, we must first compile the soundbanks in Wwise. T
 
 Select your current deployment platform. I’ll select Mac. Also, choose English. Then, choose _Generate Checked_. We see errors related to the license, which we won’t take the time to fix. But this is the process we’ll go through to generate sound banks in future lessons.
 
-## The Sounds We Will Use
+<!-- ## The Sounds We Will Use
 
 We’ll use the sounds from the [Sonniss GDC 2020 Audio Bundle](https://sonniss.com/gameaudiogdc). From Sonniss:
 
 > Each year we give away thousands of dollars worth of sounds for free in celebration of the Game Developers Conference. This is our archive. All the sound effects are royalty free and commercially usable with no attribution required. You can use the sound effects on an unlimited number of projects.
 
-This library is quite large, so I’ll try to narrow down what samples you’ll use.
+This library is quite large, so I’ll try to narrow down what samples you’ll use. -->
 
 ## Setting up the playground in Unity
 
@@ -59,9 +59,9 @@ You should now have a folder in your Assets folder called _StarterAssets_. Find 
 
 ## Our first sound!
 
-Finally, we’ll add some sounds to Wwise and have Unity trigger Wwise events so we can hear sound. We’ll use a pulsating breath sound. You can find that in the pack. Mine hasn’t been downloaded yet, so I’ll use one from [freesound.org](https://freesound.org/people/gerainsan/sounds/457046/).
+Finally, we’ll add some sounds to Wwise and have Unity trigger Wwise events so we can hear sound. We’ll use a pulsating breath sound. I'll use one from [freesound.org](https://freesound.org/people/gerainsan/sounds/457046/).
 
-The easiest way to add a sound is to drag and drop it onto the _Default Work Unity_ of the _Actor-Mixer Hierarchy_. Some options pop up. Leave these all how they are for now and click import. Test your sound by clicking the space bar or the play button in the _Transport Control_. If you don’t see the _Transport Control_, ensure you’re in the designer layout (Layouts &#10132; Designer).
+The easiest way to add a sound is to drag and drop it onto the _Default Work Unity_ of the _Actor-Mixer Hierarchy_. Some options pop up. Leave these all how they are for now and click import. Test your sound by clicking the space bar or the play button in the _Transport Control_. If you don’t see the _Transport Control_, ensure you’re in the designer layout (Layouts &#10132; Designer). Set the sound to looping.
 
 Let’s create an event that will trigger this sound. Right-click on the sound, then New Event &#10132; Play. This opens up the Event in a new tab. You can see that it’s an even type of _Play_ connected to the sound we just added. You may be wondering why we can’t just trigger sound directly. Using events will allow us to trigger many sounds by just one event.
 
@@ -79,7 +79,7 @@ To trigger the event, we need to add it to a _GameObject_. Choose one of the bri
 
 This will automatically add an _AkAmbient_ _GameObject_. Leave it to trigger on start, so it starts when you load the game.
 
-Run your game. You should now hear the breathing sound.
+Run your game. You should now hear the breathing sound. If you don't hear it try regenerating your _SoundBank_ and saving your Wwise project.
 
 Finally, let’s add some positioning to the sound so that we only hear it if the player is close to the block. In the Designer layout, find the sound source again. Set the _3D Spatialization_ in the positioning tab to _Position_.
 
