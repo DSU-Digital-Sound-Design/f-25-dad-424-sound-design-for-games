@@ -84,3 +84,5 @@ Run your game. You should now hear the breathing sound. If you don't hear it try
 Finally, let’s add some positioning to the sound so that we only hear it if the player is close to the block. In the Designer layout, find the sound source again. Set the _3D Spatialization_ in the positioning tab to _Position_.
 
 Generate the SoundBank and save Wwise. Now you should hear a spatialized sound depending on the player’s orientation.
+
+> Add more sounds to other objects in the environment that might work well together. Hear how they overlap, but change depending on what direction your player is facing. You can add them to their own events, or add more sounds to the same event.
