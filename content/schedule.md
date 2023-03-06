@@ -158,6 +158,8 @@ author: ""
   - Create a new project with the "First Person Core" template from the Unity Hub, then re-implement Wwise.
 - Finally finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
+> Assignment for next class: screen recording of all of this working.
+
 <!--
 
 ## Thursday
