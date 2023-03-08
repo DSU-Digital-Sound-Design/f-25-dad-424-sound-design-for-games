@@ -160,15 +160,17 @@ author: ""
 
 > Assignment for next class: screen recording of all of this working.
 
-<!--
-
 ## Thursday
 
-- [Part 3: Position, Attenuation, and Profiling](x-devonthink-item://8D30D068-B166-43D6-9FE6-E3ED19EC86BD)
-[(116) Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting - YouTube](https://www.youtube.com/watch?v=UH7OEm_g9Mg&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=4)
+- Opportunities: MasterSingers and Cyberology Podcast
+- [Part 2: last steps](../lectures/week-7/part-2-let-there-be-sound/#our-first-sound)
+  - Add the event to a soundbank
+  - trigger the soundbank from Unity
+- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
 
-> Another implementation project will be due at the end of week 12, one game scene including first-person actions, ambiance, etc. Make sure it covers all the elements we learned from the Wagner videos: random containers, switches, states, game states, blend containers, audio buses, mixing, and reverb zones. Use a scene from one of the example games you found.
+<!-- > Another implementation project will be due at the end of week 12, one game scene including first-person actions, ambiance, etc. Make sure it covers all the elements we learned from the Wagner videos: random containers, switches, states, game states, blend containers, audio buses, mixing, and reverb zones. Use a scene from one of the example games you found. -->
 
+<!--
 # Week 10 (3/13)
 
 - Spring Break - No Classes
