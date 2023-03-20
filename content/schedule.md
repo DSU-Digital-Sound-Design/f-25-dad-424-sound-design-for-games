@@ -166,11 +166,9 @@ author: ""
 - [Part 2: last steps](../lectures/week-7/part-2-let-there-be-sound/#our-first-sound)
   - Add the event to a soundbank
   - trigger the soundbank from Unity
-- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
 
 <!-- > Another implementation project will be due at the end of week 12, one game scene including first-person actions, ambiance, etc. Make sure it covers all the elements we learned from the Wagner videos: random containers, switches, states, game states, blend containers, audio buses, mixing, and reverb zones. Use a scene from one of the example games you found. -->
 
-<!--
 # Week 10 (3/13)
 
 - Spring Break - No Classes
@@ -179,12 +177,14 @@ author: ""
 
 ## Tuesday
 
-- Project 2 DUE
+- See short assignment due next Thursday.
+  - Build your project for Mac and upload to OneDrive for sharing.
+- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
 
-[(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5)
-
+<!--
 ## Thursday
 
+[(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5)
 [(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
 
 # Week 12 (3/27)
