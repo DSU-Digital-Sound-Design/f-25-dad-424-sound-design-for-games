@@ -178,7 +178,8 @@ author: ""
 ## Tuesday
 
 - See short assignment due next Thursday.
-  - Build your project for Mac and upload to OneDrive for sharing.
+  - Add MacOS build support to your Unity install if necessary.
+  - Build your project for Mac (Intel 64) and upload to OneDrive for sharing.
 - [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
 
 <!--
