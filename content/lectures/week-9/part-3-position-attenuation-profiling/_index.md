@@ -76,11 +76,11 @@ Currently, the play event is triggered immediately when the game starts. This ma
 
 To make this possible, we'll have to create a new cube to trigger sound. First, we'll disable the cube we've been using. Uncheck the AkAmbient script on the cube GameObject.
 
-Go into the project tab &#10132; Assets &#10132; StarterAssets &#10132; Environment &#10132; Prefabs, then drag the first box into the scene. Reset the transform of the cube to 0, 0, 0. Do this by right-clicking on the transform property and selecting _reset_.
+Go into the project tab &#10132; Assets &#10132; StarterAssets &#10132; Environment &#10132; Prefabs, then drag the first box into the scene.
 
 We'll now add this cube to a parent object that will control the cube's trigger area. In the menu, select GameObject &#10132; Create Empty Parent and call it _Sound Box_. Move the _Sound Cube_ so it sits on the ground away from the player.
 
-Add the horror event to the _Sound Cube_ object. Test the object by clicking play. You may need to turn off cone attenuation to make this more noticeable.
+Add an event that triggers a different short sound to the _Sound Cube_ object. Test the object by clicking play. You may need to turn off cone attenuation to make this more noticeable.
 
 Change the trigger event of the _Sound Cube_ to _AkTriggerEnter_. Also, add a _Sphere Collider_ component and check the _Is Trigger_ checkbox. Make the radius of the sphere collider large to see it.
 
@@ -93,5 +93,3 @@ Check in your profiler to see that the event triggers only when you move into it
 We'll create a separate stop event that stops the sound when we leave the trigger area of the _GameObject_. Add this event to the SoundBanks and export. Add the stop event to the _Sound Cube_ object and set it to trigger on exit.
 
 Again, open the profiler and check to see that the event is starting and stopping.
-
-## Cleaning up the project
