@@ -186,24 +186,28 @@ author: ""
 
 - [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
 
-<!--
-
 # Week 12 (3/27)
 
 ## Tuesday
 
-[(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5)
-[(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
-[(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7)
+- Finish the last few parts of part 3
+- [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+- Project 3 - footsteps
 
+<!--
 ## Thursday
 
-- Project 3 DUE - present projects and play through a build of each project as a class.
+[(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5)
+
 
 # Week 13 (4/3) - Start final
 
 ## Tuesday
 
+- Project 3 DUE - present projects and play through a build of each project as a class.
+[(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7)
+
+- start working on projects while finishing these lessons
 - Playtest games from the game design student's final projects.
 - Give a few options from the more complex example games from other schools if the DSU ones are not finished enough.
 - Pick a group of 3-4 and a game you would like to work on.
@@ -211,8 +215,7 @@ author: ""
 
 ## Thursday
 
-- Meet to work on projects
-- Integrate Wwise and ReaWwise if we haven't already.
+[(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
 
 # Week 14 (4/10)
 
