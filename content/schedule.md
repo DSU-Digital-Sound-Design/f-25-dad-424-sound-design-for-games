@@ -204,8 +204,8 @@ author: ""
 
 ## Tuesday
 
+[(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
 - Project 3 DUE - present projects and play through a build of each project as a class.
-[(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7)
 
 - start working on projects while finishing these lessons
 - Playtest games from the game design student's final projects.
@@ -215,7 +215,7 @@ author: ""
 
 ## Thursday
 
-[(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6)
+[(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7)
 
 # Week 14 (4/10)
 
