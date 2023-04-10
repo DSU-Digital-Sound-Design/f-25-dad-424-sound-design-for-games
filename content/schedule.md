@@ -218,11 +218,7 @@ author: ""
 ## Tuesday
 
 - start working on projects while finishing these lessons
-- Playtest games from the game design student's final projects.
-- Give a few options from the more complex example games from other schools if the DSU ones are not finished enough.
-- Pick a group of 3-4 and a game you would like to work on.
-- Propose a section of the game that includes an appropriate difficulty level.
-- Meet to work on projects
+- Possible games
 
 <!--
 ## Thursday
