@@ -218,7 +218,7 @@ author: ""
 ## Tuesday
 
 - start working on projects while finishing these lessons
-- Possible games
+- [Possible games](../lectures/week-14/possible-games/)
 
 <!--
 ## Thursday
