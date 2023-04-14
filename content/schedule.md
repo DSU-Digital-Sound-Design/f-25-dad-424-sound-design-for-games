@@ -220,7 +220,6 @@ author: ""
 - start working on projects while finishing these lessons
 - [Possible games](../lectures/week-14/possible-games/)
 
-<!--
 ## Thursday
 
 - Meet to work on projects
@@ -230,6 +229,9 @@ author: ""
 ## Tuesday
 
 - Meet to work on projects
+- [Interactive Music](../lectures/week-15/interactive-music/)
+
+<!--
 
 ## Thursday
 
