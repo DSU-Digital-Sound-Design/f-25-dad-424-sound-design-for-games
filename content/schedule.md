@@ -229,9 +229,7 @@ author: ""
 ## Tuesday
 
 - Meet to work on projects
-- [Interactive Music](../lectures/week-15/interactive-music/)
-
-<!--
+- show everyone a short lesson on interactive music
 
 ## Thursday
 
@@ -239,4 +237,8 @@ author: ""
 
 # Week 16 (4/24)
 
+- Work on projects in class
+
 > Exam - Thursday, May 4th 1:00 - 3:00 pm -->
+
+<!--
