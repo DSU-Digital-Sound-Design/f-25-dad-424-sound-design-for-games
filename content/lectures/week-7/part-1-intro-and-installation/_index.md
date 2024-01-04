@@ -4,6 +4,10 @@ Now we will begin to learn how to integrate Unity and Wwise.
 
 > Note: Wwise and Unity installations require a lot of space. Ensure you have around 20 GB of free space before starting the installation process.
 
+<!-- TODO: simplify this process a lot, don't install WAG
+Use the newest Unity version and install the example games from there to ensure they will work with student's systems. 
+ -->
+
 # Installation
 
 Both Unity and Wwise projects are run through launchers or hubs. We'll need to download and install the [Unity Hub](https://unity.com/download) and the [Wwise Launcher](https://www.audiokinetic.com/en/download). You'll need user accounts for both programs.
@@ -26,11 +30,11 @@ Open up the Unity Hub, select the _Installs_ tab, and click on _Install Editor_.
 
 Click on _Unity Hub_ to open it in the Unity Hub. Download the Visual Studio Devtools if you need them. Select support for your OS for the deployment platform. You should be able to see the editor downloading in the downloads section of the Hub.
 
-## Playing the Wwise Adventure Game (WAG)
+<!-- ## Playing the Wwise Adventure Game (WAG)
 
 Return to the Wwise Launcher application. To play a build of the WAG, click the wrench icon and select _open containing folder_. A build of the game should be in the _WwiseAdventureGame_ folder.
 
-Play the game for about 10 minutes to get a feel for it.
+Play the game for about 10 minutes to get a feel for it. -->
 
 ## Creating a new Unity project
 

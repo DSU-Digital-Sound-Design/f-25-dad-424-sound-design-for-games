@@ -1,5 +1,5 @@
 ---
-title: "DAD 424 Advanced Digital Sound Design"
+title: "DAD 424 Sound Design for Games"
 ---
 
 ![returnal](returnal.png)
