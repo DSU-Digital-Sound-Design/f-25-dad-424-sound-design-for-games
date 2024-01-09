@@ -24,9 +24,7 @@ Learning outcomes:
 ![](platforms.png)
 
 {{% note %}}
-The physical electronic systems used to play video games are known as platforms.
-
-Here are some gaming platforms. What are some that you grew up with?
+* **General Definition:** A game platform is a system or environment where video games can be played. This includes hardware, software, and the services necessary to run and play the games.
 {{%/ note %}}
 
 ---
@@ -35,11 +33,29 @@ Here are some gaming platforms. What are some that you grew up with?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CJYn62q_fq4?start=210" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+{{% note %}}
+*  Origin as self-contained electronic devices
+*  Housed in freestanding cabinets, playing single games
+*  First commercially successful gaming platform
+*  Peak popularity in the 1980s, still produced today
+{{%/ note %}}
+
 ---
 
 ## Console
 
-[Retro Consoles Wiki](https://retroconsoles.fandom.com/wiki/Retro_Consoles_Wiki)
+* [Retro Consoles Wiki](https://retroconsoles.fandom.com/wiki/Retro_Consoles_Wiki)
+* [webЯcade](https://play.webrcade.com/)
+
+## Console Gaming: Evolution and Impact
+
+{{% note %}}
+
+- Discuss the evolution of console gaming technology
+- Contrast between arcade and console gaming experiences
+- Explain the broadening definition of 'next-gen consoles'
+
+{{%/ note %}}
 
 ---
 
@@ -47,11 +63,33 @@ Here are some gaming platforms. What are some that you grew up with?
 
 ![](lan.jpg)
 
+{{% note %}}
+
+- Detail Windows' long-standing dominance in PC gaming
+- Discuss Apple's shift to Intel processors and its impact on game compatibility
+- Highlight Linux's rise as a gaming platform and similarities to Mac OS X
+- Mention Valve's support for Linux in Steam distribution service
+- Speculate on the potential for market shifts among Windows, Mac, and Linux
+
+{{%/ note %}}
+
 ---
 
 ## Handheld
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ARPlTqdVnkM?start=235" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[webЯcade](https://play.webrcade.com/)
+
+{{% note %}}
+
+- Explore the evolution from simple to advanced handheld gaming devices
+- Highlight the impact of Nintendo GameBoy on the market
+- Mention key players and devices that followed GameBoy's success
+- Discuss the technological advancements in handheld gaming over time
+
+{{%/ note %}}
+
 
 ---
 
@@ -59,34 +97,55 @@ Here are some gaming platforms. What are some that you grew up with?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nduMTX86Zl0?start=421" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
----
-
-## Web-Based Games
-
-[Newgrounds](https://www.newgrounds.com/playlists/view/47f64d751210ec1a9e8a99eefdaddc79)
-
 {{% note %}}
-One of the very first examples of going multiplatform is using an engine that has the same visual interface on every machine. Tools like Adobe’s Flash were used frequently to make interactive media and games,
-and because the finished work could run on Mac or PC identically,
-the experience for gamers was the same. The tradition of web-based gaming is currently evolving away from using Flash and is more and more dependent on HTML5 and Javascript.
+
+- Discuss the transition from basic cell phone games to advanced smartphone/tablet games
+- Emphasize the differences in operating systems between PC and mobile devices
+- Explore the impact of iOS, Android, and Windows Mobile on game development
+- Clarify why categorizing mobile games as PC games is a misnomer
+
 {{%/ note %}}
 
 ---
 
-## Is it a story or is it interactivity?
+## Web-Based Games
 
-- video games as stories
-- video games as an interactive experience
+
+- Early multiplatform gaming with engines offering consistent visual interfaces
+- Adobe Flash's role in creating interactive media and games
+- Seamless gaming experience on both Mac and PC
+- Shift towards HTML5 and Javascript for web-based gaming
+- Expansion to include mobile devices like smartphones and tablets
+- Ex: [Flash Museum - Flash Games Online for Free 🕹️](https://flashmuseum.org/)
+  
+{{% note %}}
+
+- Detail Adobe Flash's impact on early multiplatform game development
+- Discuss the transition to HTML5 and Javascript and reasons behind it
+- Highlight the challenges and advancements in including mobile devices
+- Explore how this evolution enhances the gaming experience across platforms
+
+{{%/ note %}}
+
+---
+
+
+
+- Video Games as Stories (Narrativism)
+  - Games viewed as extensions of traditional storytelling media
+  - Focus on games as "cyberdramas" offering immersive experiences
+  - Interactive fiction aspect with multiple possible outcomes
+-  Video Games as Interactive Experiences (Ludology)
+   - Emphasis on the game's interactive structure, rules, and restrictions
+   - Analysis of player's navigation through game-imposed challenges
+   - Impact on social and artistic dimensions of video games
 
 {{% note %}}
-Can you name examples of either type?
 
-One group of people regard a game as something related to a book, a play or other media based
-on a story. Those interested in tying the concept of gaming as an extension to storytelling are called narrativists. They tend to regard video games as complex “cyberdramas” through which players can become other people and participate in other worlds. Of course, many games may have multiple conclusions and results due to the aspect of choice in the game. For narrativists this puts a video game into the category of interactive fiction.
-
-The other group of people regard games primarily from the basis of the interactive structure within the game itself. Every game comes with its own set of rules and restrictions as to how the game should be played. These people are known as ludologists, and they look mainly at how the structure of the game places demands and restrictions on the player, and how the player then navigates their way through the restrictions in the game. These restrictions can then affect the social and artistic qualities of the game as a result.
-
-They agree though that games depend on emergent principles where complex outcomes can result from the interaction of simple rules.
+- Highlight the differing viewpoints of narrativists and ludologists
+- Discuss the impact of narrative and interactivity on gaming experience
+- Explore how these perspectives contribute to the understanding of video games as an art form
+- Mention the balance between story elements and interactive gameplay in modern games
 
 {{%/ note %}}
 
