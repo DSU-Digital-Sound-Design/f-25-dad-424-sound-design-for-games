@@ -21,13 +21,47 @@ Learning Outcomes:
 
 ---
 
+## Evolution of Sound in Video Games
+
+- Early Beginnings: Silent to Primitive Sounds
+- Progression of Game Audio Technology
+- Adapting to Technological Limitations
+- Recurring Themes in Game Audio Development
+
+{{% note %}}
+
+- Video game sound history mirrors a journey of innovation and creativity under constraints. Initially, games were silent, similar to early movies, then progressed to generating basic sounds in the 1970s.
+- The sophistication of game audio has evolved significantly, with hardware and software improvements influencing the composition methods for game soundtracks.
+- Even with advanced technology, sound designers and composers still face challenges, like working with varying audio capacities of different gaming platforms.
+- The history of game audio reflects a cycle of recurring challenges and solutions, showcasing the resilience and ingenuity of composers and sound engineers in adapting to changing technological landscapes.
+
+{{%/ note %}}
+
+---
+
 ## The First Video Games
 
 [timeline](https://www.timetoast.com/timelines/history-of-gaming--22)
 
 {{% note %}}
 In 1948 Thomas T. Goldsmith, Jr., and Estle Ray Mann created one of
-the earliest known video games. Based on radar display technology, the cathode-ray tube used an analog device to simulate the experience of firing a missile at targets. Knobs and buttons allowed the player to control the missile, which was represented on screen by a vector- drawn dot.
+the earliest known video games. Based on radar display technology, the cathode-ray tube used an analog device to simulate the experience of firing a missile at targets. Knobs and buttons allowed the player to control the missile, which was represented on screen by a vector-drawn dot.
+{{%/ note %}}
+
+---
+
+## The Silent Era of Video Games (1940–1970)
+
+- Beginnings: University Mainframe Computers
+- Notable Early Games: OXO and Spacewar!
+- The First Home Console: Magnavox Odyssey
+
+{{% note %}}
+
+- Video game development started in universities in the late 1950s, primarily by students using mainframe computers. These early games were not commercially distributed and were often developed clandestinely.
+- In 1952, A.S. Douglas created OXO, a tic-tac-toe game, to demonstrate human-computer interaction. Spacewar!, developed in 1961, was a two-player game involving spacecraft combat and is considered one of the first influential computer games.
+- The Magnavox Odyssey, designed by Ralph Baer in 1966 and released in 1972, was the first home video game console. Its tennis game inspired Atari’s Pong. Notably, the Odyssey had no sound capabilities, reflecting the era's technical limitations.
+
 {{%/ note %}}
 
 ---
@@ -42,17 +76,22 @@ Steve Russel on a DEC PDP-1 computer
 
 ---
 
-## Computer Space (1971), Nutting Associates
+## The Dawn of Sound in Video Games (1970–1980)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/b3BQsCCwo8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Introduction of Sound in Arcade Games
+- Technology Behind Early Game Sounds
+- Role of Sound Designers and Composers
 
 {{% note %}}
 
-Computer Space, the world's first commercially sold coin-operated video game and video game system of any kind (predating magnovox odyssey) It's the first coin-operated arcade game to use a video display to generate graphics via video signal (predating Magnovox Odyssey). It was built by Nolan Bushnell (a founder of Atari and Chuck E' Cheese). He wanted video games available to the public but it was too expensive to use computer hardware or it's CPU. So he decided to build his own arcade cabinet (after Galaxy-Game in 1971) entirely of electrical transistors and circuits and discrete logics,( the same parts used to produced and manufacture television. Also the same strategy that Ralph Baer used to make Magnovox Odyssey usd.). To reduce cost and make them more affordable to the public. However, it was not financial success. But Nolan later created and release Pong in 1972, which was very successful.
+- The 1970s marked the introduction of the first basic sounds in arcade games, characterized by simple "bleeps" and "bloops."
+- These sounds were generated using hardware chips, oscillators, and basic tone generators like sine and square waves. This approach represented the early methods of creating game audio.
+- Sound designers and composers during this era often had backgrounds in electrical engineering. Creating game sounds was a complex process, much like computer programming, reflecting the technical challenges of early game sound development.
 
 {{%/ note %}}
 
 ---
+
 
 ## Pong (1972), Atari - Nolan Bushnell
 
@@ -60,25 +99,25 @@ Computer Space, the world's first commercially sold coin-operated video game and
 
 {{% note %}}
 
-Considered the most successful game up until that point
-
-It started out as a game making exercise, to create a table tennis game
-
-How does the sound tackle immersion?
+- Atari, founded by Nolan Bushnell, achieved its first major success with the arcade game Pong. Initially programmed as a practice exercise by engineer Allan Alcorn, Pong was inspired by paddle tennis games on the Magnavox Odyssey.
+- Bushnell's decision to include sound effects in Pong was revolutionary. Using a sync generator, Alcorn created three distinct sounds: a low-pitched blip for wall collisions, a higher-pitched blip for paddle strikes, and a bleep for scoring points.
+- Pong's popularity was significantly boosted by its sound effects, which attracted attention and curiosity. It became one of the first arcade games with sound and was a best-seller, establishing Atari as a leader in the early video game industry.
+- Pong also transitioned into a home console game, inspiring numerous clones and leading to the video game industry's first slump. Atari later revitalized the market with the Atari VCS or 2600, the first major console with a sound chip.
 
 {{%/ note %}}
 
 ---
 
-## Atari 2600, 1977
+## Atari 2600 (1977): 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s6RxENG9HAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
 
-First popular at home game console that had sound capabilities.
-
-two voice polyphony and primitive sound synthesis.
+- The Atari 2600, launched in 1977, represented a significant advancement in home gaming consoles. It featured a CPU, combined with RAM for short-term memory, I/O functions, and a display and sound chip named the TIA (Television Interface Adaptor).
+- This console's four-chip design allowed for cost-effective manufacturing and the ability to load different programs, enhancing game diversity.
+- The Atari 2600's sound, though technologically primitive with 2 channels of 1-bit monaural sound and 4-bit volume control, became iconic in the gaming world. Its distinct, quirky, and raw audio quality is still recognized and cherished by game enthusiasts and chiptune music fans.
+- Despite its limited bit sound, the Atari 2600’s audio was groundbreaking for its time, contributing to the console's immense popularity and enduring cultural legacy in the realm of video game music.
 
 {{%/ note %}}
 
@@ -140,7 +179,41 @@ Marble Madness was Atari's first game to use an FM sound chip produced by Yamaha
 
 ---
 
+## Nintendo NES: Revolutionizing Console Audio
+
+- Introduction of the Famicom/NES
+- Audio Improvements in the NES
+- Impact on the Video Game Industry
+
+{{% note %}}
+
+- Nintendo launched the Famicom in Japan, later introduced in the US as the Nintendo Entertainment System (NES), significantly revitalizing the console video game industry post-crash.
+- The NES featured enhanced audio capabilities compared to its predecessors. It included three synthesized musical voices (two pulse waves and one triangle wave), a noise channel, and the capacity for 6-bit PCM audio up to 33KHz.
+- These advancements allowed composers to create more complex and memorable game music, contributing to the NES's reputation for iconic soundtracks.
+- With high-quality hardware that rivalled arcade systems, the NES played a crucial role in shifting the gaming landscape. It drew gamers away from arcades to home gaming, notably with titles like "Donkey Kong" and "Super Mario Bros," and heralded the decline of the arcade industry.
+
+{{%/ note %}}
+
+---
+
 ## 16-bit sound - Sega Genesis and Nintendo Entertainment System
+
+---
+
+## Sega Genesis and Sega CD
+
+- Sega Genesis: A Leap in Sound Quality
+- Introduction of Sega CD
+- Expansion of Audio Capabilities and Challenges
+
+{{% note %}}
+
+- Sega entered the console market concurrently with Nintendo, achieving notable success with the Sega Genesis (or Mega Drive) in 1988. Despite having less memory capacity than its contemporaries, with 64KB of RAM and 8KB for sound, the Genesis marked a significant improvement in sound quality.
+- The Genesis featured a Yamaha FM chip with built-in sounds and 6 stereo audio channels, enhancing the audio experience considerably compared to earlier consoles.
+- The Sega CD, released in 1992, was a major advancement with its 500 MB CD-ROM disc, substantially increasing storage capacity. This allowed for enhanced graphics and sound, including 18 sound channels, a 44.1 KHz sample rate, and connections for household stereo systems.
+- Games for the Sega CD could include fully produced opening cutscenes, intricate MIDI scores, numerous 16-bit stereo audio tracks, extensive sound effects, and extensive voice-overs. The complexity of mixing these audio elements was a significant challenge, showcasing the considerable evolution from the simpler audio capabilities of earlier systems like the NES.
+
+{{%/ note %}}
 
 ---
 
@@ -154,10 +227,21 @@ The composer Yuzo Koshiro utilized the Genesis hardware effectively to produce "
 
 ---
 
-## Super NES in 1991
+## Super Famicom/Super NES
+
+- Launch and Features of the Super NES
+- Audio Capabilities of the Super NES
+- Challenges in Achieving Quality Sound
+- Balancing Audio with Other Game Elements
 
 {{% note %}}
-It sported a specialized custom Sony chip for both the sound generation and for special hardware DSP. It was capable of eight channels of sampled sounds at up to 16-bit resolution, had a wide selection of DSP effects, including a type of ADSR usually seen in high-end synthesizers of the time, and full stereo sound.
+
+- In 1991, Nintendo introduced the Super Famicom in America as the Super NES (SNES), priced at $249.95. This 16-bit system featured a Sony SPC700 sound chip, providing eight channels and a sound capacity of 64KHz.
+- The SNES allowed for audio streaming from the cartridge, enabling integration of premixed music, voice-over, and sound effects into games. However, this capability was limited by transfer rates.
+- A significant challenge was the quality of 8-bit audio samples, which required expertise to balance and enhance to acceptable standards.
+- The limited storage space of game cartridges (up to 6 Megabytes) necessitated compromises in audio quality. Audio often had a lower priority compared to graphics or cutscenes, leading to downsampling to fit within the memory constraints.
+- The SNES had a total RAM size of up to 128KB, highlighting the ongoing challenge in gaming of balancing audio quality with file size constraints, a theme that persists even in modern gaming.
+
 {{%/ note %}}
 
 ---
@@ -181,8 +265,17 @@ directional audio!!
 
 ## Playstation, 1994
 
+- Introduction of the PlayStation
+- Enhanced Audio Capabilities in PlayStation Consoles
+- Historical Milestones in Game Audio
+
 {{% note %}}
-in 1994, the CD-ROM equipped PlayStation supported 24 channels of 16-bit samples of up to 44.1 kHz sample rate, samples equal to CD audio in quality. It also sported a few hardware DSP effects like reverb.
+
+- Sony entered the gaming market in 1995 with the PlayStation, priced at $299. This 32-bit console featured a 24-channel sound chip, offering CD-quality stereo sound and built-in digital effects like reverb and delay.
+- The PlayStation series progressively improved in terms of audio capacity and quality. The PlayStation 2, released in 2000, and the PlayStation 3, introduced in 2006, offered advanced sound capabilities, including handling numerous sounds on the CPU and continuous audio streams. The PlayStation 3 notably supported HDMI output with eight channels of audio and surround sound capabilities.
+- The PlayStation 4, with an 8-core processor and a dedicated sound processing chip, further advanced audio capabilities, able to decompress multiple MP3 streams simultaneously.
+- A notable historic achievement in game audio was the game "Voyeur," released in 1993 for the Philips Interactive system. It featured one of the first full orchestral scores in a video game, composed by Garry Schyman, who later worked on the BioShock series.
+
 {{%/ note %}}
 
 ---
