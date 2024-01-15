@@ -23,7 +23,6 @@ author: ""
 
 ## Tuesday
 
-- https://www.youtube.com/watch?v=yLd5wmBNCBM
 - [Level 3: My Non-Linear Life: Audio for Interactive Environments](../lectures/week-2/level-3/)
 
 ## Thursday
