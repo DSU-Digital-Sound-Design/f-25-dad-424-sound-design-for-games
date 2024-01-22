@@ -2,7 +2,7 @@
 
 ## Assignment
 
-A client is working on an Untitled Cat Game. An [Asset List](../asset-list.xlsx) has been provided. In it are several sounds needed for the demo level of the game.
+A client is working on an Untitled Cat Game. An [Asset List](asset-list.xlsx) has been provided. In it are several sounds needed for the demo level of the game.
 
 Source or create the sounds provided, and place the files in a directory called `sound_assets`. Update the [Asset List](asset-list.xlsx) file with the filename.
 
@@ -10,7 +10,7 @@ Source or create the sounds provided, and place the files in a directory called 
 
 ### Audio asset requirements
 
-- **Each file must be a 24bit, 44.1kHz Stereo .wav file.**
+- **Each file must be a 24 bit, 44.1kHz Stereo .wav file.**
 - Each filename should be human readable and use the `Asset Name` in it's filename:
   - For example, for an `Asset Name`: "Kitten Meow":
     - `Kitten meow.wav`, `kitten-meow.wav` and or `KITTEN_MEOW.wav` are all acceptable.
