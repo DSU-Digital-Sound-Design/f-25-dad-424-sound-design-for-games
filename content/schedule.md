@@ -29,20 +29,16 @@ author: ""
 
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
-<!-- 
 # Week 3 (1/22) - Sound Design
 
 ## Tuesday
 
 - [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](../lectures/week-3/level-5/)
-- Install Reaper if you don't already have it.
-  - Short Reaper introduction for non-sound design students.
-  - See: [Reaper DAW 101:- The Basics - PART 1 - YouTube](https://www.youtube.com/watch?v=JwDcTPn2dvc) for an introduction
-  - For next year: review the Rick Viers LISTEN mantra!
 
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
 > DUE by the next class
 
+<!-- 
 ## Thursday
 
 - [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](../lectures/week-4/level-7/)
