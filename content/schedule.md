@@ -38,17 +38,17 @@ author: ""
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
 > DUE by the next class
 
-<!-- 
 ## Thursday
 
 - [Level 7: Do you Hear That Voice in My Head? Voice-Over for Games](../lectures/week-4/level-7/)
 - Studio introduction/review
   - Demo recording voice
   - [Adventure Video Game Voice Over Scripts | Voices](https://www.voices.com/blog/adventure-video-game-voice-over-scripts/)
+- Look at Soundly Voices
 
 > [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE next Tuesday 2/7
 
-
+<!-- 
 # Week 4 (1/29)
 
 ## Tuesday
