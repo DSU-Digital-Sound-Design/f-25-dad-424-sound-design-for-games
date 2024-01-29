@@ -44,18 +44,23 @@ author: ""
 - Studio introduction/review
   - Demo recording voice
   - [Adventure Video Game Voice Over Scripts | Voices](https://www.voices.com/blog/adventure-video-game-voice-over-scripts/)
-- Look at Soundly Voices
+
 
 > [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE 2/1/24
 
-<!-- 
 # Week 4 (1/29)
 
 ## Tuesday
 
 - [VO Editing](../lectures/week-4/vo-editing/)
 - more studio time/instruction for those who need it
+- AI Voice
+  - Look at Soundly Voices
+  - Others: [LOVO](https://lovo.ai/) and [Resemble](https://www.resemble.ai/)
+    - Create and clone voice and compare the results. 
+    - Very Creepy! 
 
+<!-- 
 ## Thursday
 
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
