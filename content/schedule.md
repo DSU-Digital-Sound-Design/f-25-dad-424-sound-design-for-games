@@ -68,20 +68,15 @@ author: ""
 > Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE 2/8. Instructions on D2L.
 
 <!-- 
-# Week 5 (2/5)
+# Week 5 - Audio Implementatoin (2/5)
 
 ## Tuesday
 
-- editing trick:
-  - make time selection
-  - command + drag to copy time selection of item to another place
-- Alternate Freesound searching
-  - [Timbral Searching](https://andyp103.github.io/FreesoundTimbralSearch/)
-> Project 1: Game Scene sound design
+- TODO: move up lessons from week 7 to here
 
 ## Thursday
 
-- work on cutscene sound design
+
 - present game music analysis
 
 
@@ -89,13 +84,12 @@ author: ""
 
 ## Tuesday
 
-- work on cutscene sound design
+
 
 
 ## Thursday
 
-- Project 1 due - watch game clips in class
-  - who wants to explain some of their session?
+
 
 
 # Week 7 (2/19) - Audio Implementation
