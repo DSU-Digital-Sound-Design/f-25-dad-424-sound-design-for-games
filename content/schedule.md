@@ -60,7 +60,6 @@ author: ""
     - Create and clone voice and compare the results. 
     - Very Creepy! 
 
-<!-- 
 ## Thursday
 
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
@@ -68,6 +67,7 @@ author: ""
 
 > Exercise 3: Compose a short game music composition with multiple loops - DUE next Tuesday 2/7
 
+<!-- 
 # Week 5 (2/5)
 
 ## Tuesday
