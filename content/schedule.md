@@ -67,18 +67,19 @@ author: ""
 
 > Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE 2/8. Instructions on D2L.
 
-<!-- 
-# Week 5 - Audio Implementatoin (2/5)
+# Week 5 - Audio Implementation (2/5)
 
 ## Tuesday
 
-- TODO: move up lessons from week 7 to here
+- [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
+- Install ReaWwise and show importing sounds into Wwise. 
 
 ## Thursday
 
 
-- present game music analysis
+- Students present game music analysis
 
+<!-- 
 
 # Week 6 (2/12)
 
@@ -97,7 +98,6 @@ author: ""
 ## Tuesday
 
 - When exporting from Reaper make sure not to clip. You can set a limiter on render, but this may result in bad sounding SFX because of compression.
-- [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
 
 > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break
 
