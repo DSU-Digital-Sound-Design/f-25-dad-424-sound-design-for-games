@@ -72,12 +72,13 @@ author: ""
 ## Tuesday
 
 - [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
-- Install ReaWwise and show importing sounds into Wwise. 
 
 ## Thursday
 
-
 - Students present game music analysis
+- Catch up on any questions from the last class
+- Install ReaWwise and show importing sounds into Wwise. 
+  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
 
 <!-- 
 
