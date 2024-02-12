@@ -1,4 +1,65 @@
-**Based on:** [(116) Game Audio with Unity and Wwise Part 2: Let there be Sound! - YouTube](https://www.youtube.com/watch?v=i2gPkgqVHf4&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=2)
+---
+title: 'Part 2: Let there be Sound!'
+---
+
+### Integrating Game Audio with Unity and Wwise
+
+This guide is based on the instructional video "Game Audio with Unity and Wwise Part 2: Let there be Sound!" available on YouTube. It outlines how to implement audio in Unity using Wwise, specifically focusing on the Wwise Adventure Game (WAG).
+
+#### Checking Out the Wwise Adventure Game
+
+> You don't need to download this game because it's very large, but you can follow along if you want. 
+
+1. **Open Project**: Launch both Unity and Wwise via the Wwise launcher. If Unity starts with a blank scene, navigate to `Project` tab > `Assets` > `Scenes` > `Game Scenes` and open the `Main Scene`.
+2. **Navigating Unity**:
+- Double-click the player `GameObject` to focus on it.
+- For fast zooming, hold `Alt` + move the mouse while holding the right mouse button.
+- Press `F` to focus on a GameObject.
+- Press `Shift + F` for auto-follow focus on a GameObject.
+- Use `WASD` keys while holding the right mouse button for movement.
+3. **Playing the Game**: Press the play button to start the game. Use `Esc` to regain mouse control and press play again to stop.
+
+#### Unity Interface Overview
+
+- **Hierarchy Tab**: Shows all game objects. Clicking one will display its parameters in the inspector tab.
+- **Project Tab**: Contains all project assets.
+- **Console Tab**: Displays debug and error messages.
+- **Wwise Configuration**: Navigate to `Edit` > `Project Settings` > `Wwise Editor` and set the path to the Wwise application as shown in the Wwise Launcher.
+
+#### Understanding Wwise and Unity Integration
+
+1. **Explore Game Objects**: Search for the `Evil Spit Plant` GameObject in the Hierarchy tab and examine the `Sound Material` component in the Inspector tab.
+2. **Edit Sound Script**: Open the `SoundMaterial` script by double-clicking its name in the Inspector tab.
+3. **Configure Sound Events**: In Wwise, locate the `Player_Foostep` event and adjust the switches to match the Unity settings.
+
+#### Setting Up the Playground in Unity
+
+1. **Install Unity 2020 LTS** - If you haven't already, download and install Unity 2020 LTS from the Unity Hub.
+2. **First Person Core** - Use the first person core starter project from the templates section to start the project. 
+3. **Integrate Wwise** - Follow the steps to integrate Wwise into the Unity project.
+
+#### Adding Sounds to Wwise
+
+1. **Import Sound**: Drag and drop a sound file (e.g., from [freesound.org](https://freesound.org/people/gerainsan/sounds/457046/)) onto the `Default Work Unity` in the `Actor-Mixer Hierarchy`.
+2. **Create Event**: Right-click the sound and select New Event > Play. This creates a playable event linked to your sound.
+3. **Create Sound Bank**: Switch to the SoundBank layout, create a new SoundBank named `Main`, and add your event to it.
+4. **Generate SoundBank**: Ensure correct settings under User Soundbank Settings, select your platform, and click `Generate Checked`.
+
+#### Integrating Sound in Unity
+
+1. **Load SoundBank**: In Unity, find the `Main` soundbank in the Wwise Picker and drag it onto the `WwiseGlobal` GameObject, setting it to load on Awake.
+2. **Trigger Sound Event**: Add the event to a GameObject of your choice, such as a brick, by dragging the event onto its Inspector. This automatically adds an `AkAmbient` GameObject.
+3. **Adjust Sound Positioning**: In Wwise, find the sound source and set the `3D Spatialization` to `Position` for spatial audio effects.
+
+#### Final Steps
+
+- **Test Your Game**: Run the game to hear the breathing sound. If it's not audible, regenerate the SoundBank and save your Wwise project.
+- **Experiment with Sounds**: Add more sounds to various objects in the environment and experiment with their interactions based on player movement and orientation.
+
+This step-by-step guide provides a structured approach to integrating audio into Unity projects using Wwise, from setting up projects to implementing spatialized sound.
+
+
+<!-- **Based on:** [(116) Game Audio with Unity and Wwise Part 2: Let there be Sound! - YouTube](https://www.youtube.com/watch?v=i2gPkgqVHf4&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=2)
 
 # Let there be sound!
 
@@ -39,13 +100,6 @@ To get these sounds into Unity, we must first compile the soundbanks in Wwise. T
 
 Select your current deployment platform. I’ll select Mac. Also, choose English. Then, choose _Generate Checked_. We see errors related to the license, which we won’t take the time to fix. But this is the process we’ll go through to generate sound banks in future lessons.
 
-<!-- ## The Sounds We Will Use
-
-We’ll use the sounds from the [Sonniss GDC 2020 Audio Bundle](https://sonniss.com/gameaudiogdc). From Sonniss:
-
-> Each year we give away thousands of dollars worth of sounds for free in celebration of the Game Developers Conference. This is our archive. All the sound effects are royalty free and commercially usable with no attribution required. You can use the sound effects on an unlimited number of projects.
-
-This library is quite large, so I’ll try to narrow down what samples you’ll use. -->
 
 ## Setting up the playground in Unity
 
@@ -85,4 +139,4 @@ Finally, let’s add some positioning to the sound so that we only hear it if th
 
 Generate the SoundBank and save Wwise. Now you should hear a spatialized sound depending on the player’s orientation.
 
-> Add more sounds to other objects in the environment that might work well together. Hear how they overlap, but change depending on what direction your player is facing. You can add them to their own events, or add more sounds to the same event.
+> Add more sounds to other objects in the environment that might work well together. Hear how they overlap, but change depending on what direction your player is facing. You can add them to their own events, or add more sounds to the same event. -->

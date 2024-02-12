@@ -77,18 +77,19 @@ author: ""
 
 - Students present game music analysis
 - Catch up on any questions from the last class
-- Install ReaWwise and show importing sounds into Wwise. 
-  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
 
-<!-- 
 
 # Week 6 (2/12)
 
 ## Tuesday
 
+- Calvin's game audio presentation
+- Install ReaWwise and show importing sounds into Wwise. 
+  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
+- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
 
-
+<!-- 
 ## Thursday
 
 
@@ -104,7 +105,6 @@ author: ""
 
 ## Thursday
 
-- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
 # Week 8 (2/26)
 
