@@ -2,9 +2,11 @@
 title: 'Part 2: Let there be Sound!'
 ---
 
-### Integrating Game Audio with Unity and Wwise
+# Integrating Game Audio with Unity and Wwise
 
 This guide is based on the instructional video "Game Audio with Unity and Wwise Part 2: Let there be Sound!" available on YouTube. It outlines how to implement audio in Unity using Wwise, specifically focusing on the Wwise Adventure Game (WAG).
+
+## Wwise + Unity Overview 
 
 #### Checking Out the Wwise Adventure Game
 
@@ -32,6 +34,8 @@ This guide is based on the instructional video "Game Audio with Unity and Wwise 
 2. **Edit Sound Script**: Open the `SoundMaterial` script by double-clicking its name in the Inspector tab.
 3. **Configure Sound Events**: In Wwise, locate the `Player_Foostep` event and adjust the switches to match the Unity settings.
 
+## Follow along to setup your project
+
 #### Setting Up the Playground in Unity
 
 1. **Install Unity 2020 LTS** - If you haven't already, download and install Unity 2020 LTS from the Unity Hub.
@@ -55,8 +59,6 @@ This guide is based on the instructional video "Game Audio with Unity and Wwise 
 
 - **Test Your Game**: Run the game to hear the breathing sound. If it's not audible, regenerate the SoundBank and save your Wwise project.
 - **Experiment with Sounds**: Add more sounds to various objects in the environment and experiment with their interactions based on player movement and orientation.
-
-This step-by-step guide provides a structured approach to integrating audio into Unity projects using Wwise, from setting up projects to implementing spatialized sound.
 
 
 <!-- **Based on:** [(116) Game Audio with Unity and Wwise Part 2: Let there be Sound! - YouTube](https://www.youtube.com/watch?v=i2gPkgqVHf4&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=2)

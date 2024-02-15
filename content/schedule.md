@@ -89,12 +89,16 @@ author: ""
 - [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
 
-<!-- 
 ## Thursday
 
+- Install ReaWwise and show importing sounds into Wwise. 
+  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
+  - Pro-tip: you need to render your files first! 
+- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
 
 
+<!-- 
 # Week 7 (2/19) - Audio Implementation
 
 ## Tuesday
