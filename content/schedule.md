@@ -98,15 +98,18 @@ author: ""
 
 
 
-<!-- 
 # Week 7 (2/19) - Audio Implementation
 
 ## Tuesday
 
-- When exporting from Reaper make sure not to clip. You can set a limiter on render, but this may result in bad sounding SFX because of compression.
+- Install ReaWwise and show importing sounds into Wwise. 
+  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
+  - Pro-tip: you need to render your files first! 
+- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
-> [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break
+<!-- > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break -->
 
+<!-- 
 ## Thursday
 
 
