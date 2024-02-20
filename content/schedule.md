@@ -107,12 +107,15 @@ author: ""
   - Pro-tip: you need to render your files first! 
 - [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
 
-<!-- > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break -->
 
-<!-- 
 ## Thursday
 
+- Finish the sound setup  
+  - Three sounds in different locations of the game. Variations with blend containers and random containers.
 
+> [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break
+
+<!-- 
 # Week 8 (2/26)
 
 ## Tuesday
