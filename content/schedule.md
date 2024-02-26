@@ -112,17 +112,18 @@ author: ""
 
 - Finish the sound setup  
   - Three sounds in different locations of the game. Variations with blend containers and random containers.
+- 
+<!-- > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break -->
 
-> [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break
-
-<!-- 
 # Week 8 (2/26)
 
 ## Tuesday
 
 - Answer questions
 - Finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+  - Three sounds in different locations of the game. Variations with blend containers and random containers.
 
+<!-- 
 ## Thursday
 
 - This section is important, so we'll stay here and make sure everyone can get to this point.
