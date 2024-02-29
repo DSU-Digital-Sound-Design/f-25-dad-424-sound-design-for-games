@@ -48,6 +48,8 @@ To use the stereo information of this sound, we'll need to change the 3D Spatial
 
 > More info on spatialization [here](https://www.audiokinetic.com/en/library/edge/?source=Help&id=working_with_3d_objects)
 
+
+<!-- TODO: finish this section -->
 ## Emitter automation
 
 We can also automate the emitter position within a _GameObject_. For example, if you wanted to have a sound of a mosquito buzzing around, you could make the game object take up the space of a pond, then automate the position of the mosquito in the pond.
@@ -58,7 +60,7 @@ Set the _3D Position_ to _Emitter with Automation_. Then, open the _Automation_ 
 
 Each path can have multiple points. Draw these points by double-clicking in the window.
 
-Find a a buzzing insect sound. Add this to your Unity project with an event.
+Find a buzzing insect sound. Add this to your Unity project with an event.
 
 > See [best practices](https://www.audiokinetic.com/en/library/edge/?source=Help&id=positioning_tips_and_best_practices) for positioning.
 

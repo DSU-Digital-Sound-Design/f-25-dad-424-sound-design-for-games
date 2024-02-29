@@ -123,12 +123,16 @@ author: ""
 - Finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
   - Three sounds in different locations of the game. Variations with blend containers and random containers.
 
-<!-- 
 ## Thursday
 
-- This section is important, so we'll stay here and make sure everyone can get to this point.
-- Finally finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+- Present our games 
+- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
+  - Some of this we've already covered. What's new is:
+    - Emitter automation
+    - Profiling 
+    - Triggering a play event from within Unity
 
+<!-- 
 # Week 9 (3/4)
 
 ## Tuesday
