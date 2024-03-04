@@ -1,28 +1,30 @@
 Source: [(104) Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting - YouTube](https://www.youtube.com/watch?v=UH7OEm_g9Mg&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=4)
 
-> Before we start make sure you have Visual Studio installed.
-
-We're starting to get a lot of sounds in our project. Let's organize with with a _Virtual Folder_. Put your sounds in a folder named _Box_. Do the same in the events tab.
-
 ## Footsteps
 
 ### Wwise
 
-We'll now learn how to add realistic sounding footsteps to our environment. In order to play different footstep sounds on different surface types we'll use _Trigger Areas_.
+We'll now learn how to add realistic-sounding footsteps to our environment. To play different footstep sounds on different surface types we'll use _Trigger Areas_.
 
 > Download footsteps sounds [here](https://dakotastateuniversity-my.sharepoint.com/:f:/g/personal/tate_carson_dsu_edu/EmZiG00llDBNlGLEr2ratX0BdfE1MBd35rH4VwmO4TxflQ?e=QFpoKs)
 
-Drag and drop this folder onto the Actor-Mixer Hierarchy. When importing set the parent folder to be a _Random Container_. Add this random container to a folder called _Footsteps_.
+In our Reaper project import the grass and snow sounds like shown in this image:
 
-Call the random container _Footsteps Grass_. Go into the source editor for each sample and trim the start and end points to remove any silences.
+![](footsteps.png)
 
-To add more variations to our footsteps we can add random varations in pitch. In the general settings tab of the random container find the pitch section. Click on the little circle and open the _Randomizer_. Alter the min and max offset.
+Make sure the footstep sounds are edited correctly. Match their levels and remove any silences at the beginning and end of the sounds.
+
+Use these render settings: 
+
+![](render-settings.png)
+
+To add more variations to our footsteps we can add random variations in pitch. In the general settings tab of the random container find the pitch section. Click on the little circle and open the _Randomizer_. Alter the min and max offset.
 
 Create an event called _Play_Footsteps_Grass_ to play your random container. Add the event to your soundbank and export.
 
 ### Unity
 
-To add these footstep sounds we'll need to start scripting. Go find the _FirstPersonController_ script on the _PlayerCapsule_ and open it.
+To add these footstep sounds we'll need to start scripting. Find the _FirstPersonController_ script on the _PlayerCapsule_ and open it.
 
 Find the `private void Update()` function. This runs every frame of the game and is used for interactivity.
 
@@ -105,7 +107,7 @@ if(!footstepIsPlaying)
 
 **Fix playing footsteps when jumping**
 
-Add another private variable `private bool isJumping = false;`. Then add a check to your if statement to make sure your'e not playing footsteps while `isJumping` is false.
+Add another private variable `private bool isJumping = false;`. Then add a check to your if statement to make sure you're not playing footsteps while `isJumping` is false.
 
 ```c#
 if(!footstepIsPlaying && !isJumping)
@@ -148,7 +150,7 @@ Test everything by trying to run while jumping and falling off of a building.
 
 **Add Landing Sound**
 
-To add more realism we'll add a landing sound. We'll create a landing sound in Wwise from two footstep sounds. Create a new event called `Landing` and add any two footsteps sounds to it. Delay one of the sounds a little. Add some randomization if you want. Export this event to your soundbank.
+To add more realism we'll add a landing sound. We'll create a landing sound in Wwise from two footstep sounds. Create a new event called `Landing` and add any two footstep sounds to it. Delay one of the sounds a little. Add some randomization if you want. Export this event to your soundbank.
 
 Create a new variable in your code called myLanding `public AK.Wwise.Event myLanding;`. Trigger the event when you're setting `isJumping` to false.
 
@@ -193,7 +195,7 @@ In Unity connect your new event to the empty variable.
 
 To switch back to the dirt footsteps add another `AKSwitch` component and set it to switch to `Dirt` on `AKTriggerExit`.
 
-Add a `AK Switch` to `Snow Field`, trigger on enter, and connect it to the snow switch. Check `Use Other Object`.
+Add an `AK Switch` to `Snow Field`, trigger on enter, and connect it to the snow switch. Check `Use Other Object`.
 
 Finally, add an `AK Trigger Enter` component to make sure that only the player can trigger this switch.
 
@@ -203,6 +205,6 @@ To do this create two new `Switch Containers` `Step 1` and `Step 2`. In each con
 
 ![](switch-2.png)
 
-Finally add these `Switch Containers` to the `Play_Landing` event and delay one of them. Play the event and test that the switches are happening correctly by using hte `Transport Control` section.
+Finally, add these `Switch Containers` to the `Play_Landing` event and delay one of them. Play the event and test that the switches are happening correctly by using the `Transport Control`` section.
 
-Add your event to the soundbank and test in Unity. Make sure to connect your event in Unity.
+Add your event to the soundbank and test in Unity. Make sure to connect your event to Unity.

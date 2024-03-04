@@ -132,25 +132,17 @@ author: ""
     - Profiling 
     - Triggering a play event from within Unity
 
-<!-- 
 # Week 9 (3/4)
 
 ## Tuesday
 
-- if you're still having a problem:
-  - check that you have the "Cinemachine" package installed.
-  - Create a new project with the "First Person Core" template from the Unity Hub, then re-implement Wwise.
-- Finally finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+- Finish: [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
+- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-> Assignment for next class: screen recording of all of this working.
-
+<!-- 
 ## Thursday
 
-- [Part 2: last steps](../lectures/week-7/part-2-let-there-be-sound/#our-first-sound)
-  - Add the event to a soundbank
-  - trigger the soundbank from Unity
 
-<!-- > Another implementation project will be due at the end of week 12, one game scene including first-person actions, ambiance, etc. Make sure it covers all the elements we learned from the Wagner videos: random containers, switches, states, game states, blend containers, audio buses, mixing, and reverb zones. Use a scene from one of the example games you found. -->
 
 <!-- 
 # Week 10 (3/111)
