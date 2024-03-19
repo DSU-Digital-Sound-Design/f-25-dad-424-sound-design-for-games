@@ -142,9 +142,6 @@ author: ""
 
 - [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-<!-- 
-
-<!-- 
 # Week 10 (3/111)
 
 - Spring Break - No Classes
@@ -153,11 +150,9 @@ author: ""
 
 ## Tuesday
 
-- See short assignment due next Thursday.
-  - Add MacOS build support to your Unity install if necessary.
-  - Build your project for Mac (Intel 64) and upload to OneDrive for sharing.
-- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
+- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
+<!-- 
 ## Thursday
 
 - [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
