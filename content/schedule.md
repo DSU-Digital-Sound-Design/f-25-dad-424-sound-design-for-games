@@ -152,11 +152,12 @@ author: ""
 
 - [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-<!-- 
 ## Thursday
 
-- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
+- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
+
+<!-- 
 # Week 12 (3/25)
 
 ## Tuesday
