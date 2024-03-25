@@ -157,14 +157,13 @@ author: ""
 - [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
 
-<!-- 
 # Week 12 (3/25)
 
 ## Tuesday
 
-- Finish the last few parts of part 3
 - [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
+<!-- 
 ## Thursday
 
 - [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
