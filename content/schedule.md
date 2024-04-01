@@ -174,10 +174,9 @@ author: ""
 - Short presentation of finished footsteps project 
 - [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
 
-<!-- 
 ## Thursday
 
-
+- [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
 
 <!-- [(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6) -->
 
@@ -186,6 +185,7 @@ author: ""
 <!--
 # Week 14 (4/8)
 
+<!-- 
 ## Tuesday
 
 - start working on projects while finishing these lessons
