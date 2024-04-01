@@ -163,27 +163,23 @@ author: ""
 
 - [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-<!-- 
 ## Thursday
 
 - [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-<!-- [(116) Game Audio with Unity and Wwise Part 5: Position Types, States, Game Parameters and Blend Containers - YouTube](https://www.youtube.com/watch?v=9HnVMWix0Sw&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=5) -->
-
-
-<!-- 
 # Week 13 (4/1)
 
 ## Tuesday
 
-- [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
-
-<!-- [(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6) -->
+- Short presentation of finished footsteps project 
+- [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
 
 <!-- 
 ## Thursday
 
-- [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+
+
+<!-- [(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6) -->
 
 <!-- [(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7) -->
 
