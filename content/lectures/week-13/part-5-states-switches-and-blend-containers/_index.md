@@ -46,7 +46,7 @@ Add a new public reference to the game parameter: `public AK.Wwise.RTPC playerSp
 
 Find this function in the Move function: 
 
-```
+```c#
 if (currentHorizontalSpeed < targetSpeed - speedOffset || currentHorizontalSpeed > targetSpeed + speedOffset)
 {
     // creates curved result rather than a linear one giving a more organic speed change
