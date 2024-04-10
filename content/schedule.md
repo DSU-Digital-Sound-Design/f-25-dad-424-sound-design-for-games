@@ -182,10 +182,9 @@ author: ""
 
 <!-- [(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7) -->
 
-<!--
+
 # Week 14 (4/8)
 
-<!-- 
 ## Tuesday
 
 - start working on projects while finishing these lessons
@@ -194,9 +193,12 @@ author: ""
 ## Thursday
 
 - Meet to work on projects
+  - Pick a project
+  - Create an assets list for the project
 
 # Week 15 (4/15)
 
+<!-- 
 ## Tuesday
 
 - Meet to work on projects
