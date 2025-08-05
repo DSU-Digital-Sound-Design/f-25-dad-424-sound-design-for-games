@@ -29,6 +29,8 @@ author: ""
 
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
+
+<!-- 
 # Week 3 (9/9) - Sound Design
 
 ## Tuesday
