@@ -65,161 +65,170 @@ author: ""
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
 - Some game music analysis from https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4
 
-> Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2. Instructions on D2L.
+> Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2 (2 Weeks from now). Instructions on D2L.
 
-# Week 5 - Audio Implementation (9/23)
+# Week 5 (9/23) — FMOD Integration + C# Basics
 
-## Tuesday
+## Tuesday — Module: Introduction & Module 1 (start)
 
-- [Game Audio with Unity and Wwise Part 1: Intro and Installation](../lectures/week-7/part-1-intro-and-installation/)
+- Lesson 2: [Project Set-Up & FMOD Integration](../lectures/week-5/module-1/project-setup/)
+- Module 1 – Lesson 1: The Basics of C# (Part 1)
 
-## Thursday
+## Thursday — Module 1 (continue)
 
-- Students present game music analysis
-- Catch up on any questions from the last class
+- Lesson 2: The Basics of C# (Part 2)
+- Lesson 3: FMOD Event Instances
+- In-class lab: first Event, first Bank, Event Emitter in Unity
 
+> **Deliverable (ungraded check):** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
 
-# Week 6 (9/30)
+# Week 6 (9/30) — 3D, Positioning, and Challenge 1
 
-## Tuesday
+## Tuesday — Module 1 (continue)
 
-- Calvin's game audio presentation
-- Install ReaWwise and show importing sounds into Wwise. 
-  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
-- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+- Lesson 4: 3D Event Positioning (attenuation, spatializer)
+- Live Update/Profiler connection test
 
+## Thursday — Module 1 (finish) + Challenge 1
 
-## Thursday
+- Game Music Analysis Presentations
+- Extra times? TBD
+  - Lesson 5: Challenge Time!
+  - In-class build: 3 emitters placed in world, audibly distinct distance curves
 
-- Install ReaWwise and show importing sounds into Wwise. 
-  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
-  - Pro-tip: you need to render your files first! 
-- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+# Week 7 (10/7) — Interactivity Foundations
 
+## Tuesday — Module 2 (start)
 
+- Lesson 1: Using PlayOneShot
+- Lesson 2: Automating Audio With Parameters (Part 1)
 
-# Week 7 (10/7) - Audio Implementation
+## Thursday — Module 2 (continue)
 
-## Tuesday
+- Lesson 3: Attaching Audio to Animations
+- Lesson 4: Automating Audio With Parameters (Part 2)
 
-- Install ReaWwise and show importing sounds into Wwise. 
-  - [ReaWwise: Connecting REAPER and Wwise | Audiokinetic Blog](https://blog.audiokinetic.com/en/reawwise-connecting-reaper-and-wwise/)
-  - Pro-tip: you need to render your files first! 
-- [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
+> **Checkpoint:** show a parameter (slider/UI or proximity) driving an FMOD event in play mode.
 
+# Week 8 (10/14) — Challenge 2 + Launch Intermediate Project
 
-## Thursday
+## Tuesday — Module 2 (finish)
 
-- Finish the sound setup  
-  - Three sounds in different locations of the game. Variations with blend containers and random containers.
-- 
-<!-- > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break -->
+- Lesson 5: Challenge Time! (wrap Module 2)
+- Code snippets: SetParameter by name vs ID, sanity checks in console
 
-# Week 8 (10/14)
+## Thursday — Launch Intermediate Project: Dynamic Music (Theobaldus)
 
-## Tuesday
+- Brief: build a parameter-driven music system (Intro/Explore/Combat or Intensity 0–1)
+- Map: snapshots/VCAs optional; use labeled or continuous parameters
+- Show reference mini-scene setup; distribute template Unity scene
 
-- Answer questions
-- Finish [Part 2: Let there be Sound!](../lectures/week-7/part-2-let-there-be-sound/)
-  - Three sounds in different locations of the game. Variations with blend containers and random containers.
+> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10).
 
-## Thursday
+# Week 9 (10/21) — Code Architecture & Namespaces
 
-- Present our games 
-- [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
-  - Some of this we've already covered. What's new is:
-    - Emitter automation
-    - Profiling 
-    - Triggering a play event from within Unity
+## Tuesday — Module 3 (start)
 
-# Week 9 (10/21)
+- Lesson 1: Interpreting Code
+- Lesson 2: FMOD Namespaces
 
-## Tuesday
+## Thursday — Module 3 (finish)
 
-- Finish: [Part 3: Position, Attenuation, and Profiling](../lectures/week-9/part-3-position-attenuation-profiling)
+- Lesson 3: Controlling Audio Between Multiple Scripts
+- Lesson 4: Challenge Time!
+- Apply to Dynamic Music: separate input, state, and audio controllers
 
-## Thursday
+# Week 10 (10/28) — Present Dynamic Music + Start Mixing
 
-- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+## Tuesday — Presentations & Critique
 
-# Week 10 (10/28)
+- 1–2 min per team: demonstrate parameter mapping, transitions, profiling notes
 
-## Tuesday
+## Thursday — Module 4 (start)
 
-- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+- Lesson 1: Controlling FMOD Buses (Part 1)
+- Lesson 2: Controlling FMOD Buses (Part 2)
+- Small lab: master, Music, SFX, VO buses; one VCA; target LUFS range for music bed
 
-## Thursday
+# Week 11 (11/4) — Snapshots, Playback States, Banks + Footsteps Prep
 
-- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+## Tuesday — Module 4 (continue)
 
-# Week 11 (11/4)
+- Lesson 3: Playback States
+- Lesson 4: Snapshots
+- Lesson 5: Loading Sound-Banks (builds, bank load modes)
 
-## Tuesday
+## Thursday — Footsteps Project Brief (Regenstoet)
 
-- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+- Labeled parameter: Surface (Grass/Wood/Stone/Metal)
+- Multi-Instrument variability (≥5 samples per surface), light pitch/vol randomization
+- Animation events vs speed-based triggers; simple raycast material detection
 
-## Thursday
+> **Footsteps & Terrain Textures** — Due Thu 11/20 (Week 13).
 
-- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
-
-# Week 12 (11/11)
+# Week 12 (11/11) — Veterans Day (No Class)
 
 ## Tuesday
 
 - Veterans Day - No Class
 
-## Thursday
+## Thursday — Lab
 
-- [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+- Implement surface detection → set Surface param
+- Optional: Speed parameter modulates layer or cadence; snapshot for crouch/stealth
 
-# Week 13 (11/18)
-
-## Tuesday
-
-- Short presentation of finished footsteps project 
-- [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
-
-## Thursday
-
-- [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
-
-> Footsteps Project DUE Thursday, November 20
-
-
-# Week 14 (11/25)
+# Week 13 (11/18) — Footsteps Finishing + Short Shares
 
 ## Tuesday
 
-- start working on projects while finishing these lessons
-- [Possible games](../lectures/week-14/possible-games/)
+- Peer tuning: cadence realism, repetition control, mix balance
+
+## Thursday
+
+- Final troubleshooting & submission packaging
+
+> **Footsteps Project DUE Thursday, November 20**
+
+
+# Week 14 (11/25) — Collision & Attack Sounds Sprint (Rowlilo)
+
+## Tuesday — Module 5 (selected topics) + Sprint Launch
+
+- Module 5 Lesson 1: Parameter IDs
+- Lesson 2: Global vs Local Parameters
+- Lesson 3: VCAs (tie into quick ducking/mix control)
+- Sprint Brief: Collision, Material Detection & Attack Sounds
+  - OnCollisionEnter/Stay/Exit patterns
+  - Per-material responses (wood, stone, metal), intensity scaling by impact velocity
+  - Attack/charge/release events with parameter-driven layers
 
 ## Thursday
 
 - Thanksgiving Break - No Class
 
-# Week 15 (12/2)
+> **Sprint Submission window:** flexible; recommended by Tue 12/2 or roll into Final Project as a required feature.
+
+# Week 15 (12/2) — Final Project Production
+
+## Tuesday — Module 6 (pick what you need)
+
+- Return Functions, Delegates, Event Callbacks, Programmer Instruments (for adaptive/interactive music or dialog variations)
+- Apply selectively to final-project scope
+
+## Thursday — Work Session
+
+- Asset list, event map, parameter plan, mix plan, profiling goals
+
+> **Final Project Asset List** — Due Thu 12/4.
+
+# Week 16 (12/9) — Finalize & Present
 
 ## Tuesday
 
-- Meet to work on projects
-  - Pick a project
-  - Create an assets list for the project
-
-## Thursday
-
-- Meet to work on projects
-
-> Final Project Asset List DUE Thursday, December 4
-
-# Week 16 (12/9)
-
-## Tuesday
-
-- Work on projects in class
-- Final presentations preparation
+- Perf pass with Profiler, voice budgets, bank size checks
 
 ## Thursday
 
 - Final presentations
 
-> Final Presentations - December 16 at 3:30 - 5:30 pm
+> **Final Presentations** - December 16 at 3:30 - 5:30 pm

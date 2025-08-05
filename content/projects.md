@@ -4,34 +4,57 @@ date: "2018-07-18"
 author: ""
 ---
 
-{{< toc >}}
+## Major Assignments & Projects
 
-# Midterm project - Add Wwise to the FPS Game
+### 1. Exercise 1: Sound Sourcing  
+**Description:**  
+Source or create sounds based on a provided asset list. Field recording and/or synthesis encouraged.  
+**Due:** Thursday, September 11, 2025  
+**Submission:** Upload to D2L before class.
 
-Download the FPS Game from the Unity Hub learning section. This game only exists with later versions of Unity. Follow the directions to get the correct one.
+---
 
-Once installed go to the Wwise Launcher and click on the Unity tab. Here you can integrate Wwise with Unity. You may have to get a specific version of Wwise.
+### 2. Exercise 2: Voice Over  
+**Description:**  
+Record and edit a short voice-over for a game scenario. Use the studio or your own setup.  
+**Due:** Thursday, September 25, 2025  
+**Submission:** Upload edited files and session notes to D2L.
 
-Your job will be to implement the sound effects and music in Wwise the same way they are currently with Unity's default audio system. You'll first need to go through each game object and note the components that are responsible for playing sound. You might want to keep at list of these so you don't forget any. You can find all of the sound files in the Assets > Audio folder.
+---
 
-In addition to adding he sounds and music, recreate how they are spatialized. Note the max distance and anything else that aids spatialization in the game.
+### 3. Exercise 3: Game Music Analysis  
+**Description:**  
+Prepare a short analysis of a selected game’s music, referencing topics discussed in class (e.g., motif, adaptive scoring, genre).  
+**Due:** Thursday, October 2, 2025  
+**Submission:** Written analysis (PDF or doc) via D2L.
 
-When Wwise is added to the project the Unity sounds will no longer work. Because of this it may be helpful to have another version of the project that isn't altered as a guide.
+---
 
-- This game already has sounds, but you will replace all of the stock Unity audio objects and create the same sound fx in Wwise. We won't add any new functionality, but learn from recreating what's already here.
-- Get FPS setup with Wwise, this requires a specific version of Unity and Wwise.
-- Look for all the sounds used in the game and how their are triggered.
+### 4. Footsteps Project  
+**Description:**  
+Design, record, and implement a set of footstep sounds for a game environment. Must include at least three surface types and use blend/random containers in Wwise.  
+**Due:** Thursday, November 20, 2025  
+**Submission:** Demo in class and upload project files.
 
-We will go through how to work with the main scene together as a class. You will be responsible for implementing the extra sounds in the secondary scene.
+---
 
-## Elements to add
+### 5. Final Project: Game Audio Implementation  
+**Description:**  
+Collaborative or solo project. Design and implement a complete audio system for a small game or interactive prototype.  
+- **Asset List Due:** Thursday, December 4, 2025  
+- **Final Presentations:** Tuesday, December 16, 2025, 3:30–5:30 pm (Finals week)  
+**Submission:**  
+- Asset list (spreadsheet or doc)  
+- Project files (REAPER, Wwise, Unity/Unreal, etc.)  
+- In-class presentation/demo
 
-- Improve the footstep implementation with more footsteps
-- Interactive music when the player enters the boss room
-- Use an RTPC to add something interactive when your health starts to get low
-  - As you start to die the music gets more distorted?
+---
 
-## References
+## Additional Notes
 
-- [Wwise Unity Integration](https://www.audiokinetic.com/library/edge/?source=Unity&id=index.html)
-- [Wwise 301 Certification](https://www.audiokinetic.com/courses/wwise301/)
+- **All due dates are Thursdays unless otherwise noted.**
+- **Late work policy:** See syllabus for details.
+- **Project requirements:**  
+  - Use REAPER for editing/mixing unless otherwise approved.  
+  - Field recording and original sound design are strongly encouraged.  
+  - All implementation must be demonstrated in FMOD, Wwise, or Unity/Unreal as appropriate.
