@@ -7,7 +7,7 @@ author: ""
 
 
 
-# Week 1 (1/9) - Game Audio History
+# Week 1 (8/26) - Game Audio History
 
 ## Tuesday
 
@@ -19,7 +19,7 @@ author: ""
 
 - [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](../lectures/week-1/level-2/)
 
-# Week 2 (1/15)
+# Week 2 (9/2)
 
 ## Tuesday
 
@@ -29,14 +29,14 @@ author: ""
 
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
-# Week 3 (1/22) - Sound Design
+# Week 3 (9/9) - Sound Design
 
 ## Tuesday
 
 - [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](../lectures/week-3/level-5/)
 
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
-> DUE by the next class
+> DUE by the next class (Thursday, September 11)
 
 ## Thursday
 
@@ -46,9 +46,9 @@ author: ""
   - [Adventure Video Game Voice Over Scripts | Voices](https://www.voices.com/blog/adventure-video-game-voice-over-scripts/)
 
 
-> [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE 2/1/24
+> [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE Thursday, September 25
 
-# Week 4 (1/29)
+# Week 4 (9/16)
 
 ## Tuesday
 
@@ -65,9 +65,9 @@ author: ""
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
 - Some game music analysis from https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4
 
-> Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE 2/8. Instructions on D2L.
+> Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2. Instructions on D2L.
 
-# Week 5 - Audio Implementation (2/5)
+# Week 5 - Audio Implementation (9/23)
 
 ## Tuesday
 
@@ -79,7 +79,7 @@ author: ""
 - Catch up on any questions from the last class
 
 
-# Week 6 (2/12)
+# Week 6 (9/30)
 
 ## Tuesday
 
@@ -98,7 +98,7 @@ author: ""
 
 
 
-# Week 7 (2/19) - Audio Implementation
+# Week 7 (10/7) - Audio Implementation
 
 ## Tuesday
 
@@ -115,7 +115,7 @@ author: ""
 - 
 <!-- > [Project 2: First Person actions in Wwise]() - DUE 3/21, after spring break -->
 
-# Week 8 (2/26)
+# Week 8 (10/14)
 
 ## Tuesday
 
@@ -132,7 +132,7 @@ author: ""
     - Profiling 
     - Triggering a play event from within Unity
 
-# Week 9 (3/4)
+# Week 9 (10/21)
 
 ## Tuesday
 
@@ -142,11 +142,7 @@ author: ""
 
 - [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-# Week 10 (3/111)
-
-- Spring Break - No Classes
-
-# Week 11 (3/18)
+# Week 10 (10/28)
 
 ## Tuesday
 
@@ -156,18 +152,27 @@ author: ""
 
 - [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-
-# Week 12 (3/25)
+# Week 11 (11/4)
 
 ## Tuesday
 
-- [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+
+## Thursday
+
+- [Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
+
+# Week 12 (11/11)
+
+## Tuesday
+
+- Veterans Day - No Class
 
 ## Thursday
 
 - [Game Audio with Unity and Wwise Part 4: Random Containers, Switches and Basic Scripting](../lectures/week-12/part-4-random-containers/)
 
-# Week 13 (4/1)
+# Week 13 (11/18)
 
 ## Tuesday
 
@@ -178,12 +183,10 @@ author: ""
 
 - [Game Audio with Unity and Wwise Part 5: States, Switches, and Blend Containers](../lectures/week-13/part-5-states-switches-and-blend-containers/)
 
-<!-- [(116) Game Audio with Unity and Wwise Part 6: Audio Buses, Mixing, and Reverb Zones - YouTube](https://www.youtube.com/watch?v=st9YiYqDWV0&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=6) -->
-
-<!-- [(116) Game Audio with Unity and Wwise Part 7: Interactive Music - YouTube](https://www.youtube.com/watch?v=dPWLq48cBOo&list=PLzlEBXWjqM97U5rHMERc82sTXRBoSB_Fu&index=7) -->
+> Footsteps Project DUE Thursday, November 20
 
 
-# Week 14 (4/8)
+# Week 14 (11/25)
 
 ## Tuesday
 
@@ -192,25 +195,31 @@ author: ""
 
 ## Thursday
 
-- Meet to work on projects
-  - Pick a project
-  - Create an assets list for the project
+- Thanksgiving Break - No Class
 
-# Week 15 (4/15)
+# Week 15 (12/2)
 
-<!-- 
 ## Tuesday
 
 - Meet to work on projects
-- show everyone a short lesson on interactive music
+  - Pick a project
+  - Create an assets list for the project
 
 ## Thursday
 
 - Meet to work on projects
 
-# Week 16 (4/222)
+> Final Project Asset List DUE Thursday, December 4
+
+# Week 16 (12/9)
+
+## Tuesday
 
 - Work on projects in class
+- Final presentations preparation
 
-> Exam - May 2, 1:00 pm – 3:00 pm
+## Thursday
 
+- Final presentations
+
+> Final Presentations - December 16 at 3:30 - 5:30 pm

@@ -1,7 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = ["terminal", "reveal-hugo"]
-paginate = 5
+[pagination]
+  pagerSize = 5
 
 
 [params]
@@ -12,7 +13,7 @@ paginate = 5
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = false
@@ -36,7 +37,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "DAD 424 Advanced Digital Sound Design"
+    title = "DAD 424 Sound Design for Games"
     subtitle = "A simple, retro theme for Hugo"
     owner = "Tate Carson"
     keywords = ""
@@ -50,22 +51,30 @@ paginate = 5
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "DAD 424 Advanced Digital Sound Design"
+      logoText = "DAD 424 Sound Design for Games"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "syllabus"
-        name = "Syllabus"
-        url = "/syllabus"
-      [[languages.en.menu.main]]
         identifier = "schedule"
         name = "Schedule"
         url = "/schedule"  
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "syllabus"
+        name = "Syllabus"
+        url = "/syllabus"
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects"  
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "resources"
+        name = "Resources"
+        url = "/resources"
+        weight = 4
 
 [outputFormats.Reveal]
     baseName = "index"
