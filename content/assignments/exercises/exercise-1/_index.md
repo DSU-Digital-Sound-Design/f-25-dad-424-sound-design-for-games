@@ -1,35 +1,88 @@
-# Exercise 1: Source or create sounds given an asset list
+# Exercise 1: Source or Create Sounds Given an Asset List
 
-## Assignment
+## Assignment Overview
 
-A client is working on an Untitled Cat Game. An [Asset List](asset-list.xlsx) has been provided. In it are several sounds needed for the demo level of the game.
+You are working for a client developing an **Untitled Cat Game**. An updated [Asset List](asset-list_with_columns_with_comments.xlsx) has been provided. It contains all required audio assets for the demo level. Your job is to source or create these sounds to meet the provided technical and creative specifications.
 
-Source or create the sounds provided, and place the files in a directory called `sound_assets`. Update the [Asset List](asset-list.xlsx) file with the filename.
+You will:
 
-> Tips for finding [Sound Effects](https://www.freeaudioresource.com/sound-effects)
+1. Record, design, or source each sound listed.
+2. Save each file to the `sound_assets` directory in the proper subfolder.
+3. Update the spreadsheet with filenames, category, license info, and designer notes.
 
-### Audio asset requirements
+---
 
-- **Each file must be a 24 bit, 44.1kHz Stereo .wav file.**
-- Each filename should be human readable and use the `Asset Name` in it's filename:
-  - For example, for an `Asset Name`: "Kitten Meow":
-    - `Kitten meow.wav`, `kitten-meow.wav` and or `KITTEN_MEOW.wav` are all acceptable.
-    - `FSWEB__einen_katzenmeow__FREESOUNDZWEB-293847298347.wav` is not.
-- Each file should be peak normalized to -0.5 dBFs
-- Each file should have less than 0.5 seconds of silence at beginning
-- Each file should have less than 1 seconds of silence at ending
-- If providing a sound file with multiple versions of a sound, please separate each sound with at least 2 seconds of silence.
+## Requirements for All Audio Assets
 
-### Communication
+**File Specs**
 
-Some `Designer Notes` are included for a couple sounds. Please read these.
+* **Format**: 24-bit, 44.1 kHz WAV
+* **Channels**: Mono unless stereo is intentional and justified in spreadsheet
+* **Normalization**: Peak normalize to **-0.5 dBFS** (true peak)
+* **Silence**:
+  * < 0.5 s at the beginning
+  * < 1 s at the end (unless designed that way)
+  * Multi-version files: ≥ 2 s silence between versions
+* **Fades**: ≥ 10 ms at clip start and end to avoid clicks
+* **Noise Floor**: Below -50 dBFS for non-noise-based sounds
 
-If needed, please leave any notes on the sounds provided in the `Sound Designer Notes` field.
+**Naming**
 
-**Update `asset-list.xlsx` with the filename, and any notes you have for the game designer.** Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
+* Filenames are pre-filled in the spreadsheet — don’t change them except to add `_var01`, `_var02`, etc.
+* Place files into subfolders within `sound_assets/` based on Category:
 
-For example, this is a helpful note:
+  ```
+  sound_assets/
+    cat/
+    foley/
+    amb/
+    ui/
+    docs/
+  ```
 
-> "File includes multiple meows with 2 seconds of silence between each. Whole file is peak normalized to loudest sound in clip"
+---
+
+## Spreadsheet Columns — Abbreviated Guide
+
+* **Sound Designer Notes** – Communicate to the game designer how to use the sound.
+* **Category** – Foley, Character/VO, Ambience, UI
+* **Priority** – High (frequent/core), Medium (occasional), Low (rare/polish)
+* **Loopable?** – Yes if it should loop seamlessly, No if it’s a one-shot
+* **Variation Required?** – Yes if multiple takes needed, No if one is enough
+* **Source/License** – Origin and license (e.g., “Recorded by student”, “Freesound CC0 + URL”)
+* **Implementation Notes** – Short instructions for in-game use (looping, pitch randomization, etc.)
+
+---
+
+## Communication With the Game Designer
+
+If you deviate from any requirement, note it in **Implementation Notes** and suggest an alternative.
+
+Example:
+
+> “3 variations, 2 s apart; normalized to loudest sound; mono for efficiency; suggest pitch ±2% in middleware.”
+
+---
+
+## Deliverables
+
+Submit a **zipped folder** containing:
+
+1. `sound_assets/` directory with organized subfolders
+2. Updated spreadsheet
+3. Original/raw files in `_src/`
+4. License documents (if applicable)
+
+---
+
+## Rubric (10 points)
+
+| Category                 | Points |
+| ------------------------ | ------ |
+| Technical compliance     | 3      |
+| Creative appropriateness | 3      |
+| Documentation & notes    | 2      |
+| Organization & delivery  | 2      |
+
 
 > Based on [Game-220-Exercise-2/README.md at main · APUGames/Game-220-Exercise-2](https://github.com/APUGames/Game-220-Exercise-2/blob/main/README.md)
