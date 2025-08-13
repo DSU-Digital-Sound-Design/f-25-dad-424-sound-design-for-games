@@ -1,3 +1,7 @@
+---
+title: "Exercise 1: Source or Create Sounds Given an Asset List"
+---
+
 # Exercise 1: Source or Create Sounds Given an Asset List
 
 ## Assignment Overview
