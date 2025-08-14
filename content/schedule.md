@@ -30,7 +30,6 @@ author: ""
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
 
-<!-- 
 # Week 3 (9/9) - Sound Design
 
 ## Tuesday
@@ -82,7 +81,8 @@ author: ""
 - Lesson 3: FMOD Event Instances
 - In-class lab: first Event, first Bank, Event Emitter in Unity
 
-> **Deliverable (ungraded check):** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
+> **Check-in:** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
+> See [instructions](../assignments/exercises/fmod-event-instance-check-in/)
 
 # Week 6 (9/30) — 3D, Positioning, and Challenge 1
 
@@ -110,7 +110,6 @@ author: ""
 - Lesson 3: Attaching Audio to Animations
 - Lesson 4: Automating Audio With Parameters (Part 2)
 
-> **Checkpoint:** show a parameter (slider/UI or proximity) driving an FMOD event in play mode.
 
 # Week 8 (10/14) — Challenge 2 + Launch Intermediate Project
 
@@ -119,13 +118,15 @@ author: ""
 - Lesson 5: Challenge Time! (wrap Module 2)
 - Code snippets: SetParameter by name vs ID, sanity checks in console
 
-## Thursday — Launch Intermediate Project: Dynamic Music (Theobaldus)
+> **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
+
+## Thursday — Launch Intermediate Project: Dynamic Music
 
 - Brief: build a parameter-driven music system (Intro/Explore/Combat or Intensity 0–1)
 - Map: snapshots/VCAs optional; use labeled or continuous parameters
 - Show reference mini-scene setup; distribute template Unity scene
 
-> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10).
+> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
 
 # Week 9 (10/21) — Code Architecture & Namespaces
 
@@ -166,7 +167,7 @@ author: ""
 - Multi-Instrument variability (≥5 samples per surface), light pitch/vol randomization
 - Animation events vs speed-based triggers; simple raycast material detection
 
-> **Footsteps & Terrain Textures** — Due Thu 11/20 (Week 13).
+> **Footsteps & Terrain Textures** — Due Thu 11/20 (Week 13). [Instructions](../projects/footsteps/) 
 
 # Week 12 (11/11) — Veterans Day (No Class)
 
@@ -178,6 +179,8 @@ author: ""
 
 - Implement surface detection → set Surface param
 - Optional: Speed parameter modulates layer or cadence; snapshot for crouch/stealth
+
+> **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
 
 # Week 13 (11/18) — Footsteps Finishing + Short Shares
 
