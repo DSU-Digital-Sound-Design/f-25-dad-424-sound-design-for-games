@@ -77,6 +77,7 @@ author: ""
 
 ## Thursday — Module 1 (continue)
 
+- no class for Day of Service
 - Lesson 2: The Basics of C# (Part 2)
 - Lesson 3: FMOD Event Instances
 - In-class lab: first Event, first Bank, Event Emitter in Unity

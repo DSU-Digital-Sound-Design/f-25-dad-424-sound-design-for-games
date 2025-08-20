@@ -52,6 +52,7 @@ This page contains useful links and resources referenced throughout the course, 
 
 ## General Guides & Articles
 
+- [Free Audio Resource](https://www.freeaudioresource.com/) – sound effects & music guide
 - [Game Audio Explained](https://www.asoundeffect.com/gameaudioexplained/) – overview guide
 - [Demystifying Game Audio Mixing](https://www.asoundeffect.com/game-audio-mixing-demystified/) – mixing primer
 - [Game Audio Task Planning](https://www.asoundeffect.com/game-audio-planning-guide/) – workflow tips
