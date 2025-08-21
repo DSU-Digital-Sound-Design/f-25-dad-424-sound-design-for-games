@@ -6,18 +6,26 @@ author: ""
 {{< toc >}}
 
 
+# Announcement: Opportunities in Digital Sound Design at DSU
+
+- **DSU Live:** A student-run club where you can learn how to set up and run live concerts, as well as start and manage a record label. Find out more and get involved through talking to one of the current members or visiting [DSU Live](https://www.facebook.com/DSU.Live/).  
+- **Sound Design Discord:** Connect with your peers, share projects, and keep up with program news in the [DSU Sound Design Discord Server](https://discord.gg/w85WUcpQ).  
+- **Student Research Initiatives:** Interested in funding for projects? DSU has resources to support undergraduate research, and sound design students are encouraged to get involved. Learn more and apply at [Student Research Initiatives](https://dsu.edu/research/forms.html).  
+
 
 # Week 1 (8/26) - Game Audio History
 
 ## Tuesday
 
-- Syllabus introduction
-- [Level 1: AAA \(Animation, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
+- Syllabus introductiont
+- [Level 1: AAA \(Animaion, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
 
 
 ## Thursday
 
 - [Level 2: On the Road—to NOW! A Brief History of Games and Game Audio](../lectures/week-1/level-2/)
+
+
 
 # Week 2 (9/2)
 
