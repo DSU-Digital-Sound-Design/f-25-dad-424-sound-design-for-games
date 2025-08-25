@@ -17,7 +17,7 @@ author: ""
 
 ## Tuesday
 
-- Syllabus introductiont
+- Syllabus introduction
 - [Level 1: AAA \(Animaion, Art, Audio\): Making Sense of Sound for Games](../lectures/week-1/level-1/)
 
 
@@ -37,6 +37,7 @@ author: ""
 
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
+<!-- 
 
 # Week 3 (9/9) - Sound Design
 
