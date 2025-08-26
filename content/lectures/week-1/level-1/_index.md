@@ -72,9 +72,9 @@ Contrast arcade vs. console experiences; broaden the idea of "next-gen" to inclu
 
 ---
 
-## PC in 2025: Windows, macOS, Linux
+PC in 2025: Windows, macOS, Linux
 
-![](lan.jpg)
+<img src="lan.jpg" alt="LAN" width="500" />
 
 * Windows remains the broadest target; plan device-routing tests (WASAPI/XAudio/ASIO)
 * macOS (Apple silicon): ports increasingly arrive via modern tooling; verify device routing and plugin behavior
