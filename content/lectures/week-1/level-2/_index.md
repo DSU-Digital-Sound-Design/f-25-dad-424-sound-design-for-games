@@ -17,6 +17,8 @@ Learning Outcomes:
 - distinguish between different platforms, genres, and technological stages
 - comprehend technical limitations and how they shape audio development
 
+
+
 {{%/ note %}}
 
 ---
@@ -39,14 +41,35 @@ Learning Outcomes:
 
 ---
 
+## Sound ID Game 
+
+<audio src="./sounds/atari_2600_noise.wav" controls></audio>
+<audio src="./sounds/pong_blip.wav" controls></audio>
+<audio src="./sounds/nes_arpeggio.wav" controls></audio>
+<audio src="./sounds/genesis_fm_bass.wav" controls></audio>
+<audio src="./sounds/snes_reverb_hit.wav" controls></audio>
+<audio src="./sounds/ps1_orchestral_cue.wav" controls></audio>
+
+{{% note %}}
+Guess which sound belongs to which system and when it was made
+{{%/ note %}}
+
+---
+
 ## The First Video Games
 
-[timeline](https://www.timetoast.com/timelines/history-of-gaming--22)
+[timeline](https://www.museumofplay.org/video-game-history-timeline/)
 
 {{% note %}}
 In 1948 Thomas T. Goldsmith, Jr., and Estle Ray Mann created one of
 the earliest known video games. Based on radar display technology, the cathode-ray tube used an analog device to simulate the experience of firing a missile at targets. Knobs and buttons allowed the player to control the missile, which was represented on screen by a vector-drawn dot.
+
+
+“What’s the first video game sound you remember?”
+
+“Which era do you feel least familiar with: pre-1977, 8-bit, 16-bit, CD/PlayStation, modern engines?”
 {{%/ note %}}
+
 
 ---
 
@@ -87,6 +110,7 @@ Steve Russel on a DEC PDP-1 computer
 - The 1970s marked the introduction of the first basic sounds in arcade games, characterized by simple "bleeps" and "bloops."
 - These sounds were generated using hardware chips, oscillators, and basic tone generators like sine and square waves. This approach represented the early methods of creating game audio.
 - Sound designers and composers during this era often had backgrounds in electrical engineering. Creating game sounds was a complex process, much like computer programming, reflecting the technical challenges of early game sound development.
+- Limitations: 1 channel audio, limited pitch control, no dynamic mixing 
 
 {{%/ note %}}
 
@@ -103,6 +127,7 @@ Steve Russel on a DEC PDP-1 computer
 - Bushnell's decision to include sound effects in Pong was revolutionary. Using a sync generator, Alcorn created three distinct sounds: a low-pitched blip for wall collisions, a higher-pitched blip for paddle strikes, and a bleep for scoring points.
 - Pong's popularity was significantly boosted by its sound effects, which attracted attention and curiosity. It became one of the first arcade games with sound and was a best-seller, establishing Atari as a leader in the early video game industry.
 - Pong also transitioned into a home console game, inspiring numerous clones and leading to the video game industry's first slump. Atari later revitalized the market with the Atari VCS or 2600, the first major console with a sound chip.
+- Constraint: the game’s electronics could only generate a handful of tones and had no dedicated audio memory.
 
 {{%/ note %}}
 
@@ -122,6 +147,7 @@ Steve Russel on a DEC PDP-1 computer
 {{%/ note %}}
 
 ---
+
 
 ## Atari games
 
@@ -143,6 +169,8 @@ By 1980, arcade manufacturers included dedicated sound chips known as programmab
 
 Namco's 1980 arcade game Rally-X was the first known game to use a digital-to-analog converter (DAC) to produce sampled tones instead of a tone generator.
 
+Constraint: memory for samples was tiny—mere kilobytes—so loops were short and heavily compressed.
+
 {{%/ note %}}
 
 ---
@@ -152,7 +180,8 @@ Namco's 1980 arcade game Rally-X was the first known game to use a digital-to-an
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gIbSZdjLpSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-First game with speech synthesis.
+- First game with speech synthesis.
+- A dedicated chip allowed the game to say phrases like “Help me!” Constraint: voice samples were low‑resolution and required extra hardware, limiting their frequency and clarity.
 {{%/ note %}}
 
 ---
@@ -162,8 +191,7 @@ First game with speech synthesis.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/haehLgNNB4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-used five synthesis sound chips along with a DAC
-{{%/ note %}}
+- Gyruss used five AY‑3‑8910 sound chips along with a DAC to create a rich, stereophonic soundtrack. It adapted J.S. Bach’s Toccata and Fugue in D minor, demonstrating that classical themes could fit within arcade limitations. Constraint: each AY‑3‑8910 chip provided only three square‑wave voices, requiring careful layering to achieve complexity.{{%/ note %}}
 
 ---
 
@@ -175,6 +203,8 @@ used five synthesis sound chips along with a DAC
 First game to use true stereo instead of simulated stereo
 
 Marble Madness was Atari's first game to use an FM sound chip produced by Yamaha, similar to a Yamaha DX7 synthesizer, which created the music in real time so that it was in synchronization with the game's on-screen action.
+
+Constraint: the FM chip offered six channels of synthesis, so composers balanced melodic content with sound effects while maintaining stereo separation.
 {{%/ note %}}
 
 ---
@@ -191,6 +221,7 @@ Marble Madness was Atari's first game to use an FM sound chip produced by Yamaha
 - The NES featured enhanced audio capabilities compared to its predecessors. It included three synthesized musical voices (two pulse waves and one triangle wave), a noise channel, and the capacity for 6-bit PCM audio up to 33KHz.
 - These advancements allowed composers to create more complex and memorable game music, contributing to the NES's reputation for iconic soundtracks.
 - With high-quality hardware that rivalled arcade systems, the NES played a crucial role in shifting the gaming landscape. It drew gamers away from arcades to home gaming, notably with titles like "Donkey Kong" and "Super Mario Bros," and heralded the decline of the arcade industry.
+- Constraint: only five voices meant that bass, melody and percussion had to share channels, so composers used rapid arpeggios and rhythm tricks to simulate chords (pressforsound.com). Cartridges had limited ROM sizes (commonly 128 KB or less), restricting the length and fidelity of music.
 
 {{%/ note %}}
 
@@ -250,6 +281,10 @@ The composer Yuzo Koshiro utilized the Genesis hardware effectively to produce "
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ydXHRKbxwXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{% note %}}
+Chrono Trigger showcased what the SNES audio system could achieve. Composer Yasunori Mitsuda used carefully looped samples and orchestral textures to produce one of the most beloved game soundtracks. Constraint: he had to fit the entire score and sound effects into limited cartridge and audio RAM space, requiring meticulous sample selection.
+{{%/ note %}}
+
 ---
 
 ## Star Fox (1993), Nintendo
@@ -257,8 +292,7 @@ The composer Yuzo Koshiro utilized the Genesis hardware effectively to produce "
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2EkVHxE0Y8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-directional audio!!
-
+Star Fox employed directional audio to immerse players in 3D flight. The SNES hardware allowed for panning across multiple channels, creating a sense of space. Constraint: panning and surround effects consumed channel resources, so composers had to choose between spatialisation and musical complexity.
 {{%/ note %}}
 
 ---
@@ -270,11 +304,7 @@ directional audio!!
 - Historical Milestones in Game Audio
 
 {{% note %}}
-
-- Sony entered the gaming market in 1995 with the PlayStation, priced at $299. This 32-bit console featured a 24-channel sound chip, offering CD-quality stereo sound and built-in digital effects like reverb and delay.
-- The PlayStation series progressively improved in terms of audio capacity and quality. The PlayStation 2, released in 2000, and the PlayStation 3, introduced in 2006, offered advanced sound capabilities, including handling numerous sounds on the CPU and continuous audio streams. The PlayStation 3 notably supported HDMI output with eight channels of audio and surround sound capabilities.
-- The PlayStation 4, with an 8-core processor and a dedicated sound processing chip, further advanced audio capabilities, able to decompress multiple MP3 streams simultaneously.
-- A notable historic achievement in game audio was the game "Voyeur," released in 1993 for the Philips Interactive system. It featured one of the first full orchestral scores in a video game, composed by Garry Schyman, who later worked on the BioShock series.
+Sony’s PlayStation delivered a huge leap in audio, offering 24 simultaneous sound channels with CD‑quality stereo output and built‑in effects like reverb and delay. Later models (PS2, PS3) supported surround sound and streaming of multiple audio files. Constraint: although storage expanded, early CD‑based games still needed to manage streaming to avoid loading delays; composers often looped tracks seamlessly to mask disc access times.
 
 {{%/ note %}}
 
@@ -285,7 +315,7 @@ directional audio!!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h0mqRkhOvtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-a late example of a game using sequenced music
+Final Fantasy VII used sequenced music to overcome storage limitations. Nobuo Uematsu composed MIDI‑style tracks that the PlayStation’s synthesizer rendered in real time. Sequencing allowed long, expressive compositions without using large audio files. Constraint: reliance on on‑board sample sets could limit timbral variety compared to streamed audio.
 {{%/ note %}}
 
 ---
@@ -306,3 +336,4 @@ ambient music soundtrack
 About the soundtrack, Reznor said, "it is not music, it's textures and ambiences and whirling machine noises and stuff. We tried to make the most sinister, depressive, scary, frightening kind of thing [...] It's been fun."
 
 {{%/ note %}}
+
