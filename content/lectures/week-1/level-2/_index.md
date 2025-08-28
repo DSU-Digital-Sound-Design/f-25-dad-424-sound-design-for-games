@@ -51,7 +51,39 @@ Learning Outcomes:
 <audio src="./sounds/ps1_orchestral_cue.wav" controls></audio>
 
 {{% note %}}
-Guess which sound belongs to which system and when it was made
+Answers:
+
+- **atari_2600_noise.wav**  
+    System: Atari 2600  
+    Era: Late 1970s  
+    Technical notes: 2-channel monaural sound, 1-bit audio, limited pitch and volume control.
+
+- **pong_blip.wav**  
+    System: Pong (Arcade, Atari)  
+    Era: Early 1970s  
+    Technical notes: Simple analog tone generator, only a few distinct tones.
+
+- **nes_arpeggio.wav**  
+    System: Nintendo Entertainment System (NES)  
+    Era: Mid-1980s  
+    Technical notes: 5-channel sound (pulse, triangle, noise, PCM), rapid arpeggios simulate chords.
+
+- **genesis_fm_bass.wav**  
+    System: Sega Genesis  
+    Era: Late 1980s–early 1990s  
+    Technical notes: Yamaha FM synthesis chip, 6 stereo channels, richer timbres.
+
+- **snes_reverb_hit.wav**  
+    System: Super Nintendo Entertainment System (SNES)  
+    Era: Early–mid 1990s  
+    Technical notes: 8-channel sample playback, effects like reverb, limited sample RAM.
+
+- **ps1_orchestral_cue.wav**  
+    System: Sony PlayStation  
+    Era: Mid–late 1990s  
+    Technical notes: 24-channel CD-quality audio, sequenced MIDI or streamed samples, built-in effects.
+
+Discuss how each system’s hardware shaped the sound!
 {{%/ note %}}
 
 ---
