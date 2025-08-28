@@ -126,7 +126,7 @@ the earliest known video games. Based on radar display technology, the cathode-r
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_L1HeZ2kPck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{% note %}}
-Steve Russel on a DEC PDP-1 computer
+Steve Russell on a DEC PDP-1 computer
 {{% /note %}}
 
 ---
@@ -171,10 +171,10 @@ Steve Russel on a DEC PDP-1 computer
 
 {{% note %}}
 
-- The Atari 2600, launched in 1977, represented a significant advancement in home gaming consoles. It featured a CPU, combined with RAM for short-term memory, I/O functions, and a display and sound chip named the TIA (Television Interface Adaptor).
+- The Atari 2600, launched in 1977, represented a significant advancement in home gaming consoles. It featured a CPU, combined with RAM for short-term memory, I/O functions, and a display and sound chip named the TIA (Television Interface Adapter).
 - This console's four-chip design allowed for cost-effective manufacturing and the ability to load different programs, enhancing game diversity.
 - The Atari 2600's sound, though technologically primitive with 2 channels of 1-bit monaural sound and 4-bit volume control, became iconic in the gaming world. Its distinct, quirky, and raw audio quality is still recognized and cherished by game enthusiasts and chiptune music fans.
-- Despite its limited bit sound, the Atari 2600’s audio was groundbreaking for its time, contributing to the console's immense popularity and enduring cultural legacy in the realm of video game music.
+- Despite its limited-bit sound, the Atari 2600’s audio was groundbreaking for its time, contributing to the console's immense popularity and enduring cultural legacy in the realm of video game music.
 
 {{%/ note %}}
 
@@ -197,7 +197,7 @@ Steve Russel on a DEC PDP-1 computer
 
 {{% note %}}
 
-By 1980, arcade manufacturers included dedicated sound chips known as programmable sound generators, or PSGs (see box 2.1, ‘‘Sound Synthesis’’) into their circuit boards, and more tonal background music and elaborate sound effects developed. Some of the earliest examples of repeating musical loops in games were found in Rally X (Namco/Midway, 1980), which had a six-bar loop (one bar repeated four times, followed by the same melody transposed to a lower pitch),
+By 1980, arcade manufacturers included dedicated sound chips known as programmable sound generators, or PSGs (see box 2.1, ‘‘Sound Synthesis’’) into their circuit boards, and more tonal background music and elaborate sound effects developed. Some of the earliest examples of repeating musical loops in games were found in Rally-X (Namco/Midway, 1980), which had a six-bar loop (one bar repeated four times, followed by the same melody transposed to a lower pitch),
 
 Namco's 1980 arcade game Rally-X was the first known game to use a digital-to-analog converter (DAC) to produce sampled tones instead of a tone generator.
 
@@ -250,7 +250,7 @@ Constraint: the FM chip offered six channels of synthesis, so composers balanced
 {{% note %}}
 
 - Nintendo launched the Famicom in Japan, later introduced in the US as the Nintendo Entertainment System (NES), significantly revitalizing the console video game industry post-crash.
-- The NES featured enhanced audio capabilities compared to its predecessors. It included three synthesized musical voices (two pulse waves and one triangle wave), a noise channel, and the capacity for 6-bit PCM audio up to 33KHz.
+- The NES featured enhanced audio capabilities compared to its predecessors. It included three synthesized musical voices (two pulse waves and one triangle wave), a noise channel, and the capacity for 6-bit PCM audio up to 33 kHz.
 - These advancements allowed composers to create more complex and memorable game music, contributing to the NES's reputation for iconic soundtracks.
 - With high-quality hardware that rivalled arcade systems, the NES played a crucial role in shifting the gaming landscape. It drew gamers away from arcades to home gaming, notably with titles like "Donkey Kong" and "Super Mario Bros," and heralded the decline of the arcade industry.
 - Constraint: only five voices meant that bass, melody and percussion had to share channels, so composers used rapid arpeggios and rhythm tricks to simulate chords (pressforsound.com). Cartridges had limited ROM sizes (commonly 128 KB or less), restricting the length and fidelity of music.
@@ -259,7 +259,7 @@ Constraint: the FM chip offered six channels of synthesis, so composers balanced
 
 ---
 
-## 16-bit sound - Sega Genesis and Nintendo Entertainment System
+## 16-bit sound - Sega Genesis and Super Nintendo Entertainment System
 
 ---
 
@@ -273,7 +273,7 @@ Constraint: the FM chip offered six channels of synthesis, so composers balanced
 
 - Sega entered the console market concurrently with Nintendo, achieving notable success with the Sega Genesis (or Mega Drive) in 1988. Despite having less memory capacity than its contemporaries, with 64KB of RAM and 8KB for sound, the Genesis marked a significant improvement in sound quality.
 - The Genesis featured a Yamaha FM chip with built-in sounds and 6 stereo audio channels, enhancing the audio experience considerably compared to earlier consoles.
-- The Sega CD, released in 1992, was a major advancement with its 500 MB CD-ROM disc, substantially increasing storage capacity. This allowed for enhanced graphics and sound, including 18 sound channels, a 44.1 KHz sample rate, and connections for household stereo systems.
+- The Sega CD, released in 1992, was a major advancement with its 500 MB CD-ROM disc, substantially increasing storage capacity. This allowed for enhanced graphics and sound, including 18 sound channels, a 44.1 kHz sample rate, and connections for household stereo systems.
 - Games for the Sega CD could include fully produced opening cutscenes, intricate MIDI scores, numerous 16-bit stereo audio tracks, extensive sound effects, and extensive voice-overs. The complexity of mixing these audio elements was a significant challenge, showcasing the considerable evolution from the simpler audio capabilities of earlier systems like the NES.
 
 {{%/ note %}}
@@ -299,7 +299,7 @@ The composer Yuzo Koshiro utilized the Genesis hardware effectively to produce "
 
 {{% note %}}
 
-- In 1991, Nintendo introduced the Super Famicom in America as the Super NES (SNES), priced at $249.95. This 16-bit system featured a Sony SPC700 sound chip, providing eight channels and a sound capacity of 64KHz.
+- In 1991, Nintendo introduced the Super Famicom in America as the Super NES (SNES), priced at $249.95. This 16-bit system featured a Sony SPC700 sound chip, providing eight channels and a sound capacity of 64 kHz.
 - The SNES allowed for audio streaming from the cartridge, enabling integration of premixed music, voice-over, and sound effects into games. However, this capability was limited by transfer rates.
 - A significant challenge was the quality of 8-bit audio samples, which required expertise to balance and enhance to acceptable standards.
 - The limited storage space of game cartridges (up to 6 Megabytes) necessitated compromises in audio quality. Audio often had a lower priority compared to graphics or cutscenes, leading to downsampling to fit within the memory constraints.
@@ -329,7 +329,7 @@ Star Fox employed directional audio to immerse players in 3D flight. The SNES h
 
 ---
 
-## Playstation, 1994
+## PlayStation, 1994
 
 - Introduction of the PlayStation
 - Enhanced Audio Capabilities in PlayStation Consoles
@@ -368,4 +368,3 @@ ambient music soundtrack
 About the soundtrack, Reznor said, "it is not music, it's textures and ambiences and whirling machine noises and stuff. We tried to make the most sinister, depressive, scary, frightening kind of thing [...] It's been fun."
 
 {{%/ note %}}
-
