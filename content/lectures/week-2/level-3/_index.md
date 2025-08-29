@@ -18,174 +18,249 @@ margin = 0.2
 
 ---
 
-# Challenges of Interactive Media
+## Linear vs Non-Linear Audio
 
-- Non-linear Nature of Game Audio
-- Unpredictability and Indeterminacy
-- Action-based Sound Triggering
-- Integration with Game Design and Programming
-
-{{% note %}}
-
-- Unlike linear media like films, game audio is non-linear, requiring adaptability to various scenarios and timelines.
-- The inherent unpredictability in games makes sound design challenging, as actions occur at different times in each gameplay.
-- Instead of spotting a sound at a specific time, sounds are triggered by in-game actions (e.g., a character opening a door triggers the corresponding sound file).
-- Game audio design is closely linked with game programming and design, requiring sound files to be organized and integrated effectively for seamless gameplay experiences.
-
-{{%/ note %}}
-
----
-
-## Early Console and Arcade Game Development Challenges
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q_3d1x2VPxk?si=t0OR_RCucySzdmFS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **Linear**: fixed sequence, timeline-based (film, TV, radio)
+- **Non-Linear**: triggered by user actions, adaptive, unpredictable
+- **Hybrid**: cinematic sequences inside interactive play (e.g. *Bandersnatch*)
 
 {{% note %}}
-
-## Review 
-
-- In the 1970s and 1980s, creating game audio required direct programming of chips, with no advanced tools available for non-programmers.
-- Sound design was predominantly done by programmers, often with little knowledge of music or sound, due to the lack of specialized tools.
-- Early consoles like the NES could only produce a few notes simultaneously, limiting the complexity of music and sound effects.
-- Despite basic technology, creative designers managed to produce significant audio achievements, contributing to the evolution of game sound design.
-
-## Summary of YouTube Transcript
-
-#### Part 1: Beeper Speaker
-- **Early Home Computers**: Basic "beeper speaker" for sound, found in IBM PC and Apple II.
-- **Functionality**: Controlled by the CPU, producing tones through timed clicking noises.
-- **Limitation**: Required significant CPU resources, hindering other functions.
-
-#### Part 2: FM Synthesizer
-- **1980s Evolution**: Dedicated sound chips in computers and consoles.
-- **Personalities of Systems**: Unique sounds and styles for each system.
-- **Voices/Channels**: Importance of the number of voices (or channels) for sound complexity.
-- **Voice Flexibility**: Ability to create different waveforms.
-- **Examples**: 
-    - **Nintendo Entertainment System**: Five voices but limited to specific sound types.
-    - **Commodore 64**: Three voices with four waveform types (square, triangle, sawtooth, noise).
-- **Programming Techniques**: Advanced methods allowed for dynamic reassignment of voices.
-
-#### Sound Chips in Computers
-- **IBM PC Sound Upgrade**: Introduction of AdLib card with Yamaha YM 3812 sound chip, followed by the SoundBlaster card.
-- **Features**: YM 3812 chip had nine voices and was used in Yamaha keyboards.
-- **Example**: Music from the game Ultima 6, and its recreation on a Yamaha keyboard.
-
-#### Sampling
-- **Sampling Keyboard (1985)**: Four voices, showcasing the sampling capability.
-- **Commodore Amiga**: First affordable home computer with a four voice stereo sampling system.
-- **Modtracker Music**: Music files containing samples and music information, originally designed for the Amiga sound chip.
-- **Modern Music Composition**: Shift from Mod Tracker format to large sample files like mp3s due to increased storage and memory.
-
-
-
-{{%/ note %}}
+- Linear = sound locked to the same time markers every time.
+- Non-linear = sound cues wait in a “pool,” ready to be triggered by player input.
+- Hybrid = increasingly common in modern narrative games.
+{{% /note %}}
 
 ---
 
-## Classic video game sound explained
+## Why Audio Matters
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jlLPbLdHAJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-## Nobuo Uematsu
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9BzkrgVivk4?si=HDJ6l8VsdDRN3cBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **Inform** – provides navigation, spatial awareness, environmental cues  
+- **Entertain** – sets tone, increases enjoyment  
+- **Immerse** – creates believability and emotional connection
 
 {{% note %}}
+Jean-Luc Sinclair defines game audio’s role as “Inform, Entertain, Immerse.”
+Sound expands what the player sees, compensates for limited field of view, and guides story and emotion.
+{{% /note %}}
 
-## MIDI paved the way for composers like Uematsu to create complex music with limited technology.
 
-- MIDI revolutionized digital music by allowing various devices to communicate, control, and trigger audio events, though it's not an audio format itself.
-- In gaming, MIDI functions like a player-piano roll, efficiently triggering sounds and music while conserving file space, especially when paired with FM synthesis.
-- MIDI's contribution to digital music was acknowledged with a technical Grammy, celebrating its creators and its role in advancing digital music sophistication.
-- Early game composers faced challenges with limited sound technology, leading to creative uses of simple waveforms and synthesizer features to craft memorable game audio.
-
-{{%/ note %}}
-  
 ---
 
-##  How PS1 Audio Mechanics Work 
+## Unique Challenges in Game Audio
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dC3Qy8m2Y7I?si=p5ERc2-_uMohR4fD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- **Unpredictable Timing** – sounds may need to trigger hundreds of times in different contexts  
+- **Branching Content** – dialogue, music, and effects must adapt to multiple story paths  
+- **Dynamic Layering** – music and ambience must shift smoothly with game state  
+- **Integration with Code** – audio designers collaborate closely with programmers to set triggers and parameters  
 
 {{% note %}}
-## Summary
-
-### Summary of the YouTube Transcript
-
-#### Introduction to Media Consumption and Sound in Media
-- The video begins with a discussion about how media consumption is an integral part of our lives, and how sound has played a crucial role in enhancing the immersion and enjoyment of media.
-
-#### Evolution of Sound Storage: From Phonographs to Compact Discs
-- The history of sound storage is explored, highlighting the transition from early phonograph-like devices to the development of the compact disc (CD) by Philips and Sony in 1982. This innovation marked a significant change in media storage, rendering many older mediums obsolete.
-
-#### The Compact Disc: A Game Changer in Media Storage
-- The compact disc revolutionized media storage with its release in Japan, offering around 10 megabytes of storage in the 1980s, which was impressive for the time. The CD was initially used by music labels to distribute albums.
-
-#### Advancements and Adaptations in CD Technology
-- Over time, CDs evolved to store videos, became rewritable, and even saw size reductions. Video game companies began using CDs, with the TurboGrafx-16 CD-ROM add-on being an early example. By the mid-1990s and 2000s, CDs became a dominant medium for video games.
-
-#### From CDs to DVDs and Beyond
-- The evolution continued with DVDs, Blu-ray discs, and 4K Blu-ray discs, with storage capacities reaching up to 100 gigabytes on triple-layer discs.
-
-#### Focus on PlayStation and CD-ROMs
-- The video then shifts focus to the PlayStation, which used CD-ROMs, a format similar to CDs but with pre-written, read-only data. The PlayStation's audio capabilities and how it processed sound for games are explored in depth.
-
-#### Understanding the PlayStation's Sound Processing
-- The PlayStation used two chips for sound: the Sound Processing Unit (SPU) and its DRAM. These chips processed sound and stored audio data, respectively. The video examines how PlayStation games used tracks for soundtracks, similar to traditional audio CDs.
-
-#### Technicalities of PlayStation Audio
-- The intricacies of PlayStation audio are discussed, including the use of ADPCM (Adaptive Differential Pulse Code Modulation) for audio file compression. The PlayStation could understand two subformats of ADPCM: SPU-ADPCM and XA-ADPCM, each with its own characteristics.
-
-#### The Role of VAG and VAB Formats
-- PlayStation games often used VAG files for individual sounds and VAB files for sets of sounds. The video describes how these formats are used in conjunction with the PlayStation's hardware to produce game audio.
-
-#### Advanced Sound Processing Capabilities of the PlayStation
-- The PlayStation's SPU had advanced capabilities like producing 24 voices, stereo sound, and various sound effects. The video goes into detail about these features, including looping, pitch modulation, and digital reverb.
-
-#### Conclusion: Exploring PlayStation Sound in Action
-- The video concludes with a practical exploration of the PlayStation's sound capabilities, using the console's BIOS as an example. The BIOS sequence demonstrates the use of SPU voices, reverb, looping, and other audio features, providing a comprehensive understanding of PlayStation sound processing.
-
-{{%/ note %}}
+- In games, you never know *when* a player will open a door, swing a sword, or enter combat — timing can’t be spotted like in film.
+- Dialogue trees and branching narratives mean audio teams record and design for many possible paths, not just one fixed script.
+- Adaptive systems (e.g., music layers that intensify in combat) must crossfade seamlessly without breaking immersion.
+- Sound designers must often use middleware (FMOD, Wwise) or work directly with game code to ensure sounds are triggered by gameplay events.
+- Example: footsteps that change automatically with surface type (grass, metal, water) require both design and code hooks.
+{{% /note %}}
 
 ---
 
+## Before Middleware: How Oldschool Game Audio Worked
 
-## The Emergence of Middleware in Game Audio
+- **Internal Speaker Era** (late 1970s)  
+    - Single beeper speaker; CPU directly generated tones  
+    - Non-linear triggering: CPU paused main work to output sound  
 
-- Introduction of Middleware in 2000s
-- Middleware as a Solution for Audio Designers
-- Popular Middleware Applications
+- **Dedicated Sound Chips & Voices** (early 1980s)  
+    - Consoles/computers added limited multi-voice chips  
+    - Logic decided which sound got which channel (voice stealing/prioritizing)  
+    - Each platform had a signature palette (e.g., NES 5 fixed channels, C64 3 flexible SID voices)  
 
 {{% note %}}
-
-- Around 2000, middleware emerged as a game-changing solution for sound artists, addressing workflow and production issues in game audio.
-- Middleware, developed by audio professionals and programmers, empowered designers and composers with more control over in-game audio.
-- Examples of popular middleware include FMOD, Wwise, Miles, and xACT, offering graphical interfaces and interactive audio tools for professionals.
-
-{{%/ note %}}
+- Pre-middleware audio was already event-driven (not timeline spotted).
+- Programmers hard-coded: if player jumps → play sound on an available channel.
+- Channel/voice management acted as an adaptive system (steal, fade, substitute).
+{{% /note %}}
 
 ---
 
-## Internet and Flash in Game Audio
+## Before Middleware: Trackers, Samples, and Early Rules
 
-- Impact of Internet on Game Audio
-- Flash's Role in Early Internet Games
-- Evolution of Audio Quality with Internet Speed
+- **PCM Samples & Trackers** (mid 1980s–1990s)  
+    - Amiga: 4-channel stereo sample playback  
+    - Module files = samples + pattern instructions (compact + reusable)  
+    - Music & SFX still triggered by in-game events (no global timeline)  
+    - Tracker pattern logic = early “rules” for sequencing & variation  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_3d1x2VPxk?si=t0OR_RCucySzdmFS" title="How Oldschool Sound/Music Worked - The 8-Bit Guy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+[Watch on YouTube](https://www.youtube.com/watch?v=q_3d1x2VPxk)
 
 {{% note %}}
-
-- The rise of the Internet and broadband speeds significantly influenced game audio, particularly for web-based games.
-- Flash played a pivotal role in early internet games, efficiently compressing audio within limited bandwidth constraints.
-- As internet speeds improved, from dial-up to DSL and cable modems, the quality of audio in downloadable games increased, accommodating richer audio content.
-
-{{%/ note %}}
+- C64 SID tricks: rapid per-frame voice reassignment to exceed 3 apparent sounds.
+- Amiga trackers let composers embed conditional/order logic—proto rule systems.
+- These foundations (event triggers + resource management + rules) foreshadow modern middleware.
+- Source: The 8-Bit Guy – How Oldschool Sound/Music Worked (YouTube).
+{{% /note %}}
 
 ---
+
+## MIDI and the Rise of Game Composers
+
+- MIDI = efficient event-based control, not audio  
+- Allowed rich, multi-channel compositions on limited hardware  
+- Paved the way for composers like **Nobuo Uematsu** (Final Fantasy)  
+- Set the stage for adaptive, event-driven music in games  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9BzkrgVivk4?si=HDJ6l8VsdDRN3cBA" title="Nobuo Uematsu & MIDI in Game Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+[Watch on YouTube](https://www.youtube.com/watch?v=9BzkrgVivk4)
+
+{{% note %}}
+- MIDI = “player piano roll” → stores instructions, not sound.  
+- Key benefit: efficiency. Tiny files triggered voices on sound chips, conserving memory.  
+- Composers like Uematsu made “orchestral” textures by carefully allocating channels, layering simple waveforms, and maximizing limited voices.  
+- MIDI workflows foreshadow modern middleware: audio responds to triggers/events, not just fixed tape playback.  
+- Uematsu’s work shows how game audio matured artistically while remaining technically constrained.  
+{{% /note %}}
+
+---
+
+## PlayStation 1: Toward Adaptive Music (1/2)
+
+- **SPU ADPCM** format: looping, per‑voice reverb, variable sample rates  
+- **24 hardware voices**: mix/layer music + SFX in real time  
+- Layer manipulation enabled early adaptive scoring (add/remove parts)  
+- **Sequenced (event-based) music** instead of long streamed audio  
+- Stored note/instrument data → low memory + runtime control (tempo, pitch, instrumentation)  
+
+{{% note %}}
+SPU ADPCM (gameplay audio) differed from XA ADPCM (cutscene streams): it supported looping and real-time effects, allowing music to persist until an event triggered a change. The 24-voice SPU let designers treat stems (pads, percussion, melody) as layers they could fade or swap—an evolutionary step toward middleware-style vertical mixing.
+{{% /note %}}
+
+---
+
+## PlayStation 1: Toward Adaptive Music (2/2)
+
+- Exploited quirks (e.g., “dummy” data to halt or redirect loops) for transitions  
+- Could fade voices, swap instruments, or inject percussion on combat start  
+- Real-time parameter tweaks (volume, reverb send) = early adaptive rules  
+- Demonstrated hardware-driven path toward later middleware workflows  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dC3Qy8m2Y7I?si=p5ERc2-_uMohR4fD" title="PS1 Audio Mechanics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+
+[Watch on YouTube](https://www.youtube.com/watch?v=dC3Qy8m2Y7I)
+
+{{% note %}}
+Sequenced data = instructions, so transitions cost almost no memory versus storing multiple full mixes. Developers used voice allocation + controlled looping behavior to simulate adaptive layering (e.g., fade in rhythmic layers when entering combat, add reverb indoors). These practices foreshadowed middleware concepts: event triggers, voice management, parameter-driven mixing.
+{{% /note %}}
+
+---
+
+## Activity: Choose Your Own Audio Adventure
+
+- You’ve seen how audio evolved from single channels to MIDI to adaptive layering.  
+- Now imagine designing for this scene:
+  - A player enters a forest clearing.  
+  - Suddenly, an enemy appears.  
+  - The player can:  
+    1. **Fight** → fast combat with swords and spells  
+    2. **Run Away** → sneaking and footsteps in brush  
+    3. **Talk** → dialogue tree with branching choices  
+- In your group (3-4 students):  
+  - How should the music adapt in each case?  
+  - What sound effects are essential?  
+  - How would you keep transitions smooth if the player switches paths quickly?  
+
+> Share your audio design plans with the group.
+
+---
+
+## Interactive Audio: Beyond Looping Tracks
+
+- Must be **reactive** (responding to player input)  
+- Must be **responsive** (adapting to game state/context)  
+- Behaves like a **database of musical ideas**, ready for recombination  
+- Supports **branching, layering, and parameter-driven changes**  
+- **iMUSE (LucasArts, 1991)**: early system enabling seamless transitions and adaptive scoring  
+  - [Wikipedia – iMUSE](https://en.wikipedia.org/wiki/IMUSE)
+
+{{% note %}}
+- Mark Miller (Game Developer, 2001) argued that game music should function as a “database of motifs,” recombined in response to gameplay events.  
+- This framing helped spread awareness of interactivity as more than looping tracks.  
+
+- The **iMUSE system** (developed by Michael Land and Peter McConnell at LucasArts) is one of the earliest working examples.  
+  - It let music transition smoothly between cues, wait for events before changing, and layer adaptive elements dynamically.  
+  - iMUSE was used in games like *Monkey Island 2* and *X-Wing*, where music responded to player actions with seamless crossfades and thematic shifts.  
+
+- Together, Miller’s conceptual framing and iMUSE’s implementation illustrate the shift toward **non-linear, event-driven music design**.  
+- Later examples include *Halo*’s vertical re-orchestration layers (combat vs exploration) and *Breath of the Wild*’s sparse adaptive score.  
+
+- Resources:  
+  - Miller’s article: [Producing Interactive Audio](https://www.gamedeveloper.com/audio/producing-interactive-audio-thoughts-tools-and-techniques)  
+  - iMUSE overview: [Wikipedia – iMUSE](https://en.wikipedia.org/wiki/IMUSE)  
+{{% /note %}}
+
+---
+
+
+## Rules for Interactive Sound Design
+
+- Accept technological limits; use them creatively  
+- Serve the game’s vision and emotional goals  
+- Collaborate with programmers and designers early  
+- Plan interactivity into the **design doc** and **asset pipeline**  
+
+{{% note %}}
+Miller’s “rules” are practical design guidelines:
+- Limitations are a feature, not a flaw.
+- Interactivity can only succeed if planned alongside game mechanics, not bolted on afterward.
+- Middleware (FMOD, Wwise) makes these principles easier to realize with tools like **RTPCs** (real-time parameter controls).
+See [Audiokinetic’s Wwise tutorials](https://www.audiokinetic.com/learn/) and [FMOD learning resources](https://www.fmod.com/resources) for examples.
+{{% /note %}}
+
+---
+
+## The Rise of Middleware in Game Audio
+
+- Emerged in the 2000s to solve workflow challenges  
+- Gave composers and designers direct control over adaptive sound  
+- Bridges **DAW assets → Middleware → Game Engine**  
+- Popular tools: [FMOD](https://fmod.com/), [Wwise](https://www.audiokinetic.com/), Miles, xACT  
+
+{{% note %}}
+- Before middleware, programmers hard-coded sound triggers and adaptive logic into game code.  
+- Middleware freed audio teams by providing **graphical interfaces** and rule-based systems for interactivity.  
+- Enabled standardized techniques such as:  
+  - **Vertical re-orchestration** (layering/fading instruments)  
+  - **Horizontal resequencing** (switching between cues or sections)  
+  - **RTPCs (real-time parameter controls)** to tie audio behavior directly to game variables (e.g., speed, health, tension).  
+- Think of middleware as a **translation layer**: audio created in a DAW is imported into middleware, where interactivity rules are defined, then sent to the game engine.  
+- Visual idea: show logos (FMOD, Wwise) and a simple pipeline diagram (DAW → Middleware → Engine).  
+- Today, middleware is a standard in AAA development and widely used in indie games through Unity and Unreal integration.  
+{{% /note %}}
+
+---
+
+## Internet and Flash: Non-Linear Constraints on the Web
+
+- **Bandwidth limits shaped audio** – compressed, short loops were common  
+- **Flash enabled event-driven sound** – triggers tied to gameplay actions in browser games  
+- **Broadband expansion** – richer, layered audio became possible  
+
+{{% note %}}
+- In the dial-up era, bandwidth was the main constraint: audio had to be tiny, often just looping clips or single-event sounds.  
+- Flash provided a framework for **event-driven SFX and adaptive loops** — audio responded to player clicks, collisions, and state changes, much like chip-era event triggers.  
+- Designers worked around limitations by looping compressed sounds, reusing assets, and layering cleverly within size limits.  
+- As internet speeds improved (DSL, cable), games could use **larger samples, more layers, and adaptive background tracks**.  
+- Flash games showed that even in constrained contexts, **non-linear design logic** (trigger-based playback, adaptive layering) was central to interactive sound.  
+
+**Examples to mention in class:**  
+- *Line Rider* – user actions directly controlled the playback of sliding sounds and music.  
+- *Fancy Pants Adventure* – responsive footsteps, jumps, and environmental sounds triggered in real time.  
+- *Club Penguin* – music loops in different rooms changed based on player navigation, an early form of adaptive environmental audio.  
+{{% /note %}}
+
+---
+
 
 ## Modern Challenges and Innovations in Game Audio
 
@@ -203,9 +278,13 @@ margin = 0.2
 
 ---
 
-## Current Audio Middleware
+## Future Directions
 
-- [FMOD](https://fmod.com/)
-- [Audiokinetic Wwise](https://www.audiokinetic.com/en/)
+- **Procedural Audio**: e.g., *No Man’s Sky*, *Spore*  
+- **AI-Driven Systems**: adaptive composition, responsive mixing  
+- **Accessibility**: audio cues, haptics, visual indicators
 
-
+{{% note %}}
+Procedural and AI systems point toward a future where designers create frameworks rather than fixed assets.
+Accessibility will continue to shape design ethics and practices.
+{{% /note %}}
