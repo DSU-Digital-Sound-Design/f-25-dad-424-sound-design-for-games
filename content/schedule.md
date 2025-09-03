@@ -35,6 +35,7 @@ author: ""
 
 ## Thursday
 
+- [Activity: Exploring Non-Linear Games and Sound](../assignments/exercises/in-class-analysis/)
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
 <!-- 
