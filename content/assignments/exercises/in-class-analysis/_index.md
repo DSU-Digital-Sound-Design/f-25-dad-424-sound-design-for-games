@@ -25,7 +25,6 @@ As a group, pick a game from one of these sites and play it together:
 - [EmuBrowser](https://emubrowser.com/?utm_source=chatgpt.com) – NES, SNES, Genesis, PS1, and more.  
 - [Retrogames.cc](https://www.retrogames.cc/?utm_source=chatgpt.com) – huge library of retro consoles.  
 - [Internet Archive Arcade](https://archive.org/details/internetarcade?utm_source=chatgpt.com) – over 900 arcade games.  
-- [Piepacker](https://piepacker.com/?utm_source=chatgpt.com) – retro games you can play together with built-in video chat.  
 
 While you play, notice:  
 - Where do you see non-linear choices or freedom?  
