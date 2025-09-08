@@ -7,264 +7,235 @@ margin = 0.2
 +++
 
 # Bleeps, Blops, Clicks, and Pops
-
 ## Sound Design in Games
 
----
-
-## Learning Outcomes:
-
-- Understand the workflow associated with sound design for games
-- Learn the role of the sound designer in games
-- Know the difference between interactive and adaptive audio
+{{% note %}}
+Total time: ~40 minutes
+Structure: 3 hook + 3 outcomes + 8 concepts + 10 mini-lab + 8 case study + 5 wrap/exit
+Handouts: Asset List CSV, Game Sound Analysis Worksheet (post to LMS)
+{{%/ note %}}
 
 ---
 
-## The Evolution of Sound Design
+## Adaptive Audio 
 
-- The role of sound in expressing emotions and moods
-- Early sound effects in theater
-- Advancements in sound recording and storage
-- The significance of sound design in gaming
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p-FLWabby4Y" title="Adaptive audio example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+{{% note %}}
+Different levels of adaptive audio; play 4 minutes
+{{%/ note %}}
+
+---
+
+## Learning outcomes 
+
+- Map a practical game-audio workflow from asset list to runtime behavior
+- Differentiate interactive versus adaptive audio using observable criteria
+- Classify layers and propose mix and accessibility strategies
+
+{{% note %}}
+Set expectations: we will practice a small end-to-end thread rather than lecture everything about formats and history.
+{{%/ note %}}
+
+---
+
+## From Foley to parameters
+
+- Theatrical sound effects and Foley established timing and gesture
+- Digital libraries and DAWs scaled content creation and layering
+- Middleware and parameters enabled systems that respond at runtime
+
+{{% note %}}
+Bridge explicitly: in film we place sounds to picture; in games we prebuild a palette and let systems place and transform them via state and parameters.
+{{%/ note %}}
+
+---
+
+## Interactive versus adaptive 
+
+- Interactive: audio is triggered directly by player input or discrete events
+- Adaptive: audio changes in response to game state or parameter values
+- Common mappings
+  - Input → one-shot SFX
+  - State → music section or snapshot
+  - Parameter → continuous change of pitch, filter, send level
+
+{{% note %}}
+Ask for one example of each from any game they know. If needed, suggest player_speed, enemy_count, health, stamina, stealth_visibility.
+{{%/ note %}}
+
+---
+
+## Diegetic and non-diegetic
+
+- Diegetic: exists in the world; characters could hear it
+- Non-diegetic: player-facing guidance or score
+- Ambiguous cases to debate
+  - In-world radio that crossfades to score
+  - UI sounds that are framed as in-world devices
+
+{{% note %}}
+Quick show of hands on a tricky example. Ask each table to state a rule they will use when in doubt.
+{{%/ note %}}
+
+---
+
+## Layered sound taxonomy
+
+| Layer        | Primary goal                       | Pitfalls                        | Mix tools and policies                 |
+|--------------|------------------------------------|----------------------------------|----------------------------------------|
+| Ambience     | Sense of place and time            | Masking dialogue                 | EQ dips, level, bus ducking             |
+| World/Foley  | Material identity, affordances     | Repetition, machine-gun effect   | Variations, random start, filters       |
+| UI/UX        | Feedback and guidance              | Loudness spikes, overuse         | Loudness targets, short decay           |
+| Dialogue/VO  | Intelligibility                    | Fighting music/ambience          | Sidechain, clarity EQ                   |
+| Music        | Narrative pacing and emotion       | Loop fatigue, clashes            | Stingers, states, blends                |
+
+{{% note %}}
+Anchor today’s mini-lab in World/Foley and its relationship to ambience and UI ducking.
+{{%/ note %}}
+
+---
+
+## Platform realities and mix strategy 
+
+- Constrained platforms: pre-mix, consolidate layers, bake variation into assets
+- Capable platforms: runtime mixing, snapshots, sends, real-time effects
+- Decide what you pre-bake versus what the engine controls
+
+{{% note %}}
+Name checks: randomization in assets versus parameterized change at runtime. Students should always justify which side of the line they choose.
+{{%/ note %}}
+
+---
+
+## Choosing file formats
+
+- There is no single codec that fits every audio use case; each has strengths for different scenarios.
+- Opus is best for compressing voice and dialog, combining high quality with small file sizes.
+- WAV/PCM offers the fastest decoding and no loss of quality but results in very large files.
+- Vorbis is a strong, widely compatible alternative when Opus isn't available.
+- Hardware or software decoding methods can affect performance, so codec choice may depend on platform support.
+
+[Source](https://www.audiokinetic.com/en/blog/a-guide-for-choosing-the-right-codec/)
+
+{{% note %}}
+- For extremely short sounds, uncompressed formats like WAV (or sometimes ADPCM) are preferred to avoid overhead.
+- Opus has largely replaced Vorbis for speech and general use where supported, but Vorbis remains useful due to compatibility.
+- Profiling your project and categorizing sounds before picking codecs yields optimal results.
+- Hardware decoding is efficient, but not all platforms or codecs support it equally, and it's less effective for ultra-short sound effects.{{%/ note %}}
+
+---
+
+## Start with an asset list  
+
+- Name, category, trigger, diegetic flag
+- Playback (one-shot or loop), variations, randomization
+- Parameters, ducking, priority, spatialization
+- File format, SR/bit depth, loudness target, owner, status
+
+---
+| ID | Asset Name           | Category | Trigger/Event   | Diegetic | Playback |
+|----|----------------------|----------|-----------------|----------|----------|
+| 01 | footstep_grass_light | Foley    | player_step     | Yes      | One-shot |
+| 02 | door_metal_open      | Foley    | interact_open   | Yes      | One-shot |
+| 03 | ui_inventory_open    | UI/UX    | ui_open         | No       | One-shot |
+
+---
+
+| ID | Variations | Randomization             | Parameters      | Ducking             | Format |
+|----|------------|---------------------------|-----------------|---------------------|--------|
+| 01 | 8          | start ±20%, pitch ±3 st   | player_speed    | UI bus −4 dB, 50/200| OGG    |
+| 02 | 3          | start ±10%, vol ±2 dB     | none            | music bus −3 dB     | WAV    |
+| 03 | 2          | none                      | none            | none                | OGG    |
+
+{{% note %}}
+Point students to the CSV template posted on LMS and require consistent filenames and tags.
+{{%/ note %}}
+
+---
+
+### Mini-lab: footsteps that adapt
+
+> Goal: Design a small assets list for footsteps that adapt to player_speed and surface.
+> 
+> [Template](https://docs.google.com/spreadsheets/d/11qfMwjdae6Goc5L82WthQ08uevSRG5eDyDik1ziI_kY/edit?usp=sharing)
+
+**Steps**
+- Groups of 3–4 choose one surface: grass, metal, water, stone
+- In the class Google Sheet (tab for your surface), fill 5 rows using:
+  Asset Name · Category · Trigger/Event · Diegetic · Playback · Variations ·
+  Randomization · Parameters/RTPCs · Ducking · Priority · File Format
+- In Notes: define mappings (e.g., player_speed → pitch ±3 st, vol ±3 dB; crouch → high-cut)
+- Prepare a 1-minute rationale: how you avoid repetition and masking
+
+> - Deliverable: Five rows completed + 1-minute talk-through
 
 {{% note %}}
 
-- Sound has always been a crucial element in expressing emotions and setting moods, especially within the dramatic arts. It plays a vital role in shaping the audience's experience.
-- Historical forms of theater, such as Elizabethan plays and Japanese Kabuki, utilized rudimentary sound effects like a metal sheet to mimic thunder, marking the early days of sound design.
-- The development of recording technology, from Thomas Edison’s phonograph to modern digital workstations, revolutionized the way sounds are captured, stored, and reused, allowing for a vast library of sounds available for various productions.
-- In the realm of game design, sound fundamentally alters the player's perception, with the role of a sound designer encompassing not just the creation of sound effects but also their integration into the final product, highlighting the multidimensional impact of sound in enhancing the gaming experience.
+* **Asset Name**
+  Use snake\_case with surface + action + intensity.
+  Examples: `footstep_grass_light`, `footstep_metal_heavy`, `ui_inventory_open`
+
+* **Category**
+  Broad grouping for mix policies: Ambience, Foley, UI, Dialogue, Music
+
+* **Trigger/Event**
+  When the sound plays, written like an in-engine hook.
+  Example: `player_step(surface=stone)`
+
+* **Diegetic**
+  Yes = in the world (footsteps, doors). No = player-only (UI clicks)
+
+* **Playback**
+  One-shot (footsteps, UI) vs. Loop (ambience beds, wind)
+
+* **Variations**
+  Number of alternates to reduce repetition (e.g., 6–10 for footsteps)
+
+* **Randomization**
+  Small changes per playback to humanize:
+  Examples: `start ±15%`, `pitch ±2 st`, `vol ±2 dB`
+
+* **Parameters/RTPCs**
+  Gameplay values that drive change.
+  Examples: `player_speed → pitch ±3 st`, `crouch → LPF 5 kHz`
+
+* **Ducking**
+  Sidechain to protect clarity.
+  Example: `UI −3 dB (attack 10 ms, release 200 ms)`
+
+* **Priority**
+  High (critical cues), Medium (most Foley), Low (ambience)
+
+* **File Format**
+  OGG for runtime SFX/music, WAV/CAF for source/tight loops, AAC for streams
+
+* **Notes**
+  Implementation details, test methods, or accessibility intent
+  Example: “Caption: \[Soft crunch]; Test: sweep player\_speed 0–1, confirm smooth pitch change”
 
 {{%/ note %}}
 
 ---
 
-## Mike Patton plays the Intonarumori
+## Roles and collaboration thread  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lrfCq71EfNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-## The Art of Foley and Sound in Film
-
-- Introduction to Foley in film
-- The non-linear nature of sound in games
-- The role of game sound designers
+- Audio Director or Lead: loudness targets and scope guardrails
+- Sound Designer: variation design, naming, and mix intent
+- Audio Programmer: parameter plumbing, snapshots, performance budgets
 
 {{% note %}}
-
-- Foley, named after Jack Foley, is a craft in film where sound effects are created in real time to match the on-screen action, bringing life to movies with meticulously timed audio.
-- Unlike films, games offer a non-linear experience, requiring sound designers to prepare a dynamic range of sounds, ready to be triggered at any moment due to the unpredictable nature of gameplay.
-- Game sound designers meticulously organize music, sound effects, and voice-overs as separate entities in a database, ready to be called upon when specific in-game events occur, showcasing the complexity and interactive nature of sound design in gaming.
-
+Tie roles back to the mini-lab: who owns player_speed mapping, who verifies, who signs off.
 {{%/ note %}}
 
 ---
 
-## The Complexity of Sound in Gaming Platforms
+## Appendix: optional early tech clip
 
-- Pre-mixing sounds in simple gaming platforms
-- Advanced audio mixing in sophisticated gaming systems
-- The continuous evolution of game sound design
+Mike Patton and the Intonarumori
 
-{{% note %}}
-
-- In basic gaming platforms like most mobile and social games, sounds must be pre-mixed and balanced before being triggered, ensuring consistency and quality.
-- More complex platforms, such as console games, feature advanced audio engines that mix sounds in real-time, responding to the player's actions, acting like virtual Foley artists by adding effects as the game progresses.
-- The varying specifications of different gaming platforms present unique challenges, pushing sound designers to constantly innovate and adapt, ensuring that audio quality and integration evolve with the advancing technology.
-
-{{%/ note %}}
-
----
-
-## Understanding Diegetic and Non-Diegetic Sounds in Games
-
-- Definition and examples of diegetic sound
-- Definition and examples of non-diegetic sound
-- The dynamic nature of interactive and adaptive audio in games
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lrfCq71EfNU" title="Intonarumori example" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 {{% note %}}
-
-- Diegetic sound refers to audio that originates from the game's world itself, such as character voices, object sounds, or in-game music, enhancing the player's immersion by grounding audio elements in the game's reality.
-- Non-diegetic sound, on the other hand, includes audio elements like narrators' voices or background music that are not part of the game's world but are added for dramatic effect or storytelling, guiding the player's emotional response.
-- The interplay of interactive and adaptive audio in games creates a dynamic and responsive audio environment, with sounds changing in reaction to the player's actions or in-game factors, illustrating the intricate layering and responsiveness of sound design in gaming.
-
-{{%/ note %}}
-
-------
-
-## Adaptive audio
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p-FLWabby4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-## Layered Sound Effects in Gaming
-
-- Subcategories of game sounds: Background ambience, Foreground sounds, Interface sounds
-- Role and examples of each category
-- Interaction between sound categories and gameplay
-
-{{% note %}}
-
-- In gaming, sound effects are meticulously categorized into subcategories like background ambience, foreground sounds, and interface sounds, each serving a unique purpose in enhancing the gaming experience.
-- Background ambience sets the environmental mood, such as the sound of water near a character, while foreground sounds are directly tied to in-game actions, like laser blasts or collision noises. Interface sounds are linked to the game's UI, providing feedback on player actions or changes in game status.
-- The interplay between these sound layers creates a rich, immersive audio landscape, dynamically responding to and influencing player interactions and the overall narrative flow of the game.
-
-{{%/ note %}}
-
----
-
-## Exercise: 
-
-Let's pick a game from last week and analyze the sound design. What are the different layers of sound? How do they interact with the gameplay? Diegetic vs non-diegetic? Adaptive? Layered?
-
----
-
-## Sound File Formats 
-
-- Types of sound file formats: Open, Uncompressed, and Proprietary
-- Characteristics of uncompressed audio: PCM, bit depth, sample rate
-- Concepts of interleaving in audio files
-
-{{% note %}}
-
-- Sound files in gaming vary widely, with some platforms preferring proprietary formats and others opting for open standards like Ogg Vorbis, highlighting the diverse technical landscape of audio in gaming.
-- Uncompressed audio formats, like WAV and AIFF, use linear pulse-code modulation (PCM) to deliver high-quality audio, with the fidelity hinging on factors such as bit depth and sample rate, exemplifying the intricate technical considerations in sound design.
-- The concept of interleaving in audio files, whether dealing with stereo (interleaved) or multi-mono (non-interleaved) configurations, plays a crucial role in how sound channels are managed and delivered within a game, impacting the overall audio experience.
-
-{{%/ note %}}
-
----
-
-## Compressed Audio File Formats 
-
-- Overview of compressed audio file formats
-- Auditory masking and perceptual limits in audio compression
-- Characteristics and usage of MP3, Ogg, and FLAC formats
-
-{{% note %}}
-
-- Compressed audio formats, including MP3, Ogg, and FLAC, are pivotal in gaming, balancing the trade-off between audio quality and file size, crucial for efficient game performance and storage.
-- Techniques like auditory masking allow these formats to omit sounds beyond human perceptual limits, optimizing file size without noticeably compromising audio quality, demonstrating the ingenious application of psychoacoustic principles in audio design.
-- Each format brings its nuances: MP3's popularity is tempered by its challenges in looping audio smoothly, Ogg offers quality comparable to MP3 but with limited support on platforms like Apple devices, and FLAC stands out for its lossless compression, guaranteeing a perfect replication of the original audio upon decompression, highlighting the diverse toolkit available to sound designers in gaming.
-
-{{%/ note %}}
-
----
-
-
-# Range of MP3 Bit Rates
-
-![](chapter-50.png)
-
----
-
-## Proprietary Audio File Formats 
-
-- Introduction to proprietary audio formats: WMA, AAC, and others
-- Specifics and applications of each format
-- Understanding the unique characteristics and usage scenarios
-
-{{% note %}}
-
-- Proprietary audio formats like WMA, AAC, and others offer unique characteristics and benefits, tailored to specific platforms or requirements, showcasing the varied landscape of audio options in gaming.
-- WMA, Microsoft's alternative to MP3, and AAC, Dolby's format widely used in Apple's ecosystem, exemplify how major tech companies have developed their own audio standards to optimize performance and integration within their platforms.
-- Additional formats like .AU, .CAF, .BWF, .SD2, and .MID each serve specific functions, from seamless looping in iOS (CAF) to professional broadcasting standards (BWF), and even communication protocols for electronic instruments (MIDI), highlighting the broad spectrum of audio solutions tailored to various technical and creative needs in gaming and beyond.
-
-{{%/ note %}}
-
-
-
----
-
-# Other Formats
-
-- \.AU \- standard audio fi le format used by Sun’s version of Unix and Java
-- \.CAF Core Audio Format \- Apple\-based format for audio files in Logic Pro and used prominently in iOS for seamless looping
-- \.BWF \- Broadcast Wave Format is a new version of WAV files supported by PCs and used in the Pro industry
-- \.SD2 \- now obsolete Sound Designer 2 format
-- \.MID is the extension for a MIDI file\, a communication protocol for electronic instruments to speak with each other
-
----
-
-## Preparing for Your First Sound Design Project in Gaming
-
-- Understanding the game's context and audience
-- Assessing technical and creative requirements
-- Importance of preliminary information gathering
-
-{{% note %}}
-
-- Embarking on your first sound design project in gaming involves a deep dive into understanding the game's genre, target audience, and pace, ensuring that your sound design aligns perfectly with the game's thematic and demographic considerations.
-- Technical aspects like the development platform and audio budget are crucial, affecting everything from the sound file formats you choose to the overall quality and quantity of audio assets you can integrate, highlighting the necessity of a meticulous, informed approach.
-- Gathering detailed information from game designers, producers, or programmers is indispensable, as it lays the groundwork for making informed creative decisions and ensuring your sound assets enhance the game's immersive experience without exceeding technical limitations.
-
-{{%/ note %}}
-
----
-
-## Crafting the Audio Assets List 
-
-- Importance of the audio assets list
-- Key components of each audio asset entry
-- Organizational strategies for efficient soundtracking
-
-{{% note %}}
-
-- The audio assets list serves as the cornerstone of your sound design project, acting as a comprehensive inventory of all sound elements and a guide to keep the project on track throughout the development process.
-- Each entry in the audio assets list should meticulously detail the sound's name, standardized file name, function within the game (like ambiance, effects, or dialogue), and playback nature (looping or one-shot), ensuring clarity and ease of integration.
-- While some companies may utilize sophisticated asset management systems, the responsibility often falls on the sound designer to initiate, compile, and maintain this list, emphasizing the importance of a methodical, organized approach to sound asset tracking in gaming projects.
-
-{{%/ note %}}
-
----
-
-![](assets-list.png)
-
----
-
-## Sourcing and Crafting Sounds 
-
-- Origin and evolution of sound sourcing
-- Role of industry-standard and downloadable sound-effects libraries
-- Techniques for customizing and integrating sounds in games
-
-{{% note %}}
-
-- Historically, sound designers would record natural or synthesized sounds directly for their projects. However, the advent of CDs and the internet revolutionized this process, introducing extensive, readily accessible sound-effect libraries.
-- Renowned libraries like Sound Ideas and Hollywood Edge set industry standards, providing a vast array of sounds, though modern sound designers often customize these to avoid generic outputs. Meanwhile, online platforms have emerged, offering both paid and free collections, expanding access but necessitating careful quality and licensing considerations.
-- Once sourced, sounds are intricately edited and layered using digital audio workstations (DAWs), allowing designers to craft unique auditory landscapes. This process, fundamental in game design, ranges from simple sound insertions to the complex manipulation of thousands of audio files, underscoring the creative and technical prowess required in game sound design.
-
-{{%/ note %}}
-
----
-
-## Key Roles in Game Sound Design Teams
-
-- Overview of team structure and role specialization
-- Responsibilities of Audio Directors, Audio Leads, and Sound Designers
-- The critical role of Audio Programmers in sound integration
-
-{{% note %}}
-
-- The sound design team in game development can vary from a single multifaceted individual in small companies to specialized roles in larger teams, each contributing unique skills and expertise to the auditory aspect of the game.
-- The Audio Director orchestrates the entire audio vision, managing resources and personnel while collaborating closely with game designers to ensure a cohesive sound strategy. The Audio Lead, often synonymous with the Audio Director in smaller setups, focuses on the audio components of a single game, liaising regularly with other team members.
-- Sound Designers are the creatives behind the game's auditory elements, skillfully blending natural and synthesized sounds, and sometimes even integrating these sounds into the game using specialized tools. Audio Programmers, although not typically sound designers, play a crucial role in embedding the audio seamlessly into the game environment, utilizing their coding expertise and deep understanding of audio systems and hardware.
-
-{{%/ note %}}
-
----
-
-## Conclusion: The Multifaceted World of Game Sound Design
-
-- Complexity and creativity in game sound design
-- Dynamic nature of sound in games versus static media
-- Importance of technical knowledge and adaptability
-
-{{% note %}}
-
-- Sound design in games is a rich and complex field that balances creative artistry with technical acumen, requiring a deep understanding of both sound creation and the dynamic, interactive nature of the gaming environment.
-- Unlike the linear soundscapes of film or TV, game audio must be adaptable and responsive, ready to change with each player's action or game scenario, showcasing the unique challenges and opportunities in crafting immersive and engaging sound design for games.
-- The role of a game audio designer extends beyond sound creation, encompassing meticulous asset management and a keen awareness of evolving software and hardware landscapes, making it a field where technical expertise, constant learning, and creative innovation are not just valuable but essential.
-
+Use only if you have extra time or want a historical segue. Prompt: what’s the through-line from mechanical noise instruments to today’s parameterized SFX?
 {{%/ note %}}

@@ -38,12 +38,12 @@ author: ""
 - [Activity: Exploring Non-Linear Games and Sound](../assignments/exercises/in-class-analysis/)
 - [Level 4: What Is Hip? Styles and Genres: Welcome to Acronym Hell](../lectures/week-2/level-4/)
 
-<!-- 
 
 # Week 3 (9/9) - Sound Design
 
 ## Tuesday
 
+- [Game Sound Analysis Worksheet](../lectures/week-3/game_sound_analysis_worksheet/)
 - [Level 5: Bleeps, Blops, Clicks, and Pops: Sound Design in Games](../lectures/week-3/level-5/)
 
 > [Exercise 1: Source or create sounds given an asset list](../assignments/exercises/exercise-1/) - find or record these sounds
@@ -59,6 +59,7 @@ author: ""
 
 > [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE Thursday, September 25
 
+<!-- 
 # Week 4 (9/16)
 
 ## Tuesday

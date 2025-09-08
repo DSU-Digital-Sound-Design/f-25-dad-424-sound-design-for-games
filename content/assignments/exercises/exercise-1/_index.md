@@ -6,7 +6,7 @@ title: "Exercise 1: Source or Create Sounds Given an Asset List"
 
 ## Assignment Overview
 
-You are working for a client developing an **Untitled Cat Game**. An updated [Asset List](asset-list_with_columns_with_comments.xlsx) has been provided. It contains all required audio assets for the demo level. Your job is to source or create these sounds to meet the provided technical and creative specifications.
+You are working for a client developing an **Untitled Cat Game**. An updated [Asset List](./asset-list.xlsx) has been provided. It contains all required audio assets for the demo level. Your job is to source or create these sounds to meet the provided technical and creative specifications.
 
 You will:
 
