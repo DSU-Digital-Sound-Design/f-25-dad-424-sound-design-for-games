@@ -59,7 +59,6 @@ author: ""
 
 > [Exercise 2: Voice Over](../assignments/exercises/exercise-3/) - DUE Thursday, September 25
 
-<!-- 
 # Week 4 (9/16)
 
 ## Tuesday
@@ -72,6 +71,7 @@ author: ""
     - Create and clone voice and compare the results. 
     - Very Creepy! 
 
+<!-- 
 ## Thursday
 
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
