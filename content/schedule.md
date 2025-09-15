@@ -68,8 +68,6 @@ author: ""
 - AI Voice
   - Look at Soundly Voices
   - Others: [LOVO](https://lovo.ai/) and [Resemble](https://www.resemble.ai/)
-    - Create and clone voice and compare the results. 
-    - Very Creepy! 
 
 <!-- 
 ## Thursday
