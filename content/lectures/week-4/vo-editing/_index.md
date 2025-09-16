@@ -67,3 +67,8 @@ For a visual and detailed guide, refer to the video: [Recording and Processing V
 ---
 
 These step-by-step instructions are designed to guide you through the VO editing process in Reaper efficiently. For additional tips on removing mouth noises, you can watch [How To Remove Mouth Noises In Your Recordings](https://www.youtube.com/watch?v=r5ki_fo2rlk).
+
+> Extra time?
+> Lets edit one of these VOs as a class
+> [Freesound](https://freesound.org/search/?q=voice+over&f=&s=Automatic+by+relevance&si_tags=0&si_name=0&si_description=0&si_packname=0&si_sound_id=0&si_username=0&d0=60&d1=*&ig=0&r=0&g=1&dp=0&cm=0&mm=0)
+
