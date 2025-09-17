@@ -72,7 +72,7 @@ author: ""
 ## Thursday
 
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
-- Some game music analysis from https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4
+- Some game music analysis from [8-bit Music Theory](https://www.youtube.com/watch?v=DtHLMGiQlJw&list=PL-ZQIvQFPv4J_32ofFpI5Nd-WCk88rAC4)
 
 > Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2 (2 Weeks from now). [Instructions](../assignments/game-music-analysis/)
 
