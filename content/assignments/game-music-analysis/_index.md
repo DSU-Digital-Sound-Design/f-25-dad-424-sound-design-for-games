@@ -10,8 +10,8 @@ Building on Level 6 – Compose Yourself!: The Art of Composing for Games, this 
 
 ## **Learning Outcomes**
 
-* Identify differences between linear and non-linear scoring in shipped games
-* Examine and label real uses of loops, branching, and transitions with timestamps
+* Identify differences between linear and non-linear scoring in games
+* Examine and label uses of loops, branching, and transitions with timestamps
 * Recognize production and design factors that shape adaptive scoring choices
 * Apply vertical (layering) and horizontal (re-sequencing) concepts by designing a cohesive music system for gameplay
 
@@ -24,13 +24,13 @@ Your slides must include:
 
 * **Part A – Scene Analysis (Linear vs Non-Linear)**
 
-  * Game title, level/mission, platform, and source of gameplay capture (own play or approved stream/VOD link)
+  * Game title, level/mission, platform, and source of gameplay capture (e.g., YouTube, Twitch, personal capture)
   * Function of the music: mood/tone, time/place, location identity, character, pace, immersion
   * Classification of linear vs non-linear passages, with at least 5 timestamped examples
 
 * **Part B – Adaptive Techniques Table**
 
-  * Examples from the same game (or a second game if needed)
+  * 4 Examples from the game 
   * Techniques from: vertical layering, crossfade, phrase branching, musical demarcation, bridge, stinger, horizontal re-sequencing
   * For each, show timestamp(s), describe what you hear, and explain why the technique fits
 
@@ -47,19 +47,6 @@ Your slides must include:
   
 ![DigiPen Adaptive Music Example](https://www.digipen.edu/sites/default/files/public/img/news/05-body/class-select-digipen-adaptive-music-video-games-body1.jpg)
 Example of a clear interaction map
-
----
-
-## **Presentation Checklist**
-
-* Introduce the game and why you chose it
-* Show a short clip of the scene with music
-* Pause to explain what technique is being used and what triggers the change
-* Connect your example to concepts from Level 6 page
-* Present your adaptive techniques table highlights (2–3 strongest examples)
-* Show your music interaction map and explain how it works in gameplay
-* Summarize your key takeaway about how music impacts the game
-* Keep within 7–8 minutes for the main presentation, leaving 1–2 minutes for questions
 
 ---
 

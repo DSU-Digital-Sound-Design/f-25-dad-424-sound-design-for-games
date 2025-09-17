@@ -69,7 +69,6 @@ author: ""
   - Look at Soundly Voices
   - Others: [LOVO](https://lovo.ai/) and [Resemble](https://www.resemble.ai/)
 
-<!-- 
 ## Thursday
 
 - [Level 6: Compose Yourself! The Art of Composing for Games](../lectures/week-6/level-6/)
@@ -77,6 +76,7 @@ author: ""
 
 > Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2 (2 Weeks from now). [Instructions](../assignments/game-music-analysis/)
 
+<!-- 
 # Week 5 (9/23) — FMOD Integration + C# Basics
 
 ## Tuesday — Module: Introduction & Module 1 (start)
