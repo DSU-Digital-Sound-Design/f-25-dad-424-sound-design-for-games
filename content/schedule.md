@@ -76,13 +76,13 @@ author: ""
 
 > Exercise 3: Prepare a short game music analysis using some or all of the topics we talked about today. DUE Thursday, October 2 (2 Weeks from now). [Instructions](../assignments/game-music-analysis/)
 
-<!-- 
 # Week 5 (9/23) — FMOD Integration + C# Basics
 
+<!-- 
 ## Tuesday — Module: Introduction & Module 1 (start)
 
-- Lesson 2: [Project Set-Up & FMOD Integration](../lectures/week-5/module-1/project-setup/)
-- Module 1 – Lesson 1: The Basics of C# (Part 1)
+- [Project Set-Up & FMOD Integration](../lectures/week-5/module-1/project-setup/)
+- [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/)
 
 ## Thursday — Module 1 (continue)
 
