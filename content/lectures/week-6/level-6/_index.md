@@ -267,10 +267,6 @@ See examples [here](https://web.archive.org/web/20181113210932/https://www.desig
 
 {{%/ note %}}
 
-
----
-Here’s an updated version of the slide with stronger language, a bit more context, and some game examples—while keeping your exact formatting intact.
-
 ---
 
 ## Bridge Transition
