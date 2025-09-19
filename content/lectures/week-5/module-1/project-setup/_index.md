@@ -4,8 +4,6 @@ title: "Project Set-Up & FMOD Integration"
 
 # Project Set-Up & FMOD Integration
 
-Below is a structured outline of the instructions for integrating FMOD with Unity.
-
 ## 1. Introduction & Context
 
 - Brief overview of the FMOD–Unity partnership (as of April 2020).

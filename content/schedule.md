@@ -78,12 +78,13 @@ author: ""
 
 # Week 5 (9/23) — FMOD Integration + C# Basics
 
-<!-- 
-## Tuesday — Module: Introduction & Module 1 (start)
+## Tuesday — Introduction and Setup
 
+- [Software Setup Instructions](../lectures/week-5/setup/)
 - [Project Set-Up & FMOD Integration](../lectures/week-5/module-1/project-setup/)
 - [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/)
 
+<!-- 
 ## Thursday — Module 1 (continue)
 
 - no class for Day of Service
