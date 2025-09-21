@@ -81,13 +81,14 @@ author: ""
 ## Tuesday — Introduction and Setup
 
 - [Software Setup Instructions](../lectures/week-5/setup/)
-<!-- - [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/) --> -->
+- [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/) 
+- [The Basics of C# (Part 2)](../lectures/week-5/module-1/csharp-basics-2/)
+- 
 
 <!-- 
 ## Thursday — Module 1 (continue)
 
 - no class for Day of Service
-- Lesson 2: The Basics of C# (Part 2)
 - Lesson 3: FMOD Event Instances
 - In-class lab: first Event, first Bank, Event Emitter in Unity
 
