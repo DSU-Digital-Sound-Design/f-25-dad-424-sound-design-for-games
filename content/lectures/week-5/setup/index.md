@@ -13,8 +13,8 @@ title: "Software Setup Instructions"
 
 ## 2. Install Unity Editor
 
-- The Unity Hub will automatically start downloading the newest version of the Unity Editor (Unity 6.2). This may take some time depending on your internet speed, so do it before class!
-- If it does not, you can manually add a version by clicking on the "Installs" tab and then "Add".
+- Unity Hub should prompt you to install the current Unity Editor (Unity 6.2 for this course). Start the download as soon as possible—it can take a while.
+- If the download does not start automatically, open the "Installs" tab, click "Install Editor," and pick the version listed above. Accept the default build support modules unless your instructor specifies otherwise.
   
 ## 3. Create a Unity Project
 
@@ -31,7 +31,7 @@ This will take a minute, so be patient.
 - Click "Add to My Assets" and then "Open in Unity".
 - This will open the Package Manager in Unity.
 - Click "download" and then "import" to add the 3D Game Kit to your project.
-- Its ok to overwrite any files if prompted.
+- It's OK to overwrite any files if prompted.
 - Install/update any dependencies if prompted.
 
 When this window pops up click "Next" and then "Import".
@@ -45,14 +45,17 @@ The editor will take a minute to import all the assets and compile scripts.
 Finally, find the Project tab, then navigate to `Assets > 3DGameKit > Scenes` and double click on `Start` to open the scene.
 
 ![](open-scene.png)
-Open image in new tab to see full size
+*Open the image in a new tab to see it full size.*
 
 To make the project more performant, go to `Edit > Project Settings > Quality` and set the quality to "Performance".
 
 ![](quality-setting.png)
 
-> Unity threw compiler errors in `NavMeshLink.deprecated.cs` because old fields like `autoUpdate` and `bidirectional` no longer exist in the updated AI Navigation package. At the same time, duplicate assembly definition GUIDs caused conflicts between legacy and new NavMesh files. The fix was to delete the `Library/PackageCache/com.unity.ai.navigation` folder so Unity could pull a fresh, consistent version of the package, making sure only one copy of the navigation components remained in the project. This reset cleared both the missing symbol errors and the GUID conflicts.
+If you run into NavMesh compiler errors during import, see the troubleshooting note below.
 
+### Troubleshooting: NavMesh package errors
+
+Unity may throw compiler errors in `NavMeshLink.deprecated.cs` because older fields such as `autoUpdate` and `bidirectional` were removed from the latest AI Navigation package. Duplicate assembly-definition GUIDs can also appear when legacy and new NavMesh files are both present. Deleting the `Library/PackageCache/com.unity.ai.navigation` folder forces Unity to download a fresh copy of the package, clearing the missing symbol errors and GUID conflicts on the next compile.
 
 Import TMP Essential Resources if prompted. If you miss this step, you can always go to `Window > TextMeshPro > Import TMP Essential Resources`.
 
@@ -61,29 +64,30 @@ Import TMP Essential Resources if prompted. If you miss this step, you can alway
 
 Now play the game! Click the play button at the top of the screen.
 
-## 7. Remove Unity Audio and add FMOD
+## 7. Prepare FMOD assets
 
-This game comes with audio already implemented in Unity, but we want to use FMOD instead. Go to `Edit > Project Settings > Audio` and uncheck "Disable Unity Audio".
+This game ships with native Unity audio, but we will replace it with FMOD. Work through the following steps:
 
-
-Next, download the FMOD project with audio assets from the 3D Game Kit already included. You should already have FMOD installed from last week. If not, download it from the [FMOD website](https://www.fmod.com/download).
+1. In Unity, go to `Edit > Project Settings > Audio` and **check** "Disable Unity Audio". This prevents the built-in AudioSource components from playing while you migrate to FMOD.
+2. Download the FMOD project that already contains the 3D Game Kit audio assets. If you still need FMOD Studio, install it from the [FMOD website](https://www.fmod.com/download).
+3. Extract the downloaded archive and open the project in FMOD Studio.
+4. Immediately choose `File > Save As` to rename the project to something memorable and store it somewhere you'll be able to find later.
 
 > [Download FMOD Project](3D-Game-Kit-FMOD-Project-BLANK-v2.00.00.zip)
 
-Go ahead and "save project as" to rename the project to something you'll remember.
-
 ## 8. Integrate FMOD with Unity
 
-Download the FMOD for Unity integration package from either the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-161631) or the [FMOD website](https://www.fmod.com/download#integrations).
+Download the FMOD for Unity integration package from either the [Unity Asset Store](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-161631) or the [FMOD website](https://www.fmod.com/download#integrations). The Asset Store workflow matches the 3D Game Kit import: add it to your assets, open it in Unity, then download and import through the Package Manager.
 
-If you use the asset store the process is the same as the 3D Game Kit. Click "Add to My Assets" and then "Open in Unity". This will open the Package Manager in Unity. Click "download" and then "import" to add the FMOD for Unity package to your project.
+When Unity finishes importing, the FMOD Setup Wizard launches. Follow its prompts to:
 
-Follow the steps in the FMOD Setup Wizard to link your FMOD project to Unity.
+- Point to the `.fspro` file for the project you saved in the previous step.
+- Choose the platforms you plan to build (e.g., Desktop) so Unity knows which bank files to load.
+- Let the wizard swap in an `FMOD Studio Listener` on the main camera and add any required `FMOD Studio Event Emitter` components.
 
-The process includes removing the Unity audio source components and adding FMOD Studio Event Emitter components to the appropriate game objects. It also added an FMOD Listener component to the main camera and removed the Unity Audio Listener component.
+After the wizard completes, double-check the following:
 
-Under the `FMOD` menu in Unity, go to `Edit Settings` and set the path to your FMOD project or built banks.
+- Under the `FMOD` menu, open `Edit Settings` and confirm the project or bank path is correct.
+- Remove any leftover `Audio Source` components that Unity might still have on prefabs you plan to control with FMOD.
 
-In FMOD Studio, build the banks by going to `File > Build` or pressing `F7`.  
-
-Unity should automatically detect the changes and recompile. If not, just save something in FMOD Studio to trigger a recompile. Unity will also now see your FMOD events.
+In FMOD Studio, build the banks with `File > Build` (or press `F7`). Save the project to trigger Unity to refresh the banks. Unity should detect the new bank files automatically; if not, pick `FMOD > Refresh Banks` inside Unity.
