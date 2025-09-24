@@ -20,21 +20,15 @@ Building on Level 6 – Compose Yourself!: The Art of Composing for Games, this 
 ## **Deliverables**
 
 **Class Presentation (7–8 minutes + 2 minutes Q\&A)**
-Your slides must include:
+You may present in any format (slides, table, video capture, or document), but include:
 
-* **Part A – Scene Analysis (Linear vs Non-Linear)**
+* **Analysis – 4 Examples**
+  * For each example, show:
+    * Function of the music: mood/tone, time/place, location identity, character, pace, immersion
+    * Techniques from: vertical layering, crossfade, phrase branching, musical demarcation, bridge, stinger, horizontal re-sequencing
+      * You don't need to show every technique in each example, but identify at least one per example.
 
-  * Game title, level/mission, platform, and source of gameplay capture (e.g., YouTube, Twitch, personal capture)
-  * Function of the music: mood/tone, time/place, location identity, character, pace, immersion
-  * Classification of linear vs non-linear passages, with at least 5 timestamped examples
-
-* **Part B – Adaptive Techniques Table**
-
-  * 4 Examples from the game 
-  * Techniques from: vertical layering, crossfade, phrase branching, musical demarcation, bridge, stinger, horizontal re-sequencing
-  * For each, show timestamp(s), describe what you hear, and explain why the technique fits
-
-* **Part C – Music Interaction Map (Design)**
+* **Music Interaction Map (Design)**
   * Diagram of a hypothetical level’s music system, showing:
     * States (e.g., Explore → Suspicion → Combat → Victory → Explore)
     * Vertical stems per state and when they enter/exit
@@ -52,10 +46,8 @@ Example of a clear interaction map
 
 ## **Assessment Rubric (25 Points)**
 
-| Criterion                              | Points | Description                                                                                           |
-| -------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------- |
-| Analysis accuracy and insight (Part A) | 8      | Correct identification of techniques and reasoning; clear linear vs non-linear examples               |
-| Technique identification (Part B)      | 6      | ≥4 techniques with clear, timestamped examples and reasoning                                          |
-| Systems design (Part C)                | 8      | Clear, functional state diagram with both vertical and horizontal elements; well-labeled and readable |
-| Presentation clarity and delivery      | 3      | Clear speech, logical flow, timing; uses AV effectively                                               |
-
+| Criterion                                   | Points | Description                                                                                           |
+| ------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------- |
+| Analysis examples             | 14     | 4 examples with clear function and technique identification; accurate, insightful reasoning           |
+| Music Interaction Map (Design)                    | 8      | Clear, functional state diagram with both vertical and horizontal elements; well-labeled and readable |
+| Presentation clarity and delivery           | 3      | Clear speech, logical flow, timing; uses AV effectively                                               |
