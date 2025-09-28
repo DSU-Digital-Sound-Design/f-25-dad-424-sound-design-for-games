@@ -81,58 +81,56 @@ author: ""
 ## Tuesday — Introduction and Setup
 
 - [Software Setup Instructions](../lectures/week-5/setup/)
-- [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/) 
-- [The Basics of C# (Part 2)](../lectures/week-5/module-1/csharp-basics-2/)
-- 
+  - Students setup Unity + FMOD before class and troubleshoot in class
 
-<!-- 
 ## Thursday — Module 1 (continue)
 
 - no class for Day of Service
+
+# Week 6 (9/30) — 3D, Positioning, and Challenge 1
+
+## Tuesday — Module 1 (continue)
+
+- [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/) 
+- [The Basics of C# (Part 2)](../lectures/week-5/module-1/csharp-basics-2/)
+
+## Thursday 
+
+- Game Music Analysis Presentations
+
+# Week 7 (10/7) 
+
+## Tuesday — Module 2 (start)
+
+- Game Music Analysis Presentations (if needed) - day 2
+
+<!-- 
+## Thursday — Module 2 (continue)
+
 - Lesson 3: FMOD Event Instances
 - In-class lab: first Event, first Bank, Event Emitter in Unity
 
 > **Check-in:** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
 > See [instructions](../assignments/exercises/fmod-event-instance-check-in/)
 
-# Week 6 (9/30) — 3D, Positioning, and Challenge 1
-
-## Tuesday — Module 1 (continue)
-
-- Lesson 4: 3D Event Positioning (attenuation, spatializer)
-- Live Update/Profiler connection test
-
-## Thursday — Module 1 (finish) + Challenge 1
-
-- Game Music Analysis Presentations
-- Extra times? TBD
-  - Lesson 5: Challenge Time!
-  - In-class build: 3 emitters placed in world, audibly distinct distance curves
-
-# Week 7 (10/7) — Interactivity Foundations
-
-## Tuesday — Module 2 (start)
-
-- Lesson 1: Using PlayOneShot
-- Lesson 2: Automating Audio With Parameters (Part 1)
-
-## Thursday — Module 2 (continue)
-
-- Lesson 3: Attaching Audio to Animations
-- Lesson 4: Automating Audio With Parameters (Part 2)
-
 
 # Week 8 (10/14) — Challenge 2 + Launch Intermediate Project
 
 ## Tuesday — Module 2 (finish)
 
+- Lesson 4: 3D Event Positioning (attenuation, spatializer)
+- Live Update/Profiler connection test
+
+## Thursday — Launch Intermediate Project: Dynamic Music
+
+- Lesson 1: Using PlayOneShot
+- Lesson 2: Automating Audio With Parameters (Part 1)
+- Lesson 3: Attaching Audio to Animations
+- Lesson 4: Automating Audio With Parameters (Part 2)
 - Lesson 5: Challenge Time! (wrap Module 2)
 - Code snippets: SetParameter by name vs ID, sanity checks in console
 
 > **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
-
-## Thursday — Launch Intermediate Project: Dynamic Music
-
 - Brief: build a parameter-driven music system (Intro/Explore/Combat or Intensity 0–1)
 - Map: snapshots/VCAs optional; use labeled or continuous parameters
 - Show reference mini-scene setup; distribute template Unity scene
