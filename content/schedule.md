@@ -94,6 +94,7 @@ author: ""
 - [The Basics of C# (Part 1)](../lectures/week-5/module-1/csharp-basics-1/) 
 - [The Basics of C# (Part 2)](../lectures/week-5/module-1/csharp-basics-2/)
 
+
 ## Thursday 
 
 - Game Music Analysis Presentations

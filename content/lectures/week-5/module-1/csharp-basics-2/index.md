@@ -132,3 +132,69 @@ These tools help keep your scripts organized and prevent unintended changes.
 * Combining these concepts equips you to create interactive, maintainable Unity projects.
 
 With these new tools, you can structure more complex player behaviors and prepare for advanced topics like integrating audio events or sophisticated gameplay systems.
+
+---
+
+### Task: Debug Practice Script
+
+In this exercise, you’ll write a simple Unity script that prints messages to the Console. This will help you practice variables, methods, and Unity’s debugging tools.
+
+#### Steps
+
+1. Create a new C# script and name it `DebugPractice`.
+2. Inside the script:
+   * Add a `[SerializeField]` private string variable called `playerName`. Give it a default value like `"Alex"`.
+   * In the `Start()` method, use `Debug.Log()` to print a welcome message that includes the player’s name. For example:
+     `Welcome, Alex!`
+   * In the `Update()` method, you’ll check if the player presses certain keys:
+     * If the **spacebar** is pressed, print `"Jump!"` to the Console.
+     * If the **Escape** key is pressed, print `"Quit Game"` to the Console.
+
+#### How to Detect Key Presses
+
+Unity lets you check for key presses using the **Input system**. The most common function is:
+
+```csharp
+if (Input.GetKeyDown(KeyCode.Space))
+{
+    Debug.Log("Jump!");
+}
+```
+
+* `Input.GetKeyDown(...)` means “did this key get pressed this frame?”
+* `KeyCode.Space` refers to the spacebar.
+* You can replace `Space` with other keys, like `KeyCode.Escape` for the Escape key.
+* See the [Unity Input documentation](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html) for more details.
+
+#### Example Script Structure
+
+Here’s the basic outline (don’t copy-paste — try to write it yourself first):
+
+```csharp
+using UnityEngine;
+
+public class DebugPractice : MonoBehaviour
+{
+    [SerializeField] private string playerName = "Alex";
+
+    void Start()
+    {
+        // Print a welcome message
+    }
+
+    void Update()
+    {
+        // Check for spacebar
+        // Check for escape key
+    }
+}
+```
+
+---
+
+#### Goal
+
+* When the game starts, you should see a welcome message in the Console.
+* When you press the spacebar, the Console should say `"Jump!"`.
+* When you press Escape, the Console should say `"Quit Game"`.
+
