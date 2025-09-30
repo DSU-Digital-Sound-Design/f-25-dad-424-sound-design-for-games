@@ -135,3 +135,112 @@ public class Player : MonoBehaviour
     }
 }
 ```
+
+---
+
+## Quiz: Spot and Fix the C# Errors
+
+Test your understanding! Each code snippet below contains a common C# error. Try to identify what's wrong and how to fix it before checking the solutions.
+
+### Error #1
+```csharp
+int health = 100
+Debug.Log(health);
+```
+**What's wrong here?** 
+<details>
+<summary>Click for solution</summary>
+
+**Problem:** Missing semicolon after the first statement.
+**Fix:** Add a semicolon after each statement.
+```csharp
+int health = 100;
+Debug.Log(health);
+```
+</details>
+
+### Error #2
+```csharp
+float speed = 5.5;
+```
+**What's wrong here?**
+<details>
+<summary>Click for solution</summary>
+
+**Problem:** Missing 'f' suffix on float literal.
+**Fix:** Add 'f' suffix to float literals to avoid type conversion issues.
+```csharp
+float speed = 5.5f;
+```
+</details>
+
+### Error #3
+Script file is named "Player.cs" but contains:
+```csharp
+public class PlayerController : MonoBehaviour
+{
+    // class content
+}
+```
+**What's wrong here?**
+<details>
+<summary>Click for solution</summary>
+
+**Problem:** Class name doesn't match filename.
+**Fix:** Make sure the class name matches the filename exactly.
+```csharp
+public class Player : MonoBehaviour
+{
+    // class content
+}
+```
+</details>
+
+### Error #4
+```csharp
+int score;
+Debug.Log("Score: " + score + 10);
+```
+**What's wrong here?**
+<details>
+<summary>Click for solution</summary>
+
+**Problem:** Using uninitialized variable and incorrect string concatenation.
+**Fix:** Initialize variables before use and use parentheses for math operations.
+```csharp
+int score = 0;
+Debug.Log("Score: " + (score + 10));
+```
+</details>
+
+### Error #5
+```csharp
+public class Player
+{
+    void Start() 
+    { 
+        Debug.Log("Game started!");
+    }
+}
+```
+**What's wrong here?**
+<details>
+<summary>Click for solution</summary>
+
+**Problem:** Missing MonoBehaviour inheritance.
+**Fix:** Inherit from MonoBehaviour to access Unity's lifecycle methods.
+```csharp
+public class Player : MonoBehaviour
+{
+    void Start() 
+    { 
+        Debug.Log("Game started!");
+    }
+}
+```
+</details>
+
+
+
+
+
