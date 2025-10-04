@@ -101,20 +101,20 @@ author: ""
 
 # Week 7 (10/7) 
 
-## Tuesday — Module 2 (start)
+## Tuesday 
 
 - Game Music Analysis Presentations (if needed) - day 2
 
-<!-- 
-## Thursday — Module 2 (continue)
+## Thursday 
 
-- Lesson 3: FMOD Event Instances
+- [Lesson 3: FMOD Event Instances](../lectures/week-7/event-instances/)
 - In-class lab: first Event, first Bank, Event Emitter in Unity
 
 > **Check-in:** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
 > See [instructions](../assignments/exercises/fmod-event-instance-check-in/)
 
 
+<!-- 
 # Week 8 (10/14) — Challenge 2 + Launch Intermediate Project
 
 ## Tuesday — Module 2 (finish)
