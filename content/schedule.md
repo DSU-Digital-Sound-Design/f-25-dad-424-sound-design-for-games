@@ -108,6 +108,7 @@ author: ""
 ## Thursday 
 
 - [Lesson 3: FMOD Event Instances](../lectures/week-7/event-instances/)
+- [Lesson 4: 3D Event Positioning](../lectures/week-7/3d-event-positioning/)
 - In-class lab: first Event, first Bank, Event Emitter in Unity
 
 > **Check-in:** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
