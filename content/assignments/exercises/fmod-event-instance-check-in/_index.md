@@ -1,28 +1,30 @@
 ---
-title: "FMOD Event Instance Check-In"
+title: "Challenge: Running Water (3D Loop)"
 ---
 
-## FMOD Event Instance Check-In (15 pts)
+## Challenge Time
 
-**Goal:** Create a Unity scene that uses an FMOD **event instance** to play a one-shot sound, following the concepts from the Event Instances lesson.
+Implement the sound of running water, under the bridge at the beginning of the first level of the 3D Game Kit demo scene.
 
-**Requirements:**
+**Due:** Friday, October 10  
+**Points:** 15 pts
 
-* FMOD project/banks linked to Unity.
-* One FMOD event instance created in code.
-* Event starts in Play Mode (or on a simple trigger like a key press).
-* Event stops and is released correctly.
+### Criteria
 
-**What to Submit:**
+- The event must be 3D (volume must change as you cross the bridge).
+- The audio must continuously and seamlessly loop.
 
-* Unity scene file.
-* Script file.
-* Short screen recording (20–40s) showing the sound playing.
-* Brief text file with Unity + FMOD versions and event path.
+### Bonus
 
-**Grading (15 pts):**
+- Any created instances must be told to be released.
 
-* 5 pts – FMOD linked and event path valid.
-* 5 pts – Event instance starts and plays as intended.
-* 5 pts – Event instance stops/releases without FMOD errors.
+### What to Submit
 
+- A short video (20–40s) showing your running water sound implemented in-game under the bridge, with audible 3D attenuation as you cross and a seamless loop.
+
+### Tips
+
+- You can find audio for this challenge in your FMOD project in the Audio Bin, inside the Environment / Water folders.
+ - If you get stuck, review:
+   - [FMOD Event Instances](/lectures/week-7/event-instances/)
+   - [3D Event Positioning](/lectures/week-7/3d-event-positioning/)

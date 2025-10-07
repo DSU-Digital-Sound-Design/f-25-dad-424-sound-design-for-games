@@ -109,10 +109,8 @@ author: ""
 
 - [Lesson 3: FMOD Event Instances](../lectures/week-7/event-instances/)
 - [Lesson 4: 3D Event Positioning](../lectures/week-7/3d-event-positioning/)
-- In-class lab: first Event, first Bank, Event Emitter in Unity
 
-> **Check-in:** Unity scene + FMOD project path set, one one-shot event triggers in play mode.
-> See [instructions](../assignments/exercises/fmod-event-instance-check-in/)
+> DUE Friday, October 10 — 15 pts: [Challenge: Running Water (3D Loop)](../assignments/exercises/fmod-event-instance-check-in/)
 
 
 <!-- 
@@ -120,13 +118,11 @@ author: ""
 
 ## Tuesday — Module 2 (finish)
 
-- Lesson 4: 3D Event Positioning (attenuation, spatializer)
-- Live Update/Profiler connection test
+- Lesson 1: Using PlayOneShot
+- Lesson 2: Automating Audio With Parameters (Part 1)
 
 ## Thursday — Launch Intermediate Project: Dynamic Music
 
-- Lesson 1: Using PlayOneShot
-- Lesson 2: Automating Audio With Parameters (Part 1)
 - Lesson 3: Attaching Audio to Animations
 - Lesson 4: Automating Audio With Parameters (Part 2)
 - Lesson 5: Challenge Time! (wrap Module 2)
