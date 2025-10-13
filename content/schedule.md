@@ -110,22 +110,26 @@ author: ""
 - [Lesson 3: FMOD Event Instances](../lectures/week-7/event-instances/)
 - [Lesson 4: 3D Event Positioning](../lectures/week-7/3d-event-positioning/)
 
+
+# Week 8 (10/14) 
+
+## Tuesday 
+
+- Finishing 
+  - [Lesson 3: FMOD Event Instances](../lectures/week-7/event-instances/)
+  - [Lesson 4: 3D Event Positioning](../lectures/week-7/3d-event-positioning/)
+
 > DUE Friday, October 10 — 15 pts: [Challenge: Running Water (3D Loop)](../assignments/exercises/fmod-event-instance-check-in/)
 
+## Thursday 
+
+- [Lesson 1: Using PlayOneShot](../lectures/week-8/using-playoneshot/)
+- [Lesson 2: Automating Audio With Parameters (Part 1)](../lectures/week-8/automating-audio-with-parameters-1/)
 
 <!-- 
-# Week 8 (10/14) — Challenge 2 + Launch Intermediate Project
-
-## Tuesday — Module 2 (finish)
-
-- Lesson 1: Using PlayOneShot
-- Lesson 2: Automating Audio With Parameters (Part 1)
-
-## Thursday — Launch Intermediate Project: Dynamic Music
-
-- Lesson 3: Attaching Audio to Animations
-- Lesson 4: Automating Audio With Parameters (Part 2)
-- Lesson 5: Challenge Time! (wrap Module 2)
+- [Lesson 3: Attaching Audio to Animations](../lectures/week-8/attaching-audio-to-animations/)
+- [Lesson 4: Automating Audio With Parameters (Part 2)](../lectures/week-8/automating-audio-with-parameters-2/)
+- [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
 - Code snippets: SetParameter by name vs ID, sanity checks in console
 
 > **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
