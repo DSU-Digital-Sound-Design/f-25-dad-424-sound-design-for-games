@@ -141,16 +141,18 @@ This confirms everything is wired properly before moving to C# integration.
 
 ## Unity Scene Setup
 
-* Add your teleporter model or collider in the scene.
+* Find the teleporter in the scene. Its the `TransitionStart` game object. 
 * Make sure the teleporter has a **Box Collider** (or whatever shape), set to *Is Trigger*.
-* Place your player (e.g. “Ellen”) in the scene.
-* Disable or remove other objects if they interfere during testing (e.g. moving enemies).
+* Place your player (e.g. “Ellen”) in the scene. This will make our sounds easier to test.
+  * Find Ellen and change her transform position to `X: -145, Y: 21.3, Z: 43`.
+  * Alternatively, copy the position of the `TransitionStart` object then paste it into Ellen’s transform, then adjust the X position by -5 to start just outside the trigger.
+* Disable or remove other objects so they won't interfere during testing by unchecking their active state in the **Inspector**.
 
 ---
 
 ## C# Script: `F_Teleporter.cs`
 
-Create a script under your `Scripts/FMDO` folder named `F_Teleporter.cs` and attach it to your teleporter object (the same object holding the trigger collider).
+Create a script under your `Scripts/FMDO Scripts` folder named `F_Teleporter.cs` and attach it to your teleporter object (the same object holding the trigger collider).
 Here’s the full script:
 
 ```csharp
@@ -171,7 +173,7 @@ public class F_Teleporter : MonoBehaviour
         // Attach the event instance to this GameObject for spatial audio
         FMODUnity.RuntimeManager.AttachInstanceToGameObject(
             teleporterInstance,
-            transform,
+            gameObject,
             GetComponent<Rigidbody>()
         );
 
@@ -221,15 +223,5 @@ If things don’t work:
 * Ensure the FMOD event path is correct and that the event’s bank is loaded.
 * In FMOD Studio, verify your parameter mapping and that `Trigger = 1` is correctly wired.
 
----
 
-## Extending This Example
-
-Here are some ideas to build on this:
-
-* Use **Animation Events**: Trigger FMOD parameter changes exactly aligned with your teleport animation frames.
-* Add **reverse triggers**: Let the player exit and reset the parameter (`Trigger = 0`) to re-enable the ambient loop.
-* Use **parameter curves** or **LFOs** to add modulation (filter sweeps, pitch bends).
-* Incorporate **other user parameters** (e.g. `Intensity`, `DistanceFade`, `Size`) for richer control.
-* Sync with **game logic or UI feedback** — e.g. flash a teleport portal decal when the sound triggers.
 
