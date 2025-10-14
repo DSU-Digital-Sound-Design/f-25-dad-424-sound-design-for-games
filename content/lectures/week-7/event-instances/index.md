@@ -44,6 +44,16 @@ Events are how your game plays audio—sound effects, music, and dialogue. They�
 
 ---
 
+## Unity Setup 
+
+- Add the `FMOD Studio Bank Loader` script to your scene if it’s not already there. This object handles loading your FMOD Banks at runtime. Load `Master Bank` and `Master Bank.strings` on start.
+- Add the `FMOD Studio Listener` script to your main camera (`CameraBrain`). This object represents the player’s listening position for 3D audio.
+- Ensure that Unity is pointing to the FMOD project you're currently using. 
+  - Go to `FMOD → Edit Settings` and set the `Source Project Path` to your FMOD project folder.
+  - Set the `Build Path` to  `Build/Desktop` folder.
+
+---
+
 ## 2) Bring the Event into Unity
 
 > Open the Level 1 scene in Unity Project tab: `3DGameKit -> Scenes -> GamePlay`.
@@ -118,7 +128,7 @@ void Start()
 
 **Note on `.start()`:** Calling `.start()` on a currently-playing instance restarts it from the beginning. Plan for this if you retrigger. 
 
-> Play your game and you should hear your music start when the scene loads! If you don't hear anything you'll need to manually load the FMOD banks by adding an `FMOD Studio Bank Loader` component to a GameObject in your scene and selecting the `Master Bank` and `Master Bank Strings` banks.
+> Play your game and you should hear your music start when the scene loads! 
 
 ---
 
