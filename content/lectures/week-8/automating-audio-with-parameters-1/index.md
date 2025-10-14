@@ -51,11 +51,9 @@ When done, your FMOD setup will let Unity control when the teleport sound plays�
 1. Create a **loop region** around the first second of the timeline.
    This keeps the playhead cycling near the start while the loop plays.
 2. Select your sound instrument and:
-   * Enable **Asynchronous** playback. This ensures the sound plays to completion even if the playhead remains in the loop region.
+   * Enable **Async** playback. This ensures the sound plays to completion even if the playhead remains in the loop region.
    * Enable **Loop While Playing**.
-   * Enable **Cut Playback When Untriggered** — so when the loop region deactivates, playback stops immediately.
-
-*(In FMOD Studio: right-click the instrument region → “Trigger Behavior” → choose Asynchronous and Loop settings.)*
+   * Enable **Cut** (cut playback when untriggered) — so when the loop region deactivates, playback stops immediately.
 
 This ensures your hum continues smoothly in a loop until another parameter (like Trigger) ends it.
 
@@ -68,10 +66,11 @@ For FMOD 2.0 and newer, there are six: Distance, Direction, Speed, Orientation, 
 
 **To add and automate Distance:**
 
-1. Open the **Parameter Sheet**.
-2. Click the “+” icon → choose **Add Built-In Parameter → Distance**.
+1. Click the “+” icon → choose **Add Parameter Sheet → New Parameter**.
+2. Name it **Distance** and choose the **Built-In** type for **Distance**.
 3. On your track, insert a **3-Band EQ** effect (right-click near the track fader → Add Effect → EQ → 3 Band EQ).
-4. With the **Distance parameter** selected, right-click the **Low Gain** knob on the EQ and choose *Add Automation*.
+4. Right-click the **Low Gain** knob on the EQ and choose *Add Automation*. Then click **Add Curve** and select **Distance**.
+   1. You have now connected your Distance parameter to the low-frequency gain control on the EQ.
 5. You’ll see a red automation curve appear under the track.
 6. Draw the curve so that as Distance increases, the low end fades out.
 
@@ -84,21 +83,23 @@ This simulates real-world behavior—low frequencies carry farther, so as the pl
 Now we’ll add the parameter Unity will control.
 
 1. In the Parameters tab, click “+” → *Add New Parameter*.
-2. Name it **Trigger**.
-3. Choose **Discrete** type (whole-number values).
+2. Choose **Discrete** type (whole-number values).
+3. Name it **Trigger**.
    * Discrete values are ideal for toggling between on/off or state-based conditions.
 4. Set its range:
    * **Min:** 0
    * **Max:** 1
 5. In your event:
    * Place the second sound (*Teleporter Walk Through 01*) under the same track or on a new one.
-   * Open its **Trigger Conditions** panel.
+   * Go to the Loop region and open its **Trigger Conditions** panel.
    * Set it to **play when Trigger = 1**.
 6. For the looping hum track:
    * Open its **Condition Sheet** and add a condition to **disable playback when Trigger = 1**.
    * Add a short fade-out automation for smooth transition.
 
 When Trigger switches from 0 to 1, the looping hum fades, and the teleport sound plays once.
+
+![](./trigger-condition.png)
 
 ---
 
