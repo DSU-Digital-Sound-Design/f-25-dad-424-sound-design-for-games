@@ -89,14 +89,16 @@ To position sounds accurately, we need to work with **Vectors**—data types tha
 
 In Unity, almost every object’s position, rotation, and scale are stored as Vector3 values. To access the current position of your object, you can reference its **Transform** component.
 
-```csharp
-Vector3 pos = GetComponent<Transform>().position;
-FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Interactables/StaffCollect", pos);
-```
-
 > Here, `transform.position` retrieves the Vector3 position of the object this script is attached to (the trigger). This is shorthand for `GetComponent<Transform>().position`.
 
-This plays your FMOD event precisely at the position of the trigger object.
+If you want to play the sound at a different location but related to the trigger, you can create a new Vector3:
+
+```csharp
+Vector3 pos = transform.position + Vector3.up * 1.5f;
+FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Interactables/StaffCollect", pos);
+``` 
+
+This example plays the sound 1.5 units above the trigger’s position.
 
 ---
 

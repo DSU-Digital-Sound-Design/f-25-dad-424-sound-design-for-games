@@ -62,7 +62,11 @@ This ensures your hum continues smoothly in a loop until another parameter (like
 ### 3. Add and Automate the Distance Parameter
 
 The **Distance** parameter is one of FMOD’s built-in parameters.
-For FMOD 2.0 and newer, there are six: Distance, Direction, Speed, Orientation, Elevation, and Cone Angle.
+There are six built-in parameters: Distance, Direction, Speed, Orientation, Elevation, and Cone Angle.
+
+Built-in parameters automatically update based on the listener’s position relative to the sound source in 3D space.
+
+See more information here: [FMOD Built-In Parameters](https://www.fmod.com/docs/2.03/studio/parameters-reference.html#built-in-parameters)
 
 **To add and automate Distance:**
 
