@@ -55,7 +55,45 @@ When done, your FMOD setup will let Unity control when the teleport sound plays�
    * Enable **Loop While Playing**.
    * Enable **Cut** (cut playback when untriggered) — so when the loop region deactivates, playback stops immediately.
 
-This ensures your hum continues smoothly in a loop until another parameter (like Trigger) ends it.
+---
+
+<details>
+<summary>Sound Instrument Settings: Async, Loop While Playing, and Cut</summary>
+
+### Async
+
+Controls whether a sound keeps playing after the playhead leaves its region.
+
+* **ON** – plays to completion; good for one-shots like explosions.
+* **OFF** – stops when the region ends; use for loops tied to the source (e.g., footsteps, engines).
+
+### Loop While Playing
+
+Makes the instrument repeat while it remains triggered.
+
+* Combine with **Async ON** to loop freely until untriggered.
+* Combine with **Async OFF** to loop only within the region.
+
+### Cut
+
+Determines what happens when an async loop is untriggered.
+
+* **ON** – stops immediately; use for UI or speech.
+* **OFF** – plays out or fades naturally; use for ambiences.
+
+*Note:* In current FMOD versions, **Cut** mainly affects async looping instruments.
+For overlap control, use **Polyphony = 1** or **Steal Oldest** instead.
+
+---
+
+| Example   | Async | Loop | Cut | Notes               |
+| --------- | ----- | ---- | --- | ------------------- |
+| Explosion | ON    | OFF  | OFF | Rings out naturally |
+| Footsteps | OFF   | ON   | ON  | Stops instantly     |
+| Ambience  | OFF   | ON   | OFF | Continuous loop     |
+| UI click  | ON    | OFF  | ON  | Prevents overlap    |
+
+</details>
 
 ---
 
