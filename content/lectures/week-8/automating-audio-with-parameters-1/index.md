@@ -164,41 +164,29 @@ using UnityEngine;
 
 public class F_Teleporter : MonoBehaviour
 {
-    // Holds the FMOD event instance
-    private FMOD.Studio.EventInstance teleporterInstance;
-
+    
+    FMOD.Studio.EventInstance tHum;
     void Start()
     {
-        // Create the event instance (path must match your FMOD event)
-        teleporterInstance = FMODUnity.RuntimeManager.CreateInstance(
-            "event:/SFX/Interactables/Teleporter"
-        );
-
-        // Attach the event instance to this GameObject for spatial audio
-        FMODUnity.RuntimeManager.AttachInstanceToGameObject(
-            teleporterInstance,
-            gameObject,
-            GetComponent<Rigidbody>()
-        );
-
-        // Start the event playing (looping ambient)
-        teleporterInstance.start();
+        tHum = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Interactable/Teleporter");
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(tHum, gameObject, GetComponent<Rigidbody>());
+        tHum.start();
     }
 
+    // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
-        // Only react to the player (adjust name or tag as needed)
+        // Could also use other.CompareTag("Player") for more robust checking if the Player game object had the tag "player"
         if (other.name == "Ellen")
         {
-            // Set the 'Trigger' parameter to 1
-            teleporterInstance.setParameterByName("Trigger", 1f, false);
+            tHum.setParameterByName("Trigger", 1, false);
         }
     }
-
+    
     void OnDestroy()
     {
-        // Release the FMOD instance when the object is destroyed
-        teleporterInstance.release();
+        tHum.stop(FMOD.Studio.STOP_MODE.IMMEDIATE); 
+        tHum.release(); 
     }
 }
 ```
