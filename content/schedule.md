@@ -124,33 +124,27 @@ author: ""
 ## Thursday 
 
 - [Lesson 1: Using PlayOneShot](../lectures/week-8/using-playoneshot/)
+- lots of fixing errors and bugs 
+
+
+
+# Week 9 (10/21) 
+
+## Tuesday
+
+
 - [Lesson 2: Automating Audio With Parameters (Part 1)](../lectures/week-8/automating-audio-with-parameters-1/)
+- [Lesson 3: Attaching Audio to Animations](../lectures/week-9/attaching-audio-to-animations/)
 
 <!-- 
-- [Lesson 3: Attaching Audio to Animations](../lectures/week-8/attaching-audio-to-animations/)
+## Thursday — Module 3 (finish)
+
 - [Lesson 4: Automating Audio With Parameters (Part 2)](../lectures/week-8/automating-audio-with-parameters-2/)
 - [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
 - Code snippets: SetParameter by name vs ID, sanity checks in console
 
-> **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
-- Brief: build a parameter-driven music system (Intro/Explore/Combat or Intensity 0–1)
-- Map: snapshots/VCAs optional; use labeled or continuous parameters
-- Show reference mini-scene setup; distribute template Unity scene
-
 > **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
 
-# Week 9 (10/21) — Code Architecture & Namespaces
-
-## Tuesday — Module 3 (start)
-
-- Lesson 1: Interpreting Code
-- Lesson 2: FMOD Namespaces
-
-## Thursday — Module 3 (finish)
-
-- Lesson 3: Controlling Audio Between Multiple Scripts
-- Lesson 4: Challenge Time!
-- Apply to Dynamic Music: separate input, state, and audio controllers
 
 # Week 10 (10/28) — Present Dynamic Music + Start Mixing
 
@@ -158,6 +152,7 @@ author: ""
 
 - 1–2 min per team: demonstrate parameter mapping, transitions, profiling notes
 
+> **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
 ## Thursday — Module 4 (start)
 
 - Lesson 1: Controlling FMOD Buses (Part 1)
