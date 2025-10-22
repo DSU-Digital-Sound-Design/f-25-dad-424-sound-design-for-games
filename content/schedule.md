@@ -134,15 +134,14 @@ author: ""
 
 
 - [Lesson 2: Automating Audio With Parameters (Part 1)](../lectures/week-8/automating-audio-with-parameters-1/)
+
+## Thursday
+
 - [Lesson 3: Attaching Audio to Animations](../lectures/week-9/attaching-audio-to-animations/)
+- [Lesson 4: Automating Audio With Parameters (Part 2)](../lectures/week-9/automating-audio-with-parameters-2/)
+
 
 <!-- 
-## Thursday — Module 3 (finish)
-
-- [Lesson 4: Automating Audio With Parameters (Part 2)](../lectures/week-8/automating-audio-with-parameters-2/)
-- [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
-- Code snippets: SetParameter by name vs ID, sanity checks in console
-
 > **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
 
 
@@ -150,6 +149,7 @@ author: ""
 
 ## Tuesday — Presentations & Critique
 
+- [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
 - 1–2 min per team: demonstrate parameter mapping, transitions, profiling notes
 
 > **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
