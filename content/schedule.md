@@ -138,26 +138,28 @@ author: ""
 ## Thursday
 
 - [Lesson 3: Attaching Audio to Animations](../lectures/week-9/attaching-audio-to-animations/)
+
+
+
+
+# Week 10 (10/28) 
+
+## Tuesday 
+
 - [Lesson 4: Automating Audio With Parameters (Part 2)](../lectures/week-9/automating-audio-with-parameters-2/)
 
-
-<!-- 
-> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
-
-
-# Week 10 (10/28) — Present Dynamic Music + Start Mixing
-
-## Tuesday — Presentations & Critique
+## Thursday 
 
 - [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
-- 1–2 min per team: demonstrate parameter mapping, transitions, profiling notes
 
+<!-- 
 > **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
 ## Thursday — Module 4 (start)
 
 - Lesson 1: Controlling FMOD Buses (Part 1)
 - Lesson 2: Controlling FMOD Buses (Part 2)
 - Small lab: master, Music, SFX, VO buses; one VCA; target LUFS range for music bed
+> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
 
 # Week 11 (11/4) — Snapshots, Playback States, Banks + Footsteps Prep
 
