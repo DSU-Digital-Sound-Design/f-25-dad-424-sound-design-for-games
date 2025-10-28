@@ -150,7 +150,7 @@ author: ""
 
 ## Thursday 
 
-- [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-8/challenge-time/)
+- [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-10/challenge-chompers/)
 
 <!-- 
 > **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
