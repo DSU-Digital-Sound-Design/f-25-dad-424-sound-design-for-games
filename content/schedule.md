@@ -155,6 +155,8 @@ author: ""
 ## Tuesday 
 
 - [Lesson 1: Interpreting Code](../lectures/week-11/interpreting-code/)
+- [Lesson 2: FMOD Namespaces](../lectures/week-11/fmod-namespaces/)
+
 <!-- 
 
 ## Thursday 
