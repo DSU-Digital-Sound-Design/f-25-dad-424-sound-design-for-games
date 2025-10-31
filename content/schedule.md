@@ -140,8 +140,6 @@ author: ""
 - [Lesson 3: Attaching Audio to Animations](../lectures/week-9/attaching-audio-to-animations/)
 
 
-
-
 # Week 10 (10/28) 
 
 ## Tuesday 
@@ -152,30 +150,15 @@ author: ""
 
 - [Lesson 5: Challenge Time! (wrap Module 2)](../lectures/week-10/challenge-chompers/)
 
+# Week 11 (11/4) 
+
+## Tuesday 
+
+- [Lesson 1: Interpreting Code](../lectures/week-11/interpreting-code/)
 <!-- 
-> **Check-in:** complete [challenge](../assignments/exercises/chomper-footsteps-check-in/); Due Friday
-## Thursday — Module 4 (start)
 
-- Lesson 1: Controlling FMOD Buses (Part 1)
-- Lesson 2: Controlling FMOD Buses (Part 2)
-- Small lab: master, Music, SFX, VO buses; one VCA; target LUFS range for music bed
-> **Intermediate Project: Dynamic Music** — Due Thu 10/30 (Week 10). [instructions](../projects/dynamic-music/)
+## Thursday 
 
-# Week 11 (11/4) — Snapshots, Playback States, Banks + Footsteps Prep
-
-## Tuesday — Module 4 (continue)
-
-- Lesson 3: Playback States
-- Lesson 4: Snapshots
-- Lesson 5: Loading Sound-Banks (builds, bank load modes)
-
-## Thursday — Footsteps Project Brief (Regenstoet)
-
-- Labeled parameter: Surface (Grass/Wood/Stone/Metal)
-- Multi-Instrument variability (≥5 samples per surface), light pitch/vol randomization
-- Animation events vs speed-based triggers; simple raycast material detection
-
-> **Footsteps & Terrain Textures** — Due Thu 11/20 (Week 13). [Instructions](../projects/footsteps/) 
 
 # Week 12 (11/11) — Veterans Day (No Class)
 
