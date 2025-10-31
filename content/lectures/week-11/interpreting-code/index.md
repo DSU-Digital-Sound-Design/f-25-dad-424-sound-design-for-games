@@ -45,6 +45,21 @@ Let’s use Unity’s **PlayerController** script (from the 3D Game Kit) as an e
 Names like `JumpSpeed`, `Gravity`, or `m_ReadyToJump` tell you their purpose.
 If a variable is *public*, you’ll also see it in Unity’s Inspector—meaning you or another script can adjust it at runtime.
 
+In another script attached to Ellen you could have: 
+```csharp
+public class EllenAudio : MonoBehaviour
+{
+    // Reference to the PlayerController script
+    private PlayerController pc;
+
+    void Start() {
+        // Get the PlayerController component
+        pc = GetComponent<PlayerController>();
+        pc.JumpSpeed = 10.0f; // Example of accessing JumpSpeed variable
+    }
+}
+```
+
 You might also spot variables like:
 
 ```csharp
@@ -73,6 +88,8 @@ Comments like this tell you the intent behind a variable—perfect clues when yo
 
 In Visual Studio or VS Code, double-click a variable to highlight every place it’s used.
 Follow it through the script to see *where it changes value*.
+
+You can also right click and select "Find All References" to see every instance of that variable in the script.
 
 For example, you might find:
 
@@ -111,6 +128,8 @@ if (m_PreviouslyGrounded != m_IsGrounded)
 ```
 
 This reports only when the player leaves or touches the ground—an exact moment you might trigger a landing sound or dust effect.
+
+We could use this information now to play a jump sound when the player leaves the ground and a landing sound when they touch down.
 
 ---
 
