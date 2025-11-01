@@ -31,6 +31,8 @@ To use `MyClass`, you’d need to include `using MyNamespace;` in another script
 FMOD commands for game audio, like `PlayOneShot`, rely on namespaces just like Unity does. For example:
 
 ```csharp
+using FMODUnity;
+
 public string EventPath;
 FMODUnity.RuntimeManager.PlayOneShot(EventPath, transform.position);
 ```
@@ -64,5 +66,4 @@ By understanding and leveraging namespaces:
 - Shorten commands by declaring the required namespaces at the top.
 - Easily navigate Unity and FMOD codebases for game audio development.
 
-Try reviewing your own scripts and adding relevant namespaces to the top—see how much this streamlines your workflow!
 
