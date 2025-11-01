@@ -7,7 +7,7 @@ tags: ["Game Audio", "Unity", "FMOD", "Namespaces", "Audio Implementation"]
 ---
 
 
-**Key Concepts**
+## **Key Concepts**
 - *Namespaces* are essential for organizing classes in C#. They let us keep related functionality together and reduce ambiguity in larger projects.
 - *Classes* can be placed inside namespaces. When you want to use a class from a namespace, you declare which namespace you're using.
 - Unity and FMOD integration relies heavily on namespaces to manage scripts efficiently in your game audio workflow.
@@ -17,9 +17,22 @@ When you create a new Unity script, you’ll see `using` statements at the top�
 
 You can view the definition of classes like `MonoBehaviour` in Visual Studio using “Go To Definition,” which helps to reveal their structure and included namespaces.
 
-**Working with Namespaces**
-If you remove a namespace declaration (say, `using UnityEngine;`), you’ll lose access to essential classes like `MonoBehaviour`—and Unity will show an error. You can also declare your own namespaces to organize custom scripts:
+File-scoped namespaces look like this:
+```csharp
+namespace UnityEngine;
 
+public class MonoBehaviour : Behaviour
+{
+    // class contents
+}
+```
+
+## **Working with Namespaces**
+Create a new script in Unity called `MyScript.cs`. We'll use this to explore namespaces.
+
+If you remove a namespace declaration (say, `using UnityEngine;`), you’ll lose access to essential classes like `MonoBehaviour`—and Unity will show an error. You can also declare your own namespaces to organize custom scripts. 
+
+For example, using a traditional namespace declaration:
 ```csharp
 namespace MyNamespace {
     public class MyClass { }
@@ -27,14 +40,16 @@ namespace MyNamespace {
 ```
 To use `MyClass`, you’d need to include `using MyNamespace;` in another script.
 
-**FMOD Namespaces in Unity**
+You can also see that the MonoBehavior class derives from the `Behaviour` class, which is also in the `UnityEngine` namespace. This hierarchical structure helps keep related functionality grouped together. See how far back you can trace the inheritance chain by using "Go To Definition" in Visual Studio.
+
+## **FMOD Namespaces in Unity**
 FMOD commands for game audio, like `PlayOneShot`, rely on namespaces just like Unity does. For example:
 
 ```csharp
 using FMODUnity;
 
 public string EventPath;
-FMODUnity.RuntimeManager.PlayOneShot(EventPath, transform.position);
+RuntimeManager.PlayOneShot(EventPath, gameObject);
 ```
 
 Here:
@@ -42,9 +57,12 @@ Here:
 - `RuntimeManager` is a class within FMODUnity.
 - `PlayOneShot` is a function in RuntimeManager.
 
+
 To see how these work, you can open the FMOD integration scripts included in your project (like `RuntimeManager.cs`), and inspect how namespaces and classes are organized. Declaring `using FMODUnity;` at the top of your script lets you write shorter commands like `RuntimeManager.PlayOneShot(...)` instead of fully qualifying the namespace each time.
 
-**Event Instances and Nested Namespaces**
+Go and find your Unity project’s `FMODUnity` folder (usually under `Assets/Plugins/FMOD/src`) to explore the FMOD classes and their namespaces.
+
+### **Event Instances and Nested Namespaces**
 FMOD events often use nested namespaces, such as `FMOD.Studio.EventInstance`. Here:
 - `FMOD` is a namespace.
 - `Studio` is a namespace inside FMOD.
