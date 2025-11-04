@@ -157,11 +157,16 @@ author: ""
 - [Lesson 1: Interpreting Code](../lectures/week-11/interpreting-code/)
 - [Lesson 2: FMOD Namespaces](../lectures/week-11/fmod-namespaces/)
 
-<!-- 
 
 ## Thursday 
 
+Em: 
+- https://www.museumor.com/blog/em-halberstadt-on-designing-sound-for-vr
+- https://www.fmod.com/blog/untitled-goose-game-interview
 
+
+
+<!-- 
 # Week 12 (11/11) — Veterans Day (No Class)
 
 ## Tuesday
