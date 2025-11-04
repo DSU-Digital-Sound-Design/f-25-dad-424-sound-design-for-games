@@ -160,9 +160,10 @@ author: ""
 
 ## Thursday 
 
-Em: 
-- https://www.museumor.com/blog/em-halberstadt-on-designing-sound-for-vr
-- https://www.fmod.com/blog/untitled-goose-game-interview
+- [Lesson 3: Controlling Audio Between Multiple Scripts](../lectures/week-11/controlling-audio-multiple-scripts/)
+- Links for reading about EM Halberstadt and Untitled Goose Game sound design:
+  - https://www.museumor.com/blog/em-halberstadt-on-designing-sound-for-vr
+  - https://www.fmod.com/blog/untitled-goose-game-interview
 
 
 
