@@ -22,17 +22,17 @@ The crate should emit a **looping hum** before interaction and trigger a **one-s
 
 ---
 
-### Criteria (8 Points Total)
+### Criteria (12 Points Total)
 
 Follow the criteria below to complete the challenge:
 
 | Criteria                                                                               | Points |
 | -------------------------------------------------------------------------------------- | ------ |
-| All sounds are 3D and get louder as the player approaches                              | 1      |
-| The looping hum stops once the player collects health                                  | 1      |
-| Instances are properly destroyed when no longer needed                                 | 1      |
-| FMOD namespaces are used to shorten your code                                          | 1      |
-| The one-shot triggers only when the player interacts with the health crate             | 1      |
+| All sounds are 3D and get louder as the player approaches                              | 3      |
+| The looping hum stops once the player collects health                                  | 3      |
+| Instances are properly destroyed when no longer needed                                 | 2      |
+| FMOD namespaces are used to shorten your code                                          | 2      |
+| The one-shot triggers only when the player interacts with the health crate             | 2      |
 | **Bonus:** Add a delay to the one-shot that increases as the player’s health decreases | **3**  |
 
 ---
