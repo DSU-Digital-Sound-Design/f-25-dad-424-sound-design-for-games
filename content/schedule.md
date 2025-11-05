@@ -161,6 +161,7 @@ author: ""
 ## Thursday 
 
 - [Lesson 3: Controlling Audio Between Multiple Scripts](../lectures/week-11/controlling-audio-multiple-scripts/)
+- [Challenge 3: Health Crate Audio](../assignments/exercises/challenge-health-crate-audio/)
 - Links for reading about EM Halberstadt and Untitled Goose Game sound design:
   - https://www.museumor.com/blog/em-halberstadt-on-designing-sound-for-vr
   - https://www.fmod.com/blog/untitled-goose-game-interview
