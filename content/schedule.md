@@ -168,20 +168,19 @@ author: ""
 
 
 
-<!-- 
 # Week 12 (11/11) — Veterans Day (No Class)
 
 ## Tuesday
 
 - Veterans Day - No Class
 
-## Thursday — Lab
+## Thursday
 
-- Implement surface detection → set Surface param
-- Optional: Speed parameter modulates layer or cadence; snapshot for crouch/stealth
+- Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
 
 > **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
 
+<!-- 
 # Week 13 (11/18) — Footsteps Finishing + Short Shares
 
 ## Tuesday

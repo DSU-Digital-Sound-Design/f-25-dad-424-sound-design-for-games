@@ -25,42 +25,39 @@ Before beginning work, you will submit an Asset List Proposal in a separate assi
 * Create at least 20 events for your game; each event can have multiple audio assets.
 * Include team member names, your game title, and role assignments (who will do what).
 * Treat this as your project proposal — it will guide your work for the rest of the project.
-* The number of assets you are expected to complete will depend on your group size.
 * You will submit the completed and updated version of this list again at the end of the project.
 
 ---
 
-## Project Requirements
+## Project Goals
 
 By the end of the five weeks, your game should include:
 
-1. **Core FMOD Integration**
-
+**Core FMOD Integration**
    * Unity ↔ FMOD linked correctly.
    * Event instances, 3D positioning, and spatialization.
-2. **Interactive Audio**
 
+**Interactive Audio**
    * ≥2 gameplay-driven parameters affecting audio.
    * Audio attached to animations.
    * PlayOneShot usage for one-off SFX.
-3. **Adaptive Music**
 
+**Adaptive Music**
    * At least 3 musical states (e.g., explore, tension, combat).
    * One vertical layering system.
    * One horizontal transition with sync points.
-4. **Mixing & Performance**
 
+**Mixing & Performance**
    * Bus and VCA control.
    * Snapshot-based mix changes.
    * Voice limiting and asset compression decisions.
-5. **Advanced Feature**
 
+**Advanced Feature (if we get to it)**
    * At least one from Module 6 (return functions, delegates, event callbacks, or programmer instruments).
-6. **Original Content**
 
+**Original Content**
    * Original music composed by students.
    * Field/studio recordings for SFX when possible.
-
 
 ---
 
@@ -103,10 +100,8 @@ By the end of the five weeks, your game should include:
 
 * Playable build (PC/WebGL) + cleaned Unity and FMOD projects.
 * **Final Asset List** (updated from proposal) showing planned vs. completed assets and who did what.
-* **Integration Spec** with event/parameter documentation.
 * **Screen recording** demonstrating all features.
 * **Postmortem & Self-Assessment** (1–2 pages):
-
   * What you achieved.
   * How you applied course concepts.
   * Challenges and how you solved them.
