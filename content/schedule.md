@@ -180,31 +180,26 @@ author: ""
 
 > **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
 
-<!-- 
 # Week 13 (11/18) — Footsteps Finishing + Short Shares
 
 ## Tuesday
 
-- Peer tuning: cadence realism, repetition control, mix balance
+**Mixing and Mastering**
+
+- [Controlling FMOD Busses: Part 1](../lectures/week-13/controlling-fmod-busses-1/)
+- [Controlling FMOD Busses: Part 2](../lectures/week-13/controlling-fmod-busses-2/)
 
 ## Thursday
 
-- Final troubleshooting & submission packaging
-
-> **Footsteps Project DUE Thursday, November 20**
+- [Playback-states](../lectures/week-13/playback-states/)
 
 
+
+<!-- 
 # Week 14 (11/25) — Collision & Attack Sounds Sprint (Rowlilo)
 
 ## Tuesday — Module 5 (selected topics) + Sprint Launch
 
-- Module 5 Lesson 1: Parameter IDs
-- Lesson 2: Global vs Local Parameters
-- Lesson 3: VCAs (tie into quick ducking/mix control)
-- Sprint Brief: Collision, Material Detection & Attack Sounds
-  - OnCollisionEnter/Stay/Exit patterns
-  - Per-material responses (wood, stone, metal), intensity scaling by impact velocity
-  - Attack/charge/release events with parameter-driven layers
 
 ## Thursday
 
