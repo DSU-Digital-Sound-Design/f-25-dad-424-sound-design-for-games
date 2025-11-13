@@ -176,7 +176,8 @@ author: ""
 
 ## Thursday
 
-- Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
+- Postponed: Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
+- Questions about Challenge 3: Health Crate Audio?
 
 > **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
 
