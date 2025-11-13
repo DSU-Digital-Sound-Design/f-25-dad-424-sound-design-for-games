@@ -176,7 +176,7 @@ author: ""
 
 ## Thursday
 
-- Postponed: Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
+- Postponed to Next Tuesday: Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
 - Questions about Challenge 3: Health Crate Audio?
 
 > **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
@@ -185,13 +185,13 @@ author: ""
 
 ## Tuesday
 
-**Mixing and Mastering**
-
-- [Controlling FMOD Busses: Part 1](../lectures/week-13/controlling-fmod-busses-1/)
-- [Controlling FMOD Busses: Part 2](../lectures/week-13/controlling-fmod-busses-2/)
+- Class Visit from Em Halberstadt, Sound Designer (VR and Games). Q&A and discussion.
 
 ## Thursday
 
+**Mixing and Mastering**
+- [Controlling FMOD Busses: Part 1](../lectures/week-13/controlling-fmod-busses-1/)
+- [Controlling FMOD Busses: Part 2](../lectures/week-13/controlling-fmod-busses-2/)
 - [Playback-states](../lectures/week-13/playback-states/)
 
 
