@@ -181,7 +181,7 @@ author: ""
 
 > **Introduce final project** — Due 12/16 (Finals Week). [Instructions](../projects/final/)
 
-# Week 13 (11/18) — Footsteps Finishing + Short Shares
+# Week 13 (11/18) 
 
 ## Tuesday
 
@@ -192,15 +192,13 @@ author: ""
 **Mixing and Mastering**
 - [Controlling FMOD Busses: Part 1](../lectures/week-13/controlling-fmod-busses-1/)
 - [Controlling FMOD Busses: Part 2](../lectures/week-13/controlling-fmod-busses-2/)
-- [Playback-states](../lectures/week-13/playback-states/)
-
-
 
 <!-- 
 # Week 14 (11/25) — Collision & Attack Sounds Sprint (Rowlilo)
 
 ## Tuesday — Module 5 (selected topics) + Sprint Launch
 
+- [Playback-states](../lectures/week-13/playback-states/)
 
 ## Thursday
 
