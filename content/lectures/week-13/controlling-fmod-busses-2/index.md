@@ -1,202 +1,106 @@
 ---
-title: "Controlling FMOD Busses: Part 2"
-date: 2024-03-14
-draft: false
+title: "Controlling FMOD Busses with Unity Sliders (Part 2)"
+date: 2024-06-12
+description: "Learn how to connect Unity UI sliders to FMOD bus volumes and ensure they persist across scene changes."
+tags: ["FMOD", "Unity", "Audio", "Busses", "Sliders", "UI"]
 ---
 
-## Overview
 
-This lesson introduces three major concepts:
+In this tutorial, we will cover how to control the volume of your FMOD buses (like Music and SFX) using Unity sliders, and more importantly, how to make sure those sliders remember their positions when your player changes scenes.
 
-### Implementing Real-Time Bus Volume Control
+## Part 1: Setting the Volume
 
-You’ll add a public function that updates FMOD bus faders based on slider values.
+### The Code
+In your Bus Control script, create a new public function. Let’s call it `VolumeLevel`. This function needs to accept a `float` parameter, which will represent the data coming from the slider.
 
-### Using Unity Events to Trigger Volume Updates
-
-You’ll connect the slider’s On Value Changed UnityEvent to your BusControl function.
-
-### Saving Slider Values Across Scenes
-
-Using FMOD’s getVolume, you’ll retrieve the true bus volume and sync the slider values each time a scene loads.
-
----
-
-## Adding Volume Control to the Script
-
-Your BusControl script already contains:
-
-* A bus reference obtained with GetBus
-* A public string to specify each slider’s bus path
-* Unity-side setup where each slider is bound to the correct bus
-
-Now you’ll implement a function the sliders can call.
-
-### Step 1: Create the Volume Control Function
-
-Add this to your script:
+Inside the function, we use the FMOD API command `.setVolume()`.
 
 ```csharp
-public void SetLevel(float newSliderValue)
+public void VolumeLevel(float newSliderValue) 
 {
+    // 'Bus' is the variable where you stored your FMOD Bus path earlier
     Bus.setVolume(newSliderValue);
 }
 ```
 
-Key ideas:
+### Understanding FMOD Volume Floats
+It is important to understand how FMOD interprets these numbers. FMOD faders use a logarithmic scale (decibels), but the API uses a linear float scale between **0** and **1**.
 
-* newSliderValue is whatever value the slider currently holds.
-* FMOD's setVolume expects a float between 0 and 1.
-* FMOD maps 1.0 to the bus fader’s built-in level in FMOD Studio (not necessarily 0 dB unless your banks were built that way).
-* 0.0 maps to negative infinity decibels.
+*   **1.0f:** This equals the volume the fader was set to when you built your banks in FMOD. (If your fader was at 0dB, 1.0 = 0dB. If it was at -10dB, 1.0 = -10dB).
+*   **0.0f:** This equals -infinity dB (silence).
+*   **0.5f:** This is roughly -28dB (depending on the curve), effectively half the "fader distance" between the start point and silence.
 
-### How FMOD Interprets Slider Values
+## Part 2: Connecting the UI Slider
 
-Because FMOD uses a decibel scale internally, setVolume doesn't set dB directly. Instead:
+Now that the logic exists, we need to hook it up to the Unity UI.
 
-* 1.0 = current FMOD fader position when banks were built
-* 0.0 = silence
-* Values in between interpolate logarithmically
+1.  Select your **Slider** object in the Unity Hierarchy.
+2.  Find the **Slider** component in the Inspector.
+3.  Look for the **"On Value Changed (Single)"** event box at the bottom.
+4.  Click the **(+)** icon to add a listener.
+5.  Drag the GameObject containing your Bus Control script into the "Object" slot.
+6.  In the function dropdown, look for your script name and select `VolumeLevel`.
 
-For example:
+**Crucial Step:** When selecting the function, you will see it listed twice: once under "Dynamic float" and once under "Static Parameters."
+*   **Select the Dynamic Float version.** This ensures the function receives the *actual* current value of the slider as the player moves it.
 
-* If your music bus is set to -10 dB in FMOD and banks are rebuilt, then setVolume(1f) equals -10 dB.
-* setVolume(0.5f) would position the fader roughly halfway between -10 dB and negative infinity.
+## Part 3: The "Scene Reset" Problem
 
-This is why your Unity slider should remain in 0–1 range.
+If you play your game now, the sliders will work. However, you will notice a bug if you switch scenes.
 
----
+Let's say the player lowers the volume to 50%. When they walk through a portal to Level 2, the scene reloads. FMOD is smart—it remembers the volume is at 50%. However, the **UI Slider** is just a dumb object; it reloads from the prefab and resets visually to its default position (usually 100% or 0.9).
 
-## Connecting the Slider to the Function
+Now you have a slider showing 100% volume, but the audio is playing at 50%. We need to sync them up when the scene starts.
 
-### Step 2: Use Unity Events to Trigger the Function
+## Part 4: syncing Sliders with `.getVolume()`
 
-1. Select a slider (Master, Music, or SFX).
-2. In the Slider component, scroll down to On Value Changed.
-3. Press the plus (+) button to add a new event.
-4. Drag the slider’s own GameObject into the object field.
-5. Choose the F_BusControl script.
-6. Select setLevel under Dynamic Float.
+To fix this, we need to tell the slider where the bus volume is actually located the moment the script starts. We do this using the `.getVolume()` command.
 
-Why Dynamic Float?
-Because this passes the slider’s current float value directly into your function. Static parameters wouldn’t let the slider send its live value.
+### The Challenge with `.getVolume()`
+This command is slightly unique because it outputs **two** distinct values. It requires two `out` variables:
+1.  **Volume:** The value set by the `setVolume` command (User input).
+2.  **Final Volume:** The value calculated after combining user input with FMOD modulators or automation.
 
-Repeat these steps for all three sliders.
+We only care about the first one (User input).
 
-Now your sliders can directly modify FMOD’s bus volumes during gameplay.
-
----
-
-## The Problem: Slider Values Reset When Changing Scenes
-
-Once this works, you’ll notice an issue:
-
-* The player moves to a new scene.
-* The MenuCanvas prefab loads anew.
-* All sliders reset to their default value (0.9).
-* But the FMOD buses still retain their previous levels.
-
-So the UI no longer reflects actual audio levels.
-
-We need the sliders to adopt the bus’s current value every time a prefab loads.
-
----
-
-## Retrieving Bus Volume with getVolume()
-
-FMOD offers a companion function:
+### The Solution
+First, update your script to include the UI namespace, or Unity won't recognize what a "Slider" is.
 
 ```csharp
-Bus.getVolume(out float volume, out float finalVolume);
+using UnityEngine;
+using UnityEngine.UI; // Don't forget this!
 ```
 
-* volume returns the value last set by the FMOD API (i.e., your script).
-* finalVolume includes effects from modulation or automation inside FMOD.
-* Because our buses have no modulation, we only use volume.
-
-### Step 3: Create Two Float Variables
+Next, inside your class, create a reference to the Slider and variables to hold the volume data.
 
 ```csharp
-private float BusVolume;
-private float FinalBusVolume;
+private Slider slider;
+private float busVolume;
+private float finalBusVolume;
 ```
 
-### Step 4: Retrieve Values in Start()
-
-In your Start method, add:
+Finally, in your `Start()` function, grab the slider component and sync it to the FMOD bus:
 
 ```csharp
-Bus.getVolume(out BusVolume, out FinalBusVolume);
+void Start() 
+{
+    // 1. Get the slider component attached to this object
+    slider = GetComponent<Slider>();
+
+    // 2. Get the current volume from the FMOD Bus
+    // We pass in our two float variables to catch the data
+    Bus.getVolume(out busVolume, out finalBusVolume);
+
+    // 3. Update the slider visual to match the FMOD bus volume
+    slider.value = busVolume;
+}
 ```
 
-This captures the bus’s volume exactly as it was left in the last scene.
+## Summary
 
----
+By using `setVolume` dynamically and `getVolume` on initialization, you create a seamless experience for the player.
+1.  **On Start:** The script checks FMOD to see what the volume *should* be and updates the slider visual.
+2.  **During Gameplay:** The slider updates the FMOD bus using the Dynamic Float event.
+3.  **On Scene Change:** Even though the UI destroys and reloads, the `Start` function runs again, grabs the persistent FMOD volume, and snaps the slider back to the correct position.
 
-## Syncing Slider Values to the Bus
-
-Sliders must reflect BusVolume after the prefab loads.
-
-### Step 5: Reference the Slider Component
-
-Add at top:
-
-```csharp
-using UnityEngine.UI;
-```
-
-In the class:
-
-```csharp
-private Slider Slider;
-```
-
-In Start():
-
-```csharp
-Slider = GetComponent<Slider>();
-Slider.value = BusVolume;
-```
-
-Every time a scene loads:
-
-* MenuCanvas prefab loads new sliders.
-* Your script retrieves the true FMOD bus volume.
-* The slider value updates to match that level before gameplay begins.
-
-This prevents unwanted jumps in volume and keeps UI and FMOD perfectly synced.
-
----
-
-## Testing the System
-
-Test steps:
-
-1. Start the game.
-2. Adjust Music, SFX, and Master sliders to various positions.
-3. Enter the next scene.
-4. Open the audio menu.
-5. Verify that sliders appear in the exact positions you left them.
-
-If the values match and the audio reflects those changes, the system is working correctly.
-
----
-
-## Summary of New Concepts
-
-This lesson introduced several essential tools for dynamic audio implementation:
-
-### Controlling FMOD Buses
-
-* setVolume adjusts realtime bus levels linearly (mapped to dB internally).
-* getVolume fetches current bus levels so UI remains consistent across scenes.
-
-### Working with UnityEvents
-
-* OnValueChanged allows UI elements to trigger custom functions.
-* Dynamic Float ensures live slider values are passed correctly.
-
-### Scene-Independent UI Persistence
-
-* Retrieving bus volume before scene start prevents slider resets.
-* This aligns UI with FMOD state across multiple game levels.
+Now your audio settings menu is robust and persistent across your entire game!
