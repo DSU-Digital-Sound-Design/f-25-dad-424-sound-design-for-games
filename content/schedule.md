@@ -193,18 +193,20 @@ author: ""
 - [Controlling FMOD Busses: Part 1](../lectures/week-13/controlling-fmod-busses-1/)
 - [Controlling FMOD Busses: Part 2](../lectures/week-13/controlling-fmod-busses-2/)
 
-<!-- 
-# Week 14 (11/25) — Collision & Attack Sounds Sprint (Rowlilo)
+# Week 14 (11/25)
+## Tuesday
 
-## Tuesday — Module 5 (selected topics) + Sprint Launch
-
-- [Playback-states](../lectures/week-13/playback-states/)
+- [Playback States](../lectures/week-14/playback-states/)
+- [Snapshots](../lectures/week-14/snapshots/)
+- For following classes, would you rather: 
+  - have open classtime to work on your final project and ask questions, or
+  - have mini-lessons on specific FMOD topics? If so which ones? 
 
 ## Thursday
 
 - Thanksgiving Break - No Class
+<!-- 
 
-> **Sprint Submission window:** flexible; recommended by Tue 12/2 or roll into Final Project as a required feature.
 
 # Week 15 (12/2) — Final Project Production
 
