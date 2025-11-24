@@ -1,5 +1,8 @@
 ---
 title: "Creating Audio Zones and Dynamic Mixing with Snapshots"
+date: 2024-06-12
+description: "Learn how to use FMOD Snapshots in Unity to create dynamic audio zones and mixing effects."
+tags: ["FMOD", "Unity", "Audio", "Snapshots", "C#"]
 ---
 
 In our previous tutorial, we mastered **Playback States** to control *when* sounds play. Now, we’re going to control *how* they sound based on the game environment.
@@ -33,15 +36,25 @@ Let’s create a system where entering a tunnel applies reverb to our sound effe
 ### Step 1: FMOD Setup
 1.  Go to the **Mixer** window in FMOD.
 2.  Create a Return Bus for Reverb if you haven't already, and add a Reverb effect to it.
-3.  Go to the **Snapshots** tab and create a new **Overriding Snapshot** named "Reverb Zone".
-4.  **Scoping:** When you select the snapshot, your mixer faders will turn into yellow outlines. This means they are "scoped out" (unaffected). Click the fader for your **Reverb Return Bus** to "scope it in."
-5.  Set the fader to 0dB.
-6.  **Modulation:** To make the reverb fade in smoothly, right-click the Snapshot's **Intensity** dial (in the deck area) and add an **AHDSR Modulator**. This ensures the reverb doesn't snap on/off instantly.
+3.  Go to the **Snapshots** tab and create a new **Overriding Snapshot** named "Reverb Zone 1".
+4.  Deselect your snapshot for the time being. 
+5.  Select the SFX Bus and add a **Send** to the Reverb Return Bus. Set the send level to around -6dB (adjust to taste).
+6.  **Scoping:** When you select the snapshot, your mixer faders will turn into yellow outlines. This means they are "scoped out" (unaffected). 
+    1.  Select the snapshot again. Mixer controls will appear with yellow outlines, meaning they are currently scoped out.
+    2.  Click the reverb send level on the SFX Bus so it becomes fully yellow, indicating it is scoped in and will be driven by the snapshot.
+7.  When you select the snapshot, the reverb send will be set to the value defined in the snapshot.
+8.  **Modulation:** To make the reverb fade in smoothly, right-click the Snapshot's **Intensity** dial (in the deck area) and add an **AHDSR Modulator**. This ensures the reverb doesn't snap on/off instantly.
 
 ### Step 2: The Unity Script
+Open Level 2 in Unity. This scene has more tunnels that we can use for testing reverb. 
+
 In Unity, Snapshots are treated almost exactly like Events. We create an instance, play it, and stop it.
 
-Create a script called `ReverbZone` and attach it to a GameObject with a Box Collider (set to **Is Trigger**).
+Create a cube object with Create > 3D Object > Cube. Scale it to form a tunnel entrance and set its position so the player can walk through it. Make sure to set the cube's collider to **Is Trigger**. Call it `Reverb Zone`. Also make sure the layer is set to `Environment`.
+
+We'll leave the `Mesh Renderer` on so you can see the zone in the scene, but in a real game, you would likely turn this off.
+
+Create a script called `F_ReverbZone` and attach it to the `Reverb Zone` object.
 
 ```csharp
 using UnityEngine;
@@ -87,10 +100,11 @@ public class ReverbZone : MonoBehaviour
 If you test the game now, entering the zone will reverb *everything* sent to the SFX bus—including your UI menu clicks! That’s not what we want. We need to split the signal.
 
 **In the FMOD Mixer:**
-1.  Create two new Group Buses under your main **SFX** bus: call them **In-Game** and **UI**.
-2.  Route your footsteps, attacks, and environmental sounds into **In-Game**.
-3.  Route your menu sounds into **UI**.
-4.  Place the **Reverb Send** on the **In-Game** bus only.
+1.  Delete the send that goes from the **SFX** bus to the **Reverb** bus.
+2.  Create two new Group Buses under your main **SFX** bus: call them **In-Game** and **UI**.
+3.  Route your footsteps, attacks, and environmental sounds into **In-Game**.
+4.  Route your menu sounds into **UI**.
+5.  Place the **Reverb Send** on the **In-Game** bus only.
 
 Now, your UI remains crisp and dry, while the game world echoes around you.
 
@@ -101,18 +115,22 @@ Now, your UI remains crisp and dry, while the game world echoes around you.
 Sometimes you don't want a hard trigger; you want the effect to get stronger as you get closer to a specific object.
 
 ### FMOD Setup
-1.  Create a new snapshot (e.g., "Reverb Source").
-2.  Instead of an AHDSR on the **Intensity** dial, right-click and **Add Parameter**.
+1.  Create a new snapshot (e.g., "Reverb Zone 2").
+2.  Instead of an AHDSR on the **Intensity** dial, right-click and **Add Automation**.
 3.  Select the built-in **Distance** parameter.
-4.  Draw a curve: Full intensity at 0 distance, fading to zero intensity at 10-20 units away.
+4.  Draw a curve: 
+    *   At 5 meters, Intensity = 100%
+    *   At 10 meters, Intensity = 0%
 
 ### Unity Script
 Since this relies on distance, we must tell FMOD where the snapshot is located in 3D space.
 
+Create an Empty GameObject called `Reverb Zone 2` and position at (-1, -3, 28.5). Create a new script and attach to the gameObject:
+
 ```csharp
 void Start()
 {
-    reverbSnapshot = RuntimeManager.CreateInstance("snapshot:/Reverb Source");
+    reverbSnapshot = RuntimeManager.CreateInstance("snapshot:/Reverb Zone 2");
     reverbSnapshot.start(); // Start immediately
     
     // Attach the instance to this object so FMOD knows its location
@@ -125,7 +143,6 @@ void OnDestroy()
     reverbSnapshot.release();
 }
 ```
-*Note: Make sure your Unity object has a Rigidbody for the attachment to work correctly.*
 
 ---
 
@@ -138,7 +155,7 @@ A common game mechanic is muffling audio when the player is dying. We can achiev
 2.  Create a Snapshot called "Low Health".
 3.  Scope in the **High** and **Mid** bands of the EQ and turn them all the way down (leaving only low frequencies).
 4.  Right-click the Snapshot's **Intensity** dial and select **Expose as Parameter**.
-5.  Name the parameter "Health" (Range: 0 to 5).
+5.  Set the range of the parameter from 1 to 5.
 6.  **Invert the curve:**
     *   When Parameter = 5 (Full Health), Intensity = 0% (No filter).
     *   When Parameter = 1 (Low Health), Intensity = 100% (Fully muffled).
@@ -157,12 +174,9 @@ void Start()
 }
 
 // Call this function whenever the player takes damage or heals
-public void UpdateAudioHealth(float currentHealth)
-{
-    // "Intensity" is the name of the exposed parameter on the snapshot
-    healthFilter.setParameterByName("Intensity", currentHealth);
+public void SetHealthSnapshot() {
+    healthFilter.setParameterByName("Intensity", m_Damageable.currentHitPoints); // currentHealth should be between 1 and 5
 }
-
 void OnDestroy()
 {
     healthFilter.stop(STOP_MODE.IMMEDIATE);
@@ -182,4 +196,3 @@ Snapshots are powerful tools that move beyond simple "Play/Stop" commands. By tr
 
 With these tools, you've now covered the core pillars of FMOD implementation: Events, Parameters, Playback States, and Snapshots.
 
-**Next up:** We will dive into the final piece of the puzzle: **FMOD Soundbanks** and how to manage them efficiently. See you in the next lesson!
