@@ -196,39 +196,35 @@ author: ""
 # Week 14 (11/25)
 ## Tuesday
 
+- class cancelled because of bad weather
+
+## Thursday
+
+- Thanksgiving Break - No Class
+
+# Week 15 (12/2) — Final Project Production
+
+## Tuesday 
+
 - [Playback States](../lectures/week-14/playback-states/)
 - [Snapshots](../lectures/week-14/snapshots/)
 - For following classes, would you rather: 
   - have open classtime to work on your final project and ask questions, or
   - have mini-lessons on specific FMOD topics? If so which ones? 
 
-## Thursday
-
-- Thanksgiving Break - No Class
-<!-- 
-
-
-# Week 15 (12/2) — Final Project Production
-
-## Tuesday — Module 6 (pick what you need)
-
-- Return Functions, Delegates, Event Callbacks, Programmer Instruments (for adaptive/interactive music or dialog variations)
-- Apply selectively to final-project scope
-
 ## Thursday — Work Session
 
-- Asset list, event map, parameter plan, mix plan, profiling goals
-
-> **Final Project Asset List** — Due Thu 12/4.
-
+- Open work session for final project
+  
 # Week 16 (12/9) — Finalize & Present
 
 ## Tuesday
 
-- Perf pass with Profiler, voice budgets, bank size checks
+- two groups show progress and get feedback
 
 ## Thursday
 
-- Final presentations
+- Other groups show progress and get feedback
 
 > **Final Presentations** - December 16 at 3:30 - 5:30 pm
+
