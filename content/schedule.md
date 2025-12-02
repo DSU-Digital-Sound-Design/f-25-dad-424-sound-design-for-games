@@ -220,11 +220,8 @@ author: ""
 
 ## Tuesday
 
-- two groups show progress and get feedback
+- All groups show progress and get feedback (~20 minutes per group)
 
-## Thursday
-
-- Other groups show progress and get feedback
 
 > **Final Presentations** - December 16 at 3:30 - 5:30 pm
 
